@@ -245,8 +245,11 @@ enum Inspector {
         }
         info.summary = "iPhone Developer"
         if let s = SecCertificateCopySubjectSummary(c) as String?, !s.isEmpty { info.summary = s }
-        info.notBefore = certDate(c, oid: kSecOIDX509V1ValidityNotBefore)
-        info.notAfter = certDate(c, oid: kSecOIDX509V1ValidityNotAfter)
+        // iOS 上没有 SecCertificateCopyValues / kSecOIDX509V1ValidityNotBefore
+        // （那是 macOS 专属），有效期只能自己从证书的 DER 里按 ASN.1 走出来。
+        let (nb, na) = certValidity(SecCertificateCopyData(c) as Data)
+        info.notBefore = nb
+        info.notAfter = na
 
         // Team ID：Apple 开发者证书的 CN 形如「iPhone Developer: Name (A1B2C3D4E5)」，
         // 直接从摘要里取最末一对圆括号，比解析 subject 的 ASN.1 稳。
@@ -256,13 +259,97 @@ enum Inspector {
         return info
     }
 
-    private static func certDate(_ cert: SecCertificate, oid: CFString) -> Date? {
-        guard let vals = SecCertificateCopyValues(cert, [oid] as CFArray, nil) as? [String: Any],
-              let entry = vals[oid as String] as? [String: Any],
-              let v = entry[kSecPropertyKeyValue as String] else { return nil }
-        if let d = v as? Date { return d }
-        if let n = v as? Double { return Date(timeIntervalSinceReferenceDate: n) }
-        return nil
+    /// 从 X.509 证书的 DER 里取出 notBefore / notAfter。
+    ///
+    /// 为什么手写：iOS 的 Security 框架只给了 SecCertificateCopySubjectSummary /
+    /// SecCertificateCopyData，查字段的 SecCertificateCopyValues 是 macOS 专属，
+    /// iOS 上拿不到有效期。而「证书哪天过期」对签名工具是刚需，所以自己按
+    /// ASN.1 走到 validity 那一段。纯 Swift，不依赖任何平台专属 API。
+    ///
+    /// 走法（RFC 5280）：
+    ///   Certificate SEQUENCE
+    ///     └ TBSCertificate SEQUENCE
+    ///         ├ [0] version        （可选）
+    ///         ├ serialNumber INTEGER
+    ///         ├ signature SEQUENCE
+    ///         ├ issuer SEQUENCE
+    ///         └ validity SEQUENCE ── 里面就是 notBefore / notAfter 两个 Time
+    static func certValidity(_ der: Data) -> (notBefore: Date?, notAfter: Date?) {
+        let b = [UInt8](der)
+        var i = 0
+
+        func byte(_ at: Int) -> UInt8? { at < b.count ? b[at] : nil }
+
+        func readLength(_ at: inout Int) -> Int? {
+            guard let first = byte(at) else { return nil }
+            at += 1
+            if first < 0x80 { return Int(first) }          // 短格式
+            let n = Int(first & 0x7F)                       // 长格式：后续 n 字节是长度
+            guard n >= 1, n <= 4 else { return nil }
+            var v = 0
+            for _ in 0..<n {
+                guard let x = byte(at) else { return nil }
+                at += 1
+                v = (v << 8) | Int(x)
+            }
+            return v
+        }
+
+        /// 跳过一整个 TLV（tag + length + value），用于绕过不关心的字段
+        func skipTLV(_ at: inout Int) -> Bool {
+            guard byte(at) != nil else { return false }
+            at += 1
+            guard let len = readLength(&at) else { return false }
+            at += len
+            return at <= b.count
+        }
+
+        /// 进入一个 SEQUENCE（tag 0x30），消费掉 tag 与长度
+        func openSeq(_ at: inout Int) -> Bool {
+            guard byte(at) == 0x30 else { return false }
+            at += 1
+            return readLength(&at) != nil
+        }
+
+        func readTime(_ at: inout Int) -> Date? {
+            guard let tag = byte(at) else { return nil }
+            at += 1
+            guard let len = readLength(&at) else { return nil }
+            guard at + len <= b.count else { return nil }
+            let s = String(decoding: b[at..<(at + len)], as: UTF8.self)
+            at += len
+            return parseTime(s, generalized: tag == 0x18)
+        }
+
+        func parseTime(_ s: String, generalized: Bool) -> Date? {
+            var digits: String
+            if generalized {
+                digits = String(s.prefix(14))               // YYYYMMDDHHMMSS
+                guard digits.count == 14, digits.allSatisfy({ $0.isNumber }) else { return nil }
+            } else {
+                digits = String(s.prefix(12))               // YYMMDDHHMMSS
+                guard digits.count == 12, digits.allSatisfy({ $0.isNumber }) else { return nil }
+                // RFC 5280：两位年 50-99 归 19xx，00-49 归 20xx
+                let yy = Int(digits.prefix(2)) ?? 0
+                digits = (yy >= 50 ? "19" : "20") + digits
+            }
+            let f = DateFormatter()
+            f.locale = Locale(identifier: "en_US_POSIX")
+            f.timeZone = TimeZone(secondsFromGMT: 0)
+            f.dateFormat = "yyyyMMddHHmmss"
+            return f.date(from: digits)
+        }
+
+        guard openSeq(&i) else { return (nil, nil) }        // Certificate
+        guard openSeq(&i) else { return (nil, nil) }        // TBSCertificate
+        if byte(i) == 0xA0 { guard skipTLV(&i) else { return (nil, nil) } }   // version
+        guard skipTLV(&i) else { return (nil, nil) }        // serialNumber
+        guard skipTLV(&i) else { return (nil, nil) }        // signature
+        guard skipTLV(&i) else { return (nil, nil) }        // issuer
+        guard openSeq(&i) else { return (nil, nil) }        // validity
+        let before = readTime(&i)
+        let after = readTime(&i)
+        return (before, after)
     }
 
     // MARK: 工具
