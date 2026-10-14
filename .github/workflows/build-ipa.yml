@@ -22,6 +22,12 @@ on:
       - "project.yml"
       - ".github/workflows/build-ipa.yml"
 
+# GITHUB_TOKEN 权限：本仓库默认令牌是只读的（实测 Contents: read），
+# dist 分支推送需要 contents:write，gh issue create 上报需要 issues:write。
+permissions:
+  contents: write
+  issues: write
+
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
@@ -29,7 +35,8 @@ concurrency:
 jobs:
   build:
     name: Build unsigned IPA
-    runs-on: macos-14
+    # macos-15：默认 Xcode 16.4；且 macos-14 镜像 2026-11-02 起停止支持
+    runs-on: macos-15
     timeout-minutes: 30
 
     steps:
@@ -39,7 +46,15 @@ jobs:
       - name: Select Xcode
         run: |
           set -euo pipefail
-          sudo xcode-select -p
+          # xcodegen 2.46 生成的 .xcodeproj 是 Xcode 16 格式（objectVersion=77），
+          # 必须用 Xcode 16+ 打开；镜像默认一般是 16.x，这里显式优先选 16 系保底。
+          XCODE_APP=$(ls -d /Applications/Xcode_16*.app 2>/dev/null | sort -V | tail -1 || true)
+          if [ -z "$XCODE_APP" ]; then
+            XCODE_APP=$(ls -d /Applications/Xcode*.app | sort -V | tail -1)
+          fi
+          echo "selected: $XCODE_APP"
+          sudo xcode-select -s "$XCODE_APP/Contents/Developer"
+          xcode-select -p
           xcodebuild -version
           xcodebuild -showsdks | grep -i iphoneos || true
 
@@ -206,6 +221,7 @@ jobs:
         with:
           name: build-logs
           path: |
+            build.log
             build/**/*.txt
             build/Logs/**/*.xcresult
           if-no-files-found: ignore
