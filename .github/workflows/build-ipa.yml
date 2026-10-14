@@ -191,24 +191,52 @@ jobs:
       # 兜底通道：把 IPA 推到 dist 孤立分支。
       # 用途：artifact 的下载跳转（Azure blob）在某些网络下不可达，
       # 而 api.github.com 的内容接口通常可达，可直接从 dist 分支取回 IPA。
-      # 该步骤失败不影响主流程（continue-on-error）。
+      #
+      # 血泪教训：这一步曾经静默失败过很多次。
+      # IPATemplate-unsigned.ipa 被误传进了源码仓库，CI 重新构建后它相对
+      # main 分支就是「已修改文件」，git switch --orphan 直接拒绝：
+      #   error: Your local changes ... would be overwritten by checkout
+      # 而因为挂了 continue-on-error，整个 job 照样显示 success，
+      # 结果每次取回的都是几个月前的旧包，外表完全看不出来。
+      # 修法：先把产物挪出工作区，把工作区恢复干净后再切分支，绕开冲突。
       - name: Push IPA to dist branch (fallback channel)
         continue-on-error: true
         run: |
           set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          # 重跑时 dist 可能已存在（本地默认没有，防御一下）
+
+          # 先把产物挪走，让工作区干净（否则 git switch --orphan 会被脏文件卡住）
+          mv IPATemplate-unsigned.ipa /tmp/ipa-to-publish.ipa
+          git checkout -- . 2>/dev/null || true
           git branch -D dist 2>/dev/null || true
           git switch --orphan dist
-          # 清掉工作区里除 IPA 外的一切（注意保留 .git），让 dist 分支只含产物
-          find . -mindepth 1 -maxdepth 1 ! -name '.git' ! -name 'IPATemplate-unsigned.ipa' -exec rm -rf {} +
+
+          # dist 分支只放产物，其余全清（保留 .git）
+          find . -mindepth 1 -maxdepth 1 ! -name '.git' -exec rm -rf {} +
+          mv /tmp/ipa-to-publish.ipa IPATemplate-unsigned.ipa
+
           # 用 add -A 把"删除"也一并入账：无论 --orphan 是否清空索引，
           # 最终提交的树都等于工作区（只有一个 IPA），不会夹带旧文件
           git add -A
           git commit -m "unsigned IPA (run ${GITHUB_RUN_ID})"
           git push --force origin dist
-          echo "OK: IPA pushed to dist branch"
+
+          # 推完必须自证：比对远端内容与本地产物，不一致就 fail。
+          # 没有这一步，推送失败会被 continue-on-error 吞掉，
+          # 构建绿着但 dist 上还是旧包 —— 就是上面那个坑的根源。
+          REMOTE_SHA=$(git rev-parse HEAD:IPATemplate-unsigned.ipa)
+          echo "dist HEAD blob = ${REMOTE_SHA}"
+          git cat-file -p "${REMOTE_SHA}" > /tmp/dist-roundtrip.ipa
+          LOCAL_SHA=$(shasum -a 256 IPATemplate-unsigned.ipa | cut -d' ' -f1)
+          RT_SHA=$(shasum -a 256 /tmp/dist-roundtrip.ipa | cut -d' ' -f1)
+          echo "local=${LOCAL_SHA}"
+          echo "dist =${RT_SHA}"
+          if [ "${LOCAL_SHA}" != "${RT_SHA}" ]; then
+            echo "::error::dist 分支内容与本次产物不一致，落地通道不可信"
+            exit 1
+          fi
+          echo "OK: dist 分支已更新，内容校验一致"
 
       # 构建状态上报：自动建一个 issue，方便自动化轮询得知成败，
       # 成功时附带 IPA 大小与 SHA256（用于下载后校验完整性）。
