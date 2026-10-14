@@ -1,1 +1,9 @@
-IyDmnKzlnLDmnoTlu7rkuqfnianvvIhDSSDlkozmnKzlnLDohJrmnKzpg73kvJrku44gaWNvbl8xMDI0LmI2NCDph43mlrDnlJ/miJDvvIkKaWNvbl8xMDI0LnBuZwpidWlsZC8KUGF5bG9hZC8KKi5pcGEKKi54Y2FyY2hpdmUKLkRTX1N0b3JlCl9fcHljYWNoZV9fLwoqLnB5Ywo=
+# 本地构建产物（CI 和本地脚本都会从 icon_1024.b64 重新生成）
+icon_1024.png
+build/
+Payload/
+*.ipa
+*.xcarchive
+.DS_Store
+__pycache__/
+*.pyc

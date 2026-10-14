@@ -1,1 +1,219 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwoiIiIK5qih5oufIHdvcmtmbG93IOeahOaJk+WMheatpemqpO+8jOmqjOivgeacgOe7iCBJUEEg57uT5p6E5ZCI6KeE44CCCuaehOmAoOS4gOS4quS7v+ecn+eahCBSZWxlYXNlLWlwaG9uZW9zL0lQQVRlbXBsYXRlLmFwcO+8iOWQqyBJbmZvLnBsaXN044CBCmFybTY0IE1hY2gtTyDlj6/miafooYzjgIFGcmFtZXdvcmtzIOespuWPt+mTvuaOpeOAgV9Db2RlU2lnbmF0dXJlIOaui+eVmeOAgV9fTUFDT1NYIOWeg+Wcvu+8ie+8jArnhLblkI7mjIkgd29ya2Zsb3cg6YC76L6R5omT5YyF77yM6YCQ6aG55pat6KiA44CCCiIiIgppbXBvcnQgb3MKaW1wb3J0IHBsaXN0bGliCmltcG9ydCBzaHV0aWwKaW1wb3J0IHN0cnVjdAppbXBvcnQgc3lzCmltcG9ydCB0ZW1wZmlsZQppbXBvcnQgemlwZmlsZQoKQkFTRSA9IG9zLnBhdGguZGlybmFtZShvcy5wYXRoLmFic3BhdGgoX19maWxlX18pKQpXT1JLID0gb3MucGF0aC5qb2luKEJBU0UsICJfcGFja3Rlc3QiKQoKTUFDSE9fQVJNNjQgPSBzdHJ1Y3QucGFjaygiPEkiLCAweEZFRURGQUNGKSArIGIiXHgwY1x4MDBceDAwXHgwMSIgKyBiIlx4MDAiICogMjQKCgpkZWYgbWFrZV9tb2NrX2FwcChhcHBfZGlyKToKICAgIG9zLm1ha2VkaXJzKGFwcF9kaXIsIGV4aXN0X29rPVRydWUpCiAgICBvcy5tYWtlZGlycyhvcy5wYXRoLmpvaW4oYXBwX2RpciwgIkZyYW1ld29ya3MiKSwgZXhpc3Rfb2s9VHJ1ZSkKICAgIG9zLm1ha2VkaXJzKG9zLnBhdGguam9pbihhcHBfZGlyLCAiX0NvZGVTaWduYXR1cmUiKSwgZXhpc3Rfb2s9VHJ1ZSkKCiAgICAjIE1hY2gtTyDlj6/miafooYwKICAgIGV4ZSA9IG9zLnBhdGguam9pbihhcHBfZGlyLCAiSVBBVGVtcGxhdGUiKQogICAgd2l0aCBvcGVuKGV4ZSwgIndiIikgYXMgZjoKICAgICAgICBmLndyaXRlKE1BQ0hPX0FSTTY0KQoKICAgICMgSW5mby5wbGlzdO+8iOS6jOi/m+WItuagvOW8j++8jOaooeaLnyBYY29kZSDkuqfnianvvIkKICAgIGluZm8gPSB7CiAgICAgICAgIkNGQnVuZGxlRXhlY3V0YWJsZSI6ICJJUEFUZW1wbGF0ZSIsCiAgICAgICAgIkNGQnVuZGxlSWRlbnRpZmllciI6ICJkZXYuaXBhLnRvb2xib3giLAogICAgICAgICJDRkJ1bmRsZU5hbWUiOiAiSVBBVGVtcGxhdGUiLAogICAgICAgICJDRkJ1bmRsZURpc3BsYXlOYW1lIjogIuWBtuWwlOeahFBJQeW3peWFtyIsCiAgICAgICAgIkNGQnVuZGxlU2hvcnRWZXJzaW9uU3RyaW5nIjogIjEuMC4wIiwKICAgICAgICAiQ0ZCdW5kbGVWZXJzaW9uIjogIjEiLAogICAgICAgICJDRkJ1bmRsZVBhY2thZ2VUeXBlIjogIkFQUEwiLAogICAgICAgICJNaW5pbXVtT1NWZXJzaW9uIjogIjE1LjAiLAogICAgICAgICJVSVJlcXVpcmVkRGV2aWNlQ2FwYWJpbGl0aWVzIjogWyJhcm02NCJdLAogICAgfQogICAgd2l0aCBvcGVuKG9zLnBhdGguam9pbihhcHBfZGlyLCAiSW5mby5wbGlzdCIpLCAid2IiKSBhcyBmOgogICAgICAgIHBsaXN0bGliLmR1bXAoaW5mbywgZiwgZm10PXBsaXN0bGliLkZNVF9CSU5BUlkpCgogICAgIyBQa2dJbmZvCiAgICB3aXRoIG9wZW4ob3MucGF0aC5qb2luKGFwcF9kaXIsICJQa2dJbmZvIiksICJ3IikgYXMgZjoKICAgICAgICBmLndyaXRlKCJBUFBMPz8/PyIpCgogICAgIyDnrb7lkI3mrovnlZnvvIjmqKHmi58gQ09ERV9TSUdOSU5HX0FMTE9XRUQ9Tk8g5pyq5riF5bmy5YeA55qE5oOF5Ya177yJCiAgICB3aXRoIG9wZW4ob3MucGF0aC5qb2luKGFwcF9kaXIsICJfQ29kZVNpZ25hdHVyZSIsICJDb2RlUmVzb3VyY2VzIiksICJ3IikgYXMgZjoKICAgICAgICBmLndyaXRlKCI8cGxpc3Q+PC9wbGlzdD4iKQogICAgd2l0aCBvcGVuKG9zLnBhdGguam9pbihhcHBfZGlyLCAiZW1iZWRkZWQubW9iaWxlcHJvdmlzaW9uIiksICJ3YiIpIGFzIGY6CiAgICAgICAgZi53cml0ZShiImZha2UtcHJvdmlzaW9uIikKCiAgICAjIOi1hOa6kAogICAgd2l0aCBvcGVuKG9zLnBhdGguam9pbihhcHBfZGlyLCAiQXNzZXRzLmNhciIpLCAid2IiKSBhcyBmOgogICAgICAgIGYud3JpdGUoYiJceDAwIiAqIDY0KQogICAgd2l0aCBvcGVuKG9zLnBhdGguam9pbihhcHBfZGlyLCAiRnJhbWV3b3JrcyIsICJsaWJzd2lmdENvcmUuZHlsaWIiKSwgIndiIikgYXMgZjoKICAgICAgICBmLndyaXRlKGIiXHgwMCIgKiAzMikKCiAgICAjIOespuWPt+mTvuaOpe+8iEZyYW1ld29ya3Mg6YeM5bi46KeB55qE55u45a+56ZO+5o6l77yJCiAgICBsaW5rID0gb3MucGF0aC5qb2luKGFwcF9kaXIsICJGcmFtZXdvcmtzIiwgImxpYnN3aWZ0X0N1cnJlbnQiKQogICAgaWYgb3MucGF0aC5sZXhpc3RzKGxpbmspOgogICAgICAgIG9zLnJlbW92ZShsaW5rKQogICAgdHJ5OgogICAgICAgIG9zLnN5bWxpbmsoImxpYnN3aWZ0Q29yZS5keWxpYiIsIGxpbmspCiAgICAgICAgcmV0dXJuIFRydWUKICAgIGV4Y2VwdCAoT1NFcnJvciwgTm90SW1wbGVtZW50ZWRFcnJvciwgQXR0cmlidXRlRXJyb3IpOgogICAgICAgICMgV2luZG93cyDml6DmnYPpmZDml7bot7Pov4cgc3ltbGlua++8jOWFtuS9meaWreiogOS4jeWPl+W9seWTjQogICAgICAgIHJldHVybiBGYWxzZQoKCmRlZiBwYWNrYWdlKGFwcF9kaXIsIG91dF9pcGEpOgogICAgIiIi5aSN5Yi7IHdvcmtmbG93IOeahCBQYWNrYWdlIHVuc2lnbmVkIElQQSDmraXpqqTjgIIiIiIKICAgICMgcm0gLXJmIF9Db2RlU2lnbmF0dXJlCiAgICBzaHV0aWwucm10cmVlKG9zLnBhdGguam9pbihhcHBfZGlyLCAiX0NvZGVTaWduYXR1cmUiKSwgaWdub3JlX2Vycm9ycz1UcnVlKQogICAgIyBybSAtZiBlbWJlZGRlZC5tb2JpbGVwcm92aXNpb24KICAgIHByb3YgPSBvcy5wYXRoLmpvaW4oYXBwX2RpciwgImVtYmVkZGVkLm1vYmlsZXByb3Zpc2lvbiIpCiAgICBpZiBvcy5wYXRoLmV4aXN0cyhwcm92KToKICAgICAgICBvcy5yZW1vdmUocHJvdikKCiAgICBwYXlsb2FkID0gb3MucGF0aC5qb2luKFdPUkssICJQYXlsb2FkIikKICAgIHNodXRpbC5ybXRyZWUocGF5bG9hZCwgaWdub3JlX2Vycm9ycz1UcnVlKQogICAgb3MubWFrZWRpcnMocGF5bG9hZCkKICAgIHNodXRpbC5jb3B5dHJlZShhcHBfZGlyLCBvcy5wYXRoLmpvaW4ocGF5bG9hZCwgIklQQVRlbXBsYXRlLmFwcCIpLAogICAgICAgICAgICAgICAgICAgIHN5bWxpbmtzPVRydWUsIGlnbm9yZT1zaHV0aWwuaWdub3JlX3BhdHRlcm5zKCIuRFNfU3RvcmUiKSkKCiAgICAjIOWOuyBtYWNPUyDlnoPlnL4KICAgIGZvciByb290LCBkaXJzLCBmaWxlcyBpbiBvcy53YWxrKHBheWxvYWQpOgogICAgICAgIGZvciBkIGluIGxpc3QoZGlycyk6CiAgICAgICAgICAgIGlmIGQgPT0gIl9fTUFDT1NYIjoKICAgICAgICAgICAgICAgIHNodXRpbC5ybXRyZWUob3MucGF0aC5qb2luKHJvb3QsIGQpLCBpZ25vcmVfZXJyb3JzPVRydWUpCiAgICAgICAgICAgICAgICBkaXJzLnJlbW92ZShkKQogICAgICAgIGZvciBmbiBpbiBmaWxlczoKICAgICAgICAgICAgaWYgZm4gPT0gIi5EU19TdG9yZSI6CiAgICAgICAgICAgICAgICBvcy5yZW1vdmUob3MucGF0aC5qb2luKHJvb3QsIGZuKSkKCiAgICAjIGNobW9kIDc1NSDlj6/miafooYwKICAgIGV4ZSA9IG9zLnBhdGguam9pbihwYXlsb2FkLCAiSVBBVGVtcGxhdGUuYXBwIiwgIklQQVRlbXBsYXRlIikKICAgIG9zLmNobW9kKGV4ZSwgMG83NTUpCgogICAgaWYgb3MucGF0aC5leGlzdHMob3V0X2lwYSk6CiAgICAgICAgb3MucmVtb3ZlKG91dF9pcGEpCiAgICB3aXRoIHppcGZpbGUuWmlwRmlsZShvdXRfaXBhLCAidyIsIHppcGZpbGUuWklQX0RFRkxBVEVELCBjb21wcmVzc2xldmVsPTkpIGFzIHo6CiAgICAgICAgIyDnm67lvZXpobnlnKjliY3vvIzkv53or4EgUGF5bG9hZC8g5L2N5LqO5qC5CiAgICAgICAgZm9yIHJvb3QsIGRpcnMsIGZpbGVzIGluIG9zLndhbGsocGF5bG9hZCk6CiAgICAgICAgICAgIGRpcnMuc29ydCgpCiAgICAgICAgICAgIHJlbCA9IG9zLnBhdGgucmVscGF0aChyb290LCBXT1JLKS5yZXBsYWNlKG9zLnNlcCwgIi8iKQogICAgICAgICAgICBpZiByZWwgIT0gIi4iOgogICAgICAgICAgICAgICAgemkgPSB6aXBmaWxlLlppcEluZm8ocmVsICsgIi8iKQogICAgICAgICAgICAgICAgemkuZXh0ZXJuYWxfYXR0ciA9ICgwbzQwNzU1IDw8IDE2KSB8IDB4MTAKICAgICAgICAgICAgICAgIHoud3JpdGVzdHIoemksIGIiIikKICAgICAgICAgICAgZm9yIGZuIGluIHNvcnRlZChmaWxlcyk6CiAgICAgICAgICAgICAgICBmcCA9IG9zLnBhdGguam9pbihyb290LCBmbikKICAgICAgICAgICAgICAgIGFyYyA9IG9zLnBhdGgucmVscGF0aChmcCwgV09SSykucmVwbGFjZShvcy5zZXAsICIvIikKICAgICAgICAgICAgICAgIHppID0gemlwZmlsZS5aaXBJbmZvKGFyYykKICAgICAgICAgICAgICAgIGlmIG9zLnBhdGguaXNsaW5rKGZwKToKICAgICAgICAgICAgICAgICAgICB6aS5leHRlcm5hbF9hdHRyID0gKDBvMTIwNzc3IDw8IDE2KQogICAgICAgICAgICAgICAgICAgIHoud3JpdGVzdHIoemksIG9zLnJlYWRsaW5rKGZwKSkKICAgICAgICAgICAgICAgIGVsc2U6CiAgICAgICAgICAgICAgICAgICAgbW9kZSA9IDBvNzU1IGlmIG9zLmFjY2VzcyhmcCwgb3MuWF9PSykgZWxzZSAwbzY0NAogICAgICAgICAgICAgICAgICAgIHppLmV4dGVybmFsX2F0dHIgPSAobW9kZSA8PCAxNikKICAgICAgICAgICAgICAgICAgICB3aXRoIG9wZW4oZnAsICJyYiIpIGFzIGY6CiAgICAgICAgICAgICAgICAgICAgICAgIHoud3JpdGVzdHIoemksIGYucmVhZCgpKQogICAgcmV0dXJuIG91dF9pcGEKCgpkZWYgbWFpbigpOgogICAgc2h1dGlsLnJtdHJlZShXT1JLLCBpZ25vcmVfZXJyb3JzPVRydWUpCiAgICBvcy5tYWtlZGlycyhXT1JLKQoKICAgIGFwcF9kaXIgPSBvcy5wYXRoLmpvaW4oV09SSywgImJ1aWxkL0J1aWxkL1Byb2R1Y3RzL1JlbGVhc2UtaXBob25lb3MvSVBBVGVtcGxhdGUuYXBwIikKICAgIG9zLm1ha2VkaXJzKG9zLnBhdGguZGlybmFtZShhcHBfZGlyKSwgZXhpc3Rfb2s9VHJ1ZSkKICAgIGhhc19zeW1saW5rID0gbWFrZV9tb2NrX2FwcChhcHBfZGlyKQogICAgcHJpbnQoZiJbc2V0dXBdIG1vY2sgYXBwIOaehOmAoOWujOaIkCAoc3ltbGluaz17J+aYrycgaWYgaGFzX3N5bWxpbmsgZWxzZSAn5ZCm77yMV2luZG93cyDmnYPpmZDlj5fpmZAnfSkiKQoKICAgICMg6aKd5aSW5aGe5YWlIG1hY09TIOWeg+Wcvu+8jOmqjOivgea4heeQhumAu+i+kQogICAganVuayA9IG9zLnBhdGguam9pbihhcHBfZGlyLCAiX19NQUNPU1giKQogICAgb3MubWFrZWRpcnMoanVuaywgZXhpc3Rfb2s9VHJ1ZSkKICAgIHdpdGggb3Blbihvcy5wYXRoLmpvaW4oYXBwX2RpciwgIi5EU19TdG9yZSIpLCAid2IiKSBhcyBmOgogICAgICAgIGYud3JpdGUoYiJceDAwXHgwMVx4MDBceDAwIikKCiAgICBpcGEgPSBwYWNrYWdlKGFwcF9kaXIsIG9zLnBhdGguam9pbihXT1JLLCAiSVBBVGVtcGxhdGUtdW5zaWduZWQuaXBhIikpCiAgICBwcmludChmIltwYWNrXSAg5bey55Sf5oiQIHtvcy5wYXRoLmdldHNpemUoaXBhKX0g5a2X6IqCIikKCiAgICByZXN1bHRzID0gW10KICAgIHdpdGggemlwZmlsZS5aaXBGaWxlKGlwYSkgYXMgejoKICAgICAgICBuYW1lcyA9IHoubmFtZWxpc3QoKQogICAgICAgIHByaW50KGYiW3ppcF0gICDmnaHnm67mlbAgPSB7bGVuKG5hbWVzKX0iKQoKICAgICAgICAjIDEuIFBheWxvYWQvIOW/hemhu+WcqOaguQogICAgICAgIHJlc3VsdHMuYXBwZW5kKCgiUGF5bG9hZC8g5L2N5LqO5qC555uu5b2VIiwgbmFtZXNbMF0gPT0gIlBheWxvYWQvIikpCiAgICAgICAgIyAyLiBJbmZvLnBsaXN0IOWtmOWcqAogICAgICAgIHJlc3VsdHMuYXBwZW5kKCgiSW5mby5wbGlzdCDlrZjlnKgiLAogICAgICAgICAgICAgICAgICAgICAgICAiUGF5bG9hZC9JUEFUZW1wbGF0ZS5hcHAvSW5mby5wbGlzdCIgaW4gbmFtZXMpKQogICAgICAgICMgMy4g5Y+v5omn6KGM5paH5Lu25a2Y5ZyoCiAgICAgICAgcmVzdWx0cy5hcHBlbmQoKCLlj6/miafooYzmlofku7blrZjlnKgiLAogICAgICAgICAgICAgICAgICAgICAgICAiUGF5bG9hZC9JUEFUZW1wbGF0ZS5hcHAvSVBBVGVtcGxhdGUiIGluIG5hbWVzKSkKICAgICAgICAjIDQuIOaXoCBfQ29kZVNpZ25hdHVyZQogICAgICAgIHJlc3VsdHMuYXBwZW5kKCgi5pegIF9Db2RlU2lnbmF0dXJl77yI5pyq562+5ZCN77yJIiwKICAgICAgICAgICAgICAgICAgICAgICAgbm90IGFueSgiX0NvZGVTaWduYXR1cmUiIGluIG4gZm9yIG4gaW4gbmFtZXMpKSkKICAgICAgICAjIDUuIOaXoCBlbWJlZGRlZC5tb2JpbGVwcm92aXNpb24KICAgICAgICByZXN1bHRzLmFwcGVuZCgoIuaXoCBlbWJlZGRlZC5tb2JpbGVwcm92aXNpb24iLAogICAgICAgICAgICAgICAgICAgICAgICBub3QgYW55KCJlbWJlZGRlZC5tb2JpbGVwcm92aXNpb24iIGluIG4gZm9yIG4gaW4gbmFtZXMpKSkKICAgICAgICAjIDYuIOaXoCBtYWNPUyDlnoPlnL4KICAgICAgICByZXN1bHRzLmFwcGVuZCgoIuaXoCBfX01BQ09TWCAvIC5EU19TdG9yZSIsCiAgICAgICAgICAgICAgICAgICAgICAgIG5vdCBhbnkoIl9fTUFDT1NYIiBpbiBuIG9yICIuRFNfU3RvcmUiIGluIG4gZm9yIG4gaW4gbmFtZXMpKSkKICAgICAgICAjIDcuIE1hY2gtTyBtYWdpYyDmraPnoa4KICAgICAgICBtYWdpYyA9IHoucmVhZCgiUGF5bG9hZC9JUEFUZW1wbGF0ZS5hcHAvSVBBVGVtcGxhdGUiKVs6NF0KICAgICAgICByZXN1bHRzLmFwcGVuZCgoIk1hY2gtTyDkuLogYXJtNjQgKGNmZmFlZGZlKSIsCiAgICAgICAgICAgICAgICAgICAgICAgIG1hZ2ljID09IGJ5dGVzLmZyb21oZXgoImNmZmFlZGZlIikpKQogICAgICAgICMgOC4gSW5mby5wbGlzdCDlj6/op6PmnpDkuJTlrZfmrrXmraPnoa4KICAgICAgICBpbmZvID0gcGxpc3RsaWIubG9hZHMoei5yZWFkKCJQYXlsb2FkL0lQQVRlbXBsYXRlLmFwcC9JbmZvLnBsaXN0IikpCiAgICAgICAgcmVzdWx0cy5hcHBlbmQoKCJJbmZvLnBsaXN0IOWtl+auteato+ehriIsCiAgICAgICAgICAgICAgICAgICAgICAgIGluZm9bIkNGQnVuZGxlSWRlbnRpZmllciJdID09ICJkZXYuaXBhLnRvb2xib3giCiAgICAgICAgICAgICAgICAgICAgICAgIGFuZCBpbmZvWyJDRkJ1bmRsZURpc3BsYXlOYW1lIl0gPT0gIuWBtuWwlOeahFBJQeW3peWFtyIKICAgICAgICAgICAgICAgICAgICAgICAgYW5kIGluZm9bIk1pbmltdW1PU1ZlcnNpb24iXSA9PSAiMTUuMCIpKQogICAgICAgICMgOS4g5Y+v5omn6KGM5p2D6ZmQ5L2NIDc1NQogICAgICAgIHppID0gei5nZXRpbmZvKCJQYXlsb2FkL0lQQVRlbXBsYXRlLmFwcC9JUEFUZW1wbGF0ZSIpCiAgICAgICAgbW9kZSA9ICh6aS5leHRlcm5hbF9hdHRyID4+IDE2KSAmIDBvNzc3NwogICAgICAgIHJlc3VsdHMuYXBwZW5kKCgi5Y+v5omn6KGM5p2D6ZmQ5L2NID0gNzU1IiwgbW9kZSA9PSAwbzc1NSkpCiAgICAgICAgIyAxMC4g55uu5b2V6aG55bim55uu5b2V5qCH5b+XCiAgICAgICAgZF96aSA9IHouZ2V0aW5mbygiUGF5bG9hZC8iKQogICAgICAgIHJlc3VsdHMuYXBwZW5kKCgiUGF5bG9hZC8g5bimIE1TLURPUyDnm67lvZXmoIflv5ciLAogICAgICAgICAgICAgICAgICAgICAgICAoZF96aS5leHRlcm5hbF9hdHRyICYgMHgxMCkgPT0gMHgxMCkpCiAgICAgICAgIyAxMS4g56ym5Y+36ZO+5o6l5L+d55WZCiAgICAgICAgaWYgaGFzX3N5bWxpbms6CiAgICAgICAgICAgIGxfemkgPSB6LmdldGluZm8oIlBheWxvYWQvSVBBVGVtcGxhdGUuYXBwL0ZyYW1ld29ya3MvbGlic3dpZnRfQ3VycmVudCIpCiAgICAgICAgICAgIGxtb2RlID0gKGxfemkuZXh0ZXJuYWxfYXR0ciA+PiAxNikgJiAwbzE3MDAwMAogICAgICAgICAgICByZXN1bHRzLmFwcGVuZCgoIuespuWPt+mTvuaOpeS/neeVmSAoU19JRkxOSykiLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgbG1vZGUgPT0gMG8xMjAwMDAgYW5kCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB6LnJlYWQoIlBheWxvYWQvSVBBVGVtcGxhdGUuYXBwL0ZyYW1ld29ya3MvbGlic3dpZnRfQ3VycmVudCIpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICA9PSBiImxpYnN3aWZ0Q29yZS5keWxpYiIpKQogICAgICAgIGVsc2U6CiAgICAgICAgICAgIHByaW50KCIgICAgICAgICjot7Pov4fnrKblj7fpk77mjqXmlq3oqIDvvJrmnKzmnLrml6Dms5XliJvlu7ogc3ltbGluaykiKQoKICAgIHByaW50KCJcbj09IOaWreiogOe7k+aenCA9PSIpCiAgICBmYWlsZWQgPSAwCiAgICBmb3IgbGFiZWwsIHBhc3NlZCBpbiByZXN1bHRzOgogICAgICAgIHByaW50KGYiICBbeydPSycgaWYgcGFzc2VkIGVsc2UgJ0ZBSUwnfV0ge2xhYmVsfSIpCiAgICAgICAgaWYgbm90IHBhc3NlZDoKICAgICAgICAgICAgZmFpbGVkICs9IDEKCiAgICBwcmludCgiXG49PSBJUEEg5p2h55uu6aKE6KeIID09IikKICAgIHdpdGggemlwZmlsZS5aaXBGaWxlKGlwYSkgYXMgejoKICAgICAgICBmb3IgbiBpbiB6Lm5hbWVsaXN0KCk6CiAgICAgICAgICAgIHByaW50KCIgICAiLCBuKQoKICAgIHNodXRpbC5ybXRyZWUoV09SSywgaWdub3JlX2Vycm9ycz1UcnVlKQogICAgaWYgZmFpbGVkOgogICAgICAgIHByaW50KGYiXG7nu5Pmnpw6IHtmYWlsZWR9IOmhueWksei0pSIpCiAgICAgICAgc3lzLmV4aXQoMSkKICAgIHByaW50KCJcbue7k+aenDog5YWo6YOo6YCa6L+HIikKCgppZiBfX25hbWVfXyA9PSAiX19tYWluX18iOgogICAgbWFpbigpCg==
+#!/usr/bin/env python3
+"""
+模拟 workflow 的打包步骤，验证最终 IPA 结构合规。
+构造一个仿真的 Release-iphoneos/IPATemplate.app（含 Info.plist、
+arm64 Mach-O 可执行、Frameworks 符号链接、_CodeSignature 残留、__MACOSX 垃圾），
+然后按 workflow 逻辑打包，逐项断言。
+"""
+import os
+import plistlib
+import shutil
+import struct
+import sys
+import tempfile
+import zipfile
+
+BASE = os.path.dirname(os.path.abspath(__file__))
+WORK = os.path.join(BASE, "_packtest")
+
+MACHO_ARM64 = struct.pack("<I", 0xFEEDFACF) + b"\x0c\x00\x00\x01" + b"\x00" * 24
+
+
+def make_mock_app(app_dir):
+    os.makedirs(app_dir, exist_ok=True)
+    os.makedirs(os.path.join(app_dir, "Frameworks"), exist_ok=True)
+    os.makedirs(os.path.join(app_dir, "_CodeSignature"), exist_ok=True)
+
+    # Mach-O 可执行
+    exe = os.path.join(app_dir, "IPATemplate")
+    with open(exe, "wb") as f:
+        f.write(MACHO_ARM64)
+
+    # Info.plist（二进制格式，模拟 Xcode 产物）
+    info = {
+        "CFBundleExecutable": "IPATemplate",
+        "CFBundleIdentifier": "dev.ipa.toolbox",
+        "CFBundleName": "IPATemplate",
+        "CFBundleDisplayName": "偶尔的PIA工具",
+        "CFBundleShortVersionString": "1.0.0",
+        "CFBundleVersion": "1",
+        "CFBundlePackageType": "APPL",
+        "MinimumOSVersion": "15.0",
+        "UIRequiredDeviceCapabilities": ["arm64"],
+    }
+    with open(os.path.join(app_dir, "Info.plist"), "wb") as f:
+        plistlib.dump(info, f, fmt=plistlib.FMT_BINARY)
+
+    # PkgInfo
+    with open(os.path.join(app_dir, "PkgInfo"), "w") as f:
+        f.write("APPL????")
+
+    # 签名残留（模拟 CODE_SIGNING_ALLOWED=NO 未清干净的情况）
+    with open(os.path.join(app_dir, "_CodeSignature", "CodeResources"), "w") as f:
+        f.write("<plist></plist>")
+    with open(os.path.join(app_dir, "embedded.mobileprovision"), "wb") as f:
+        f.write(b"fake-provision")
+
+    # 资源
+    with open(os.path.join(app_dir, "Assets.car"), "wb") as f:
+        f.write(b"\x00" * 64)
+    with open(os.path.join(app_dir, "Frameworks", "libswiftCore.dylib"), "wb") as f:
+        f.write(b"\x00" * 32)
+
+    # 符号链接（Frameworks 里常见的相对链接）
+    link = os.path.join(app_dir, "Frameworks", "libswift_Current")
+    if os.path.lexists(link):
+        os.remove(link)
+    try:
+        os.symlink("libswiftCore.dylib", link)
+        return True
+    except (OSError, NotImplementedError, AttributeError):
+        # Windows 无权限时跳过 symlink，其余断言不受影响
+        return False
+
+
+def package(app_dir, out_ipa):
+    """复刻 workflow 的 Package unsigned IPA 步骤。"""
+    # rm -rf _CodeSignature
+    shutil.rmtree(os.path.join(app_dir, "_CodeSignature"), ignore_errors=True)
+    # rm -f embedded.mobileprovision
+    prov = os.path.join(app_dir, "embedded.mobileprovision")
+    if os.path.exists(prov):
+        os.remove(prov)
+
+    payload = os.path.join(WORK, "Payload")
+    shutil.rmtree(payload, ignore_errors=True)
+    os.makedirs(payload)
+    shutil.copytree(app_dir, os.path.join(payload, "IPATemplate.app"),
+                    symlinks=True, ignore=shutil.ignore_patterns(".DS_Store"))
+
+    # 去 macOS 垃圾
+    for root, dirs, files in os.walk(payload):
+        for d in list(dirs):
+            if d == "__MACOSX":
+                shutil.rmtree(os.path.join(root, d), ignore_errors=True)
+                dirs.remove(d)
+        for fn in files:
+            if fn == ".DS_Store":
+                os.remove(os.path.join(root, fn))
+
+    # chmod 755 可执行
+    exe = os.path.join(payload, "IPATemplate.app", "IPATemplate")
+    os.chmod(exe, 0o755)
+
+    if os.path.exists(out_ipa):
+        os.remove(out_ipa)
+    with zipfile.ZipFile(out_ipa, "w", zipfile.ZIP_DEFLATED, compresslevel=9) as z:
+        # 目录项在前，保证 Payload/ 位于根
+        for root, dirs, files in os.walk(payload):
+            dirs.sort()
+            rel = os.path.relpath(root, WORK).replace(os.sep, "/")
+            if rel != ".":
+                zi = zipfile.ZipInfo(rel + "/")
+                zi.external_attr = (0o40755 << 16) | 0x10
+                z.writestr(zi, b"")
+            for fn in sorted(files):
+                fp = os.path.join(root, fn)
+                arc = os.path.relpath(fp, WORK).replace(os.sep, "/")
+                zi = zipfile.ZipInfo(arc)
+                if os.path.islink(fp):
+                    zi.external_attr = (0o120777 << 16)
+                    z.writestr(zi, os.readlink(fp))
+                else:
+                    mode = 0o755 if os.access(fp, os.X_OK) else 0o644
+                    zi.external_attr = (mode << 16)
+                    with open(fp, "rb") as f:
+                        z.writestr(zi, f.read())
+    return out_ipa
+
+
+def main():
+    shutil.rmtree(WORK, ignore_errors=True)
+    os.makedirs(WORK)
+
+    app_dir = os.path.join(WORK, "build/Build/Products/Release-iphoneos/IPATemplate.app")
+    os.makedirs(os.path.dirname(app_dir), exist_ok=True)
+    has_symlink = make_mock_app(app_dir)
+    print(f"[setup] mock app 构造完成 (symlink={'是' if has_symlink else '否，Windows 权限受限'})")
+
+    # 额外塞入 macOS 垃圾，验证清理逻辑
+    junk = os.path.join(app_dir, "__MACOSX")
+    os.makedirs(junk, exist_ok=True)
+    with open(os.path.join(app_dir, ".DS_Store"), "wb") as f:
+        f.write(b"\x00\x01\x00\x00")
+
+    ipa = package(app_dir, os.path.join(WORK, "IPATemplate-unsigned.ipa"))
+    print(f"[pack]  已生成 {os.path.getsize(ipa)} 字节")
+
+    results = []
+    with zipfile.ZipFile(ipa) as z:
+        names = z.namelist()
+        print(f"[zip]   条目数 = {len(names)}")
+
+        # 1. Payload/ 必须在根
+        results.append(("Payload/ 位于根目录", names[0] == "Payload/"))
+        # 2. Info.plist 存在
+        results.append(("Info.plist 存在",
+                        "Payload/IPATemplate.app/Info.plist" in names))
+        # 3. 可执行文件存在
+        results.append(("可执行文件存在",
+                        "Payload/IPATemplate.app/IPATemplate" in names))
+        # 4. 无 _CodeSignature
+        results.append(("无 _CodeSignature（未签名）",
+                        not any("_CodeSignature" in n for n in names)))
+        # 5. 无 embedded.mobileprovision
+        results.append(("无 embedded.mobileprovision",
+                        not any("embedded.mobileprovision" in n for n in names)))
+        # 6. 无 macOS 垃圾
+        results.append(("无 __MACOSX / .DS_Store",
+                        not any("__MACOSX" in n or ".DS_Store" in n for n in names)))
+        # 7. Mach-O magic 正确
+        magic = z.read("Payload/IPATemplate.app/IPATemplate")[:4]
+        results.append(("Mach-O 为 arm64 (cffaedfe)",
+                        magic == bytes.fromhex("cffaedfe")))
+        # 8. Info.plist 可解析且字段正确
+        info = plistlib.loads(z.read("Payload/IPATemplate.app/Info.plist"))
+        results.append(("Info.plist 字段正确",
+                        info["CFBundleIdentifier"] == "dev.ipa.toolbox"
+                        and info["CFBundleDisplayName"] == "偶尔的PIA工具"
+                        and info["MinimumOSVersion"] == "15.0"))
+        # 9. 可执行权限位 755
+        zi = z.getinfo("Payload/IPATemplate.app/IPATemplate")
+        mode = (zi.external_attr >> 16) & 0o7777
+        results.append(("可执行权限位 = 755", mode == 0o755))
+        # 10. 目录项带目录标志
+        d_zi = z.getinfo("Payload/")
+        results.append(("Payload/ 带 MS-DOS 目录标志",
+                        (d_zi.external_attr & 0x10) == 0x10))
+        # 11. 符号链接保留
+        if has_symlink:
+            l_zi = z.getinfo("Payload/IPATemplate.app/Frameworks/libswift_Current")
+            lmode = (l_zi.external_attr >> 16) & 0o170000
+            results.append(("符号链接保留 (S_IFLNK)",
+                            lmode == 0o120000 and
+                            z.read("Payload/IPATemplate.app/Frameworks/libswift_Current")
+                            == b"libswiftCore.dylib"))
+        else:
+            print("        (跳过符号链接断言：本机无法创建 symlink)")
+
+    print("\n== 断言结果 ==")
+    failed = 0
+    for label, passed in results:
+        print(f"  [{'OK' if passed else 'FAIL'}] {label}")
+        if not passed:
+            failed += 1
+
+    print("\n== IPA 条目预览 ==")
+    with zipfile.ZipFile(ipa) as z:
+        for n in z.namelist():
+            print("   ", n)
+
+    shutil.rmtree(WORK, ignore_errors=True)
+    if failed:
+        print(f"\n结果: {failed} 项失败")
+        sys.exit(1)
+    print("\n结果: 全部通过")
+
+
+if __name__ == "__main__":
+    main()

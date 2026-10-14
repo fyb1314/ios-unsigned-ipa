@@ -1,1 +1,124 @@
-aW1wb3J0IEZvdW5kYXRpb24KaW1wb3J0IFVJS2l0CmltcG9ydCBDb21iaW5lCgpzdHJ1Y3QgSW5mb0l0ZW06IElkZW50aWZpYWJsZSB7CiAgICBsZXQgaWQgPSBVVUlEKCkKICAgIGxldCBsYWJlbDogU3RyaW5nCiAgICBsZXQgdmFsdWU6IFN0cmluZwp9CgpzdHJ1Y3QgSW5mb1NlY3Rpb246IElkZW50aWZpYWJsZSB7CiAgICBsZXQgaWQgPSBVVUlEKCkKICAgIGxldCB0aXRsZTogU3RyaW5nCiAgICBsZXQgaXRlbXM6IFtJbmZvSXRlbV0KfQoKZmluYWwgY2xhc3MgRGV2aWNlSW5mb01vZGVsOiBPYnNlcnZhYmxlT2JqZWN0IHsKICAgIEBQdWJsaXNoZWQgcHJpdmF0ZShzZXQpIHZhciBzZWN0aW9uczogW0luZm9TZWN0aW9uXSA9IFtdCgogICAgaW5pdCgpIHsKICAgICAgICByZWxvYWQoKQogICAgfQoKICAgIGZ1bmMgcmVsb2FkKCkgewogICAgICAgIGxldCBkaXNrID0gU2VsZi5kaXNrSW5mbygpCiAgICAgICAgc2VjdGlvbnMgPSBbCiAgICAgICAgICAgIEluZm9TZWN0aW9uKHRpdGxlOiAi6K6+5aSHIiwgaXRlbXM6IFsKICAgICAgICAgICAgICAgIEluZm9JdGVtKGxhYmVsOiAi5ZCN56ewIiwgdmFsdWU6IFVJRGV2aWNlLmN1cnJlbnQubmFtZSksCiAgICAgICAgICAgICAgICBJbmZvSXRlbShsYWJlbDogIuehrOS7tuWei+WPtyIsIHZhbHVlOiBTZWxmLmhhcmR3YXJlSWRlbnRpZmllcigpKSwKICAgICAgICAgICAgICAgIEluZm9JdGVtKGxhYmVsOiAi57O757ufIiwgdmFsdWU6ICJcKFVJRGV2aWNlLmN1cnJlbnQuc3lzdGVtTmFtZSkgXChVSURldmljZS5jdXJyZW50LnN5c3RlbVZlcnNpb24pIiksCiAgICAgICAgICAgIF0pLAogICAgICAgICAgICBJbmZvU2VjdGlvbih0aXRsZTogIuWxj+W5lSIsIGl0ZW1zOiBbCiAgICAgICAgICAgICAgICBJbmZvSXRlbShsYWJlbDogIuWIhui+qOeOhyIsIHZhbHVlOiBTZWxmLnNjcmVlblJlc29sdXRpb24oKSksCiAgICAgICAgICAgICAgICBJbmZvSXRlbShsYWJlbDogIue8qeaUvuavlOS+iyIsIHZhbHVlOiBTdHJpbmcoZm9ybWF0OiAiJS4xZngiLCBVSVNjcmVlbi5tYWluLnNjYWxlKSksCiAgICAgICAgICAgIF0pLAogICAgICAgICAgICBJbmZvU2VjdGlvbih0aXRsZTogIuWtmOWCqCIsIGl0ZW1zOiBbCiAgICAgICAgICAgICAgICBJbmZvSXRlbShsYWJlbDogIuaAu+WuuemHjyIsIHZhbHVlOiBkaXNrLnRvdGFsKSwKICAgICAgICAgICAgICAgIEluZm9JdGVtKGxhYmVsOiAi5Y+v55So56m66Ze0IiwgdmFsdWU6IGRpc2suZnJlZSksCiAgICAgICAgICAgIF0pLAogICAgICAgICAgICBJbmZvU2VjdGlvbih0aXRsZTogIuWGheWtmCIsIGl0ZW1zOiBbCiAgICAgICAgICAgICAgICBJbmZvSXRlbShsYWJlbDogIueJqeeQhuWGheWtmCIsIHZhbHVlOiBTZWxmLmJ5dGVTdHJpbmcoSW50NjQoUHJvY2Vzc0luZm8ucHJvY2Vzc0luZm8ucGh5c2ljYWxNZW1vcnkpKSksCiAgICAgICAgICAgIF0pLAogICAgICAgICAgICBJbmZvU2VjdGlvbih0aXRsZTogIueUteaxoCIsIGl0ZW1zOiBbCiAgICAgICAgICAgICAgICBJbmZvSXRlbShsYWJlbDogIueUtemHjyIsIHZhbHVlOiBTZWxmLmJhdHRlcnlMZXZlbCgpKSwKICAgICAgICAgICAgICAgIEluZm9JdGVtKGxhYmVsOiAi54q25oCBIiwgdmFsdWU6IFNlbGYuYmF0dGVyeVN0YXRlKCkpLAogICAgICAgICAgICBdKSwKICAgICAgICBdCiAgICB9CgogICAgZnVuYyBwbGFpblRleHRSZXBvcnQoKSAtPiBTdHJpbmcgewogICAgICAgIHZhciBsaW5lczogW1N0cmluZ10gPSBbIuWBtuWwlOeahFBJQeW3peWFtyDCtyDlr7zlh7rmiqXlkYoiLCAiIl0KICAgICAgICBmb3Igc2VjdGlvbiBpbiBzZWN0aW9ucyB7CiAgICAgICAgICAgIGxpbmVzLmFwcGVuZCgiW1woc2VjdGlvbi50aXRsZSldIikKICAgICAgICAgICAgZm9yIGl0ZW0gaW4gc2VjdGlvbi5pdGVtcyB7CiAgICAgICAgICAgICAgICBsaW5lcy5hcHBlbmQoIlwoaXRlbS5sYWJlbCk6IFwoaXRlbS52YWx1ZSkiKQogICAgICAgICAgICB9CiAgICAgICAgICAgIGxpbmVzLmFwcGVuZCgiIikKICAgICAgICB9CiAgICAgICAgbGluZXMuYXBwZW5kKCLnlJ/miJDml7bpl7Q6IFwoU2VsZi50aW1lc3RhbXAoKSkiKQogICAgICAgIHJldHVybiBsaW5lcy5qb2luZWQoc2VwYXJhdG9yOiAiXG4iKQogICAgfQoKICAgIHN0YXRpYyBmdW5jIGhhcmR3YXJlSWRlbnRpZmllcigpIC0+IFN0cmluZyB7CiAgICAgICAgdmFyIHN5c3RlbUluZm8gPSB1dHNuYW1lKCkKICAgICAgICB1bmFtZSgmc3lzdGVtSW5mbykKICAgICAgICBsZXQgbWlycm9yID0gTWlycm9yKHJlZmxlY3Rpbmc6IHN5c3RlbUluZm8ubWFjaGluZSkKICAgICAgICBsZXQgaWRlbnRpZmllciA9IG1pcnJvci5jaGlsZHJlbgogICAgICAgICAgICAuY29tcGFjdE1hcCB7ICQwLnZhbHVlIGFzPyBJbnQ4IH0KICAgICAgICAgICAgLmZpbHRlciB7ICQwICE9IDAgfQogICAgICAgICAgICAubWFwIHsgU3RyaW5nKFVuaWNvZGVTY2FsYXIoVUludDgoJDApKSkgfQogICAgICAgICAgICAuam9pbmVkKCkKICAgICAgICByZXR1cm4gaWRlbnRpZmllci5pc0VtcHR5ID8gIuacquefpSIgOiBpZGVudGlmaWVyCiAgICB9CgogICAgc3RhdGljIGZ1bmMgc2NyZWVuUmVzb2x1dGlvbigpIC0+IFN0cmluZyB7CiAgICAgICAgbGV0IGJvdW5kcyA9IFVJU2NyZWVuLm1haW4uYm91bmRzCiAgICAgICAgbGV0IHNjYWxlID0gVUlTY3JlZW4ubWFpbi5zY2FsZQogICAgICAgIGxldCB3aWR0aCA9IEludCgoYm91bmRzLndpZHRoICogc2NhbGUpLnJvdW5kZWQoKSkKICAgICAgICBsZXQgaGVpZ2h0ID0gSW50KChib3VuZHMuaGVpZ2h0ICogc2NhbGUpLnJvdW5kZWQoKSkKICAgICAgICByZXR1cm4gIlwod2lkdGgpIHggXChoZWlnaHQpIgogICAgfQoKICAgIHN0YXRpYyBmdW5jIGRpc2tJbmZvKCkgLT4gKHRvdGFsOiBTdHJpbmcsIGZyZWU6IFN0cmluZykgewogICAgICAgIGxldCBob21lID0gTlNIb21lRGlyZWN0b3J5KCkKICAgICAgICBndWFyZCBsZXQgYXR0cmlidXRlcyA9IHRyeT8gRmlsZU1hbmFnZXIuZGVmYXVsdC5hdHRyaWJ1dGVzT2ZGaWxlU3lzdGVtKGZvclBhdGg6IGhvbWUpLAogICAgICAgICAgICAgIGxldCB0b3RhbFNpemUgPSBhdHRyaWJ1dGVzWy5zeXN0ZW1TaXplXSBhcz8gSW50NjQsCiAgICAgICAgICAgICAgbGV0IGZyZWVTaXplID0gYXR0cmlidXRlc1suc3lzdGVtRnJlZVNpemVdIGFzPyBJbnQ2NCBlbHNlIHsKICAgICAgICAgICAgcmV0dXJuICgi5pyq55+lIiwgIuacquefpSIpCiAgICAgICAgfQogICAgICAgIHJldHVybiAoYnl0ZVN0cmluZyh0b3RhbFNpemUpLCBieXRlU3RyaW5nKGZyZWVTaXplKSkKICAgIH0KCiAgICBzdGF0aWMgZnVuYyBieXRlU3RyaW5nKF8gdmFsdWU6IEludDY0KSAtPiBTdHJpbmcgewogICAgICAgIEJ5dGVDb3VudEZvcm1hdHRlci5zdHJpbmcoZnJvbUJ5dGVDb3VudDogdmFsdWUsIGNvdW50U3R5bGU6IC5maWxlKQogICAgfQoKICAgIHN0YXRpYyBmdW5jIGJhdHRlcnlMZXZlbCgpIC0+IFN0cmluZyB7CiAgICAgICAgbGV0IGxldmVsID0gVUlEZXZpY2UuY3VycmVudC5iYXR0ZXJ5TGV2ZWwKICAgICAgICBndWFyZCBsZXZlbCA+PSAwIGVsc2UgeyByZXR1cm4gIuacquefpSIgfQogICAgICAgIHJldHVybiAiXChJbnQoKGxldmVsICogMTAwKS5yb3VuZGVkKCkpKSUiCiAgICB9CgogICAgc3RhdGljIGZ1bmMgYmF0dGVyeVN0YXRlKCkgLT4gU3RyaW5nIHsKICAgICAgICBzd2l0Y2ggVUlEZXZpY2UuY3VycmVudC5iYXR0ZXJ5U3RhdGUgewogICAgICAgIGNhc2UgLmNoYXJnaW5nOgogICAgICAgICAgICByZXR1cm4gIuWFheeUteS4rSIKICAgICAgICBjYXNlIC5mdWxsOgogICAgICAgICAgICByZXR1cm4gIuW3suWFhea7oSIKICAgICAgICBjYXNlIC51bnBsdWdnZWQ6CiAgICAgICAgICAgIHJldHVybiAi5pyq5YWF55S1IgogICAgICAgIGNhc2UgLnVua25vd246CiAgICAgICAgICAgIGZhbGx0aHJvdWdoCiAgICAgICAgQHVua25vd24gZGVmYXVsdDoKICAgICAgICAgICAgcmV0dXJuICLmnKrnn6UiCiAgICAgICAgfQogICAgfQoKICAgIHN0YXRpYyBmdW5jIHRpbWVzdGFtcCgpIC0+IFN0cmluZyB7CiAgICAgICAgbGV0IGZvcm1hdHRlciA9IERhdGVGb3JtYXR0ZXIoKQogICAgICAgIGZvcm1hdHRlci5kYXRlRm9ybWF0ID0gInl5eXktTU0tZGQgSEg6bW06c3MiCiAgICAgICAgZm9ybWF0dGVyLmxvY2FsZSA9IExvY2FsZShpZGVudGlmaWVyOiAiZW5fVVNfUE9TSVgiKQogICAgICAgIHJldHVybiBmb3JtYXR0ZXIuc3RyaW5nKGZyb206IERhdGUoKSkKICAgIH0KfQo=
+import Foundation
+import UIKit
+import Combine
+
+struct InfoItem: Identifiable {
+    let id = UUID()
+    let label: String
+    let value: String
+}
+
+struct InfoSection: Identifiable {
+    let id = UUID()
+    let title: String
+    let items: [InfoItem]
+}
+
+final class DeviceInfoModel: ObservableObject {
+    @Published private(set) var sections: [InfoSection] = []
+
+    init() {
+        reload()
+    }
+
+    func reload() {
+        let disk = Self.diskInfo()
+        sections = [
+            InfoSection(title: "设备", items: [
+                InfoItem(label: "名称", value: UIDevice.current.name),
+                InfoItem(label: "硬件型号", value: Self.hardwareIdentifier()),
+                InfoItem(label: "系统", value: "\(UIDevice.current.systemName) \(UIDevice.current.systemVersion)"),
+            ]),
+            InfoSection(title: "屏幕", items: [
+                InfoItem(label: "分辨率", value: Self.screenResolution()),
+                InfoItem(label: "缩放比例", value: String(format: "%.1fx", UIScreen.main.scale)),
+            ]),
+            InfoSection(title: "存储", items: [
+                InfoItem(label: "总容量", value: disk.total),
+                InfoItem(label: "可用空间", value: disk.free),
+            ]),
+            InfoSection(title: "内存", items: [
+                InfoItem(label: "物理内存", value: Self.byteString(Int64(ProcessInfo.processInfo.physicalMemory))),
+            ]),
+            InfoSection(title: "电池", items: [
+                InfoItem(label: "电量", value: Self.batteryLevel()),
+                InfoItem(label: "状态", value: Self.batteryState()),
+            ]),
+        ]
+    }
+
+    func plainTextReport() -> String {
+        var lines: [String] = ["偶尔的PIA工具 · 导出报告", ""]
+        for section in sections {
+            lines.append("[\(section.title)]")
+            for item in section.items {
+                lines.append("\(item.label): \(item.value)")
+            }
+            lines.append("")
+        }
+        lines.append("生成时间: \(Self.timestamp())")
+        return lines.joined(separator: "\n")
+    }
+
+    static func hardwareIdentifier() -> String {
+        var systemInfo = utsname()
+        uname(&systemInfo)
+        let mirror = Mirror(reflecting: systemInfo.machine)
+        let identifier = mirror.children
+            .compactMap { $0.value as? Int8 }
+            .filter { $0 != 0 }
+            .map { String(UnicodeScalar(UInt8($0))) }
+            .joined()
+        return identifier.isEmpty ? "未知" : identifier
+    }
+
+    static func screenResolution() -> String {
+        let bounds = UIScreen.main.bounds
+        let scale = UIScreen.main.scale
+        let width = Int((bounds.width * scale).rounded())
+        let height = Int((bounds.height * scale).rounded())
+        return "\(width) x \(height)"
+    }
+
+    static func diskInfo() -> (total: String, free: String) {
+        let home = NSHomeDirectory()
+        guard let attributes = try? FileManager.default.attributesOfFileSystem(forPath: home),
+              let totalSize = attributes[.systemSize] as? Int64,
+              let freeSize = attributes[.systemFreeSize] as? Int64 else {
+            return ("未知", "未知")
+        }
+        return (byteString(totalSize), byteString(freeSize))
+    }
+
+    static func byteString(_ value: Int64) -> String {
+        ByteCountFormatter.string(fromByteCount: value, countStyle: .file)
+    }
+
+    static func batteryLevel() -> String {
+        let level = UIDevice.current.batteryLevel
+        guard level >= 0 else { return "未知" }
+        return "\(Int((level * 100).rounded()))%"
+    }
+
+    static func batteryState() -> String {
+        switch UIDevice.current.batteryState {
+        case .charging:
+            return "充电中"
+        case .full:
+            return "已充满"
+        case .unplugged:
+            return "未充电"
+        case .unknown:
+            fallthrough
+        @unknown default:
+            return "未知"
+        }
+    }
+
+    static func timestamp() -> String {
+        let formatter = DateFormatter()
+        formatter.dateFormat = "yyyy-MM-dd HH:mm:ss"
+        formatter.locale = Locale(identifier: "en_US_POSIX")
+        return formatter.string(from: Date())
+    }
+}

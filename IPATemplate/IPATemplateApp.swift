@@ -1,1 +1,15 @@
-aW1wb3J0IFN3aWZ0VUkKCkBtYWluCnN0cnVjdCBJUEFUZW1wbGF0ZUFwcDogQXBwIHsKICAgIGluaXQoKSB7CiAgICAgICAgVUlUYWJsZVZpZXcuYXBwZWFyYW5jZSgpLmJhY2tncm91bmRDb2xvciA9IC5jbGVhcgogICAgICAgIFVJRGV2aWNlLmN1cnJlbnQuaXNCYXR0ZXJ5TW9uaXRvcmluZ0VuYWJsZWQgPSB0cnVlCiAgICB9CgogICAgdmFyIGJvZHk6IHNvbWUgU2NlbmUgewogICAgICAgIFdpbmRvd0dyb3VwIHsKICAgICAgICAgICAgQ29udGVudFZpZXcoKQogICAgICAgIH0KICAgIH0KfQo=
+import SwiftUI
+
+@main
+struct IPATemplateApp: App {
+    init() {
+        UITableView.appearance().backgroundColor = .clear
+        UIDevice.current.isBatteryMonitoringEnabled = true
+    }
+
+    var body: some Scene {
+        WindowGroup {
+            ContentView()
+        }
+    }
+}

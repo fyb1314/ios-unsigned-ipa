@@ -1,1 +1,73 @@
-IyEvdXNyL2Jpbi9lbnYgYmFzaAojIOacrOWcsOaehOW7uuacquetvuWQjSBJUEHvvIjpnIDopoEgbWFjT1MgKyBYY29kZe+8iQojIOeUqOazlTogLi9idWlsZF9pcGFfbG9jYWwuc2ggW1JlbGVhc2V8RGVidWddCnNldCAtZXVvIHBpcGVmYWlsCgpDT05GSUc9IiR7MTotUmVsZWFzZX0iClNDSEVNRT0iSVBBVGVtcGxhdGUiCkFQUF9OQU1FPSJJUEFUZW1wbGF0ZSIKCmNkICIkKGRpcm5hbWUgIiQwIikiCgplY2hvICI9PT4g5YeG5aSHIEFwcEljb27vvIjku44gYmFzZTY0IOino+egge+8iSIKSUNPTl9ESVI9IklQQVRlbXBsYXRlL0Fzc2V0cy54Y2Fzc2V0cy9BcHBJY29uLmFwcGljb25zZXQiCmlmIFsgLWYgIiRJQ09OX0RJUi9pY29uXzEwMjQuYjY0IiBdOyB0aGVuCiAgcHl0aG9uMyAtYyAiaW1wb3J0IGJhc2U2NDtvcGVuKCckSUNPTl9ESVIvaWNvbl8xMDI0LnBuZycsJ3diJykud3JpdGUoYmFzZTY0LmI2NGRlY29kZShvcGVuKCckSUNPTl9ESVIvaWNvbl8xMDI0LmI2NCcsJ3JiJykucmVhZCgpKSkiCiAgZWNobyAiICAgIGljb25fMTAyNC5wbmcg5bey6Kej56CBIgplbGlmIFsgLWYgIiRJQ09OX0RJUi9pY29uXzEwMjQucG5nIiBdOyB0aGVuCiAgZWNobyAiICAgIGljb25fMTAyNC5wbmcg5bey5a2Y5ZyoIgplbHNlCiAgZWNobyAiICAgIOacquaJvuWIsOWbvuagh++8jOeUqCBtYWtlX2ljb24ucHkg55Sf5oiQ5Y2g5L2N5Zu+5qCHIgogIHB5dGhvbjMgbWFrZV9pY29uLnB5CmZpCgplY2hvICI9PT4g5qOA5p+l5L6d6LWWIgpjb21tYW5kIC12IHhjb2RlYnVpbGQgPi9kZXYvbnVsbCB8fCB7IGVjaG8gIumcgOimgSBYY29kZSDlkb3ku6TooYzlt6Xlhbc6IHhjb2RlLXNlbGVjdCAtLWluc3RhbGwiOyBleGl0IDE7IH0KY29tbWFuZCAtdiB4Y29kZWdlbiAgPi9kZXYvbnVsbCB8fCB7IGVjaG8gIuivt+WFiOWuieijhSB4Y29kZWdlbjogYnJldyBpbnN0YWxsIHhjb2RlZ2VuIjsgZXhpdCAxOyB9CgplY2hvICI9PT4g55Sf5oiQIFhjb2RlIOW3peeoiyIKeGNvZGVnZW4gZ2VuZXJhdGUKCmVjaG8gIj09PiDmuIXnkIbml6fkuqfniakiCnJtIC1yZiBidWlsZCBQYXlsb2FkICIke0FQUF9OQU1FfS11bnNpZ25lZC5pcGEiCgplY2hvICI9PT4g57yW6K+RIChpcGhvbmVvcywg5LiN562+5ZCNKSIKeGNvZGVidWlsZCBcCiAgLXByb2plY3QgIiR7QVBQX05BTUV9Lnhjb2RlcHJvaiIgXAogIC1zY2hlbWUgIiR7U0NIRU1FfSIgXAogIC1jb25maWd1cmF0aW9uICIke0NPTkZJR30iIFwKICAtc2RrIGlwaG9uZW9zIFwKICAtZGVyaXZlZERhdGFQYXRoIGJ1aWxkIFwKICBDT0RFX1NJR05JTkdfQUxMT1dFRD1OTyBcCiAgQ09ERV9TSUdOSU5HX1JFUVVJUkVEPU5PIFwKICBDT0RFX1NJR05fSURFTlRJVFk9IiIgXAogIENPREVfU0lHTl9FTlRJVExFTUVOVFM9IiIgXAogIERFVkVMT1BNRU5UX1RFQU09IiIgXAogIFBST1ZJU0lPTklOR19QUk9GSUxFX1NQRUNJRklFUj0iIiBcCiAgY2xlYW4gYnVpbGQKCkFQUF9ESVI9ImJ1aWxkL0J1aWxkL1Byb2R1Y3RzLyR7Q09ORklHfS1pcGhvbmVvcy8ke0FQUF9OQU1FfS5hcHAiClsgLWQgIiRBUFBfRElSIiBdIHx8IHsgZWNobyAi5om+5LiN5YiwICRBUFBfRElSIjsgZXhpdCAxOyB9CgplY2hvICI9PT4g5riF6Zmk562+5ZCN5q6L55WZIgpybSAtcmYgIiRBUFBfRElSL19Db2RlU2lnbmF0dXJlIgpybSAtZiAgIiRBUFBfRElSL2VtYmVkZGVkLm1vYmlsZXByb3Zpc2lvbiIKCmVjaG8gIj09PiDnu4Too4UgUGF5bG9hZCIKbWtkaXIgLXAgUGF5bG9hZApjcCAtUiAiJEFQUF9ESVIiIFBheWxvYWQvCmZpbmQgUGF5bG9hZCAtbmFtZSAiLkRTX1N0b3JlIiAtZGVsZXRlIDI+L2Rldi9udWxsIHx8IHRydWUKZmluZCBQYXlsb2FkIC1uYW1lICJfX01BQ09TWCIgLXR5cGUgZCAtZXhlYyBybSAtcmYge30gKyAyPi9kZXYvbnVsbCB8fCB0cnVlCkJJTj0iUGF5bG9hZC8ke0FQUF9OQU1FfS5hcHAvJHtBUFBfTkFNRX0iClsgLWYgIiRCSU4iIF0gJiYgY2htb2QgNzU1ICIkQklOIgoKZWNobyAiPT0+IOaJk+WMhSBJUEEiCnppcCAtcXJ5ICIke0FQUF9OQU1FfS11bnNpZ25lZC5pcGEiIFBheWxvYWQKcm0gLXJmIFBheWxvYWQKCmVjaG8gIiIKZWNobyAi5a6M5oiQOiAkKHB3ZCkvJHtBUFBfTkFNRX0tdW5zaWduZWQuaXBhIgplY2hvICLor6UgSVBBIOacquetvuWQje+8jOivt+eUqOeIseaAneWKqeaJi+etieW3peWFt+etvuWQjeWQjuWuieijheOAgiIKZWNobyAiIgplY2hvICLljIXlhoXnu5PmnoTpooTop4g6Igp1bnppcCAtbCAiJHtBUFBfTkFNRX0tdW5zaWduZWQuaXBhIiB8IGhlYWQgLTMwCg==
+#!/usr/bin/env bash
+# 本地构建未签名 IPA（需要 macOS + Xcode）
+# 用法: ./build_ipa_local.sh [Release|Debug]
+set -euo pipefail
+
+CONFIG="${1:-Release}"
+SCHEME="IPATemplate"
+APP_NAME="IPATemplate"
+
+cd "$(dirname "$0")"
+
+echo "==> 准备 AppIcon（从 base64 解码）"
+ICON_DIR="IPATemplate/Assets.xcassets/AppIcon.appiconset"
+if [ -f "$ICON_DIR/icon_1024.b64" ]; then
+  python3 -c "import base64;open('$ICON_DIR/icon_1024.png','wb').write(base64.b64decode(open('$ICON_DIR/icon_1024.b64','rb').read()))"
+  echo "    icon_1024.png 已解码"
+elif [ -f "$ICON_DIR/icon_1024.png" ]; then
+  echo "    icon_1024.png 已存在"
+else
+  echo "    未找到图标，用 make_icon.py 生成占位图标"
+  python3 make_icon.py
+fi
+
+echo "==> 检查依赖"
+command -v xcodebuild >/dev/null || { echo "需要 Xcode 命令行工具: xcode-select --install"; exit 1; }
+command -v xcodegen  >/dev/null || { echo "请先安装 xcodegen: brew install xcodegen"; exit 1; }
+
+echo "==> 生成 Xcode 工程"
+xcodegen generate
+
+echo "==> 清理旧产物"
+rm -rf build Payload "${APP_NAME}-unsigned.ipa"
+
+echo "==> 编译 (iphoneos, 不签名)"
+xcodebuild \
+  -project "${APP_NAME}.xcodeproj" \
+  -scheme "${SCHEME}" \
+  -configuration "${CONFIG}" \
+  -sdk iphoneos \
+  -derivedDataPath build \
+  CODE_SIGNING_ALLOWED=NO \
+  CODE_SIGNING_REQUIRED=NO \
+  CODE_SIGN_IDENTITY="" \
+  CODE_SIGN_ENTITLEMENTS="" \
+  DEVELOPMENT_TEAM="" \
+  PROVISIONING_PROFILE_SPECIFIER="" \
+  clean build
+
+APP_DIR="build/Build/Products/${CONFIG}-iphoneos/${APP_NAME}.app"
+[ -d "$APP_DIR" ] || { echo "找不到 $APP_DIR"; exit 1; }
+
+echo "==> 清除签名残留"
+rm -rf "$APP_DIR/_CodeSignature"
+rm -f  "$APP_DIR/embedded.mobileprovision"
+
+echo "==> 组装 Payload"
+mkdir -p Payload
+cp -R "$APP_DIR" Payload/
+find Payload -name ".DS_Store" -delete 2>/dev/null || true
+find Payload -name "__MACOSX" -type d -exec rm -rf {} + 2>/dev/null || true
+BIN="Payload/${APP_NAME}.app/${APP_NAME}"
+[ -f "$BIN" ] && chmod 755 "$BIN"
+
+echo "==> 打包 IPA"
+zip -qry "${APP_NAME}-unsigned.ipa" Payload
+rm -rf Payload
+
+echo ""
+echo "完成: $(pwd)/${APP_NAME}-unsigned.ipa"
+echo "该 IPA 未签名，请用爱思助手等工具签名后安装。"
+echo ""
+echo "包内结构预览:"
+unzip -l "${APP_NAME}-unsigned.ipa" | head -30

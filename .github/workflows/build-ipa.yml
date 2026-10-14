@@ -1,1 +1,212 @@
-bmFtZTogYnVpbGQtdW5zaWduZWQtaXBhCgpvbjoKICB3b3JrZmxvd19kaXNwYXRjaDoKICAgIGlucHV0czoKICAgICAgY29uZmlndXJhdGlvbjoKICAgICAgICBkZXNjcmlwdGlvbjogIuaehOW7uumFjee9riIKICAgICAgICByZXF1aXJlZDogdHJ1ZQogICAgICAgIGRlZmF1bHQ6ICJSZWxlYXNlIgogICAgICAgIHR5cGU6IGNob2ljZQogICAgICAgIG9wdGlvbnM6CiAgICAgICAgICAtIFJlbGVhc2UKICAgICAgICAgIC0gRGVidWcKICBwdXNoOgogICAgYnJhbmNoZXM6CiAgICAgIC0gbWFpbgogICAgdGFnczoKICAgICAgLSAidioiCiAgcHVsbF9yZXF1ZXN0OgogICAgcGF0aHM6CiAgICAgIC0gIklQQVRlbXBsYXRlLyoqIgogICAgICAtICJwcm9qZWN0LnltbCIKICAgICAgLSAiLmdpdGh1Yi93b3JrZmxvd3MvYnVpbGQtaXBhLnltbCIKCmNvbmN1cnJlbmN5OgogIGdyb3VwOiAke3sgZ2l0aHViLndvcmtmbG93IH19LSR7eyBnaXRodWIucmVmIH19CiAgY2FuY2VsLWluLXByb2dyZXNzOiB0cnVlCgpqb2JzOgogIGJ1aWxkOgogICAgbmFtZTogQnVpbGQgdW5zaWduZWQgSVBBCiAgICBydW5zLW9uOiBtYWNvcy0xNAogICAgdGltZW91dC1taW51dGVzOiAzMAoKICAgIHN0ZXBzOgogICAgICAtIG5hbWU6IENoZWNrb3V0CiAgICAgICAgdXNlczogYWN0aW9ucy9jaGVja291dEB2NAoKICAgICAgLSBuYW1lOiBTZWxlY3QgWGNvZGUKICAgICAgICBydW46IHwKICAgICAgICAgIHNldCAtZXVvIHBpcGVmYWlsCiAgICAgICAgICBzdWRvIHhjb2RlLXNlbGVjdCAtcAogICAgICAgICAgeGNvZGVidWlsZCAtdmVyc2lvbgogICAgICAgICAgeGNvZGVidWlsZCAtc2hvd3Nka3MgfCBncmVwIC1pIGlwaG9uZW9zIHx8IHRydWUKCiAgICAgIC0gbmFtZTogSW5zdGFsbCB4Y29kZWdlbgogICAgICAgIHJ1bjogYnJldyBpbnN0YWxsIHhjb2RlZ2VuCgogICAgICAtIG5hbWU6IEdlbmVyYXRlIFhjb2RlIHByb2plY3QKICAgICAgICBydW46IHhjb2RlZ2VuIGdlbmVyYXRlCgogICAgICAjIOS7k+W6k+mHjOWbvuagh+S7pSBiYXNlNjQg5paH5pys77yIaWNvbl8xMDI0LmI2NO+8ieWtmOaUvu+8jOaehOW7uuWJjeino+eggeaIkCBQTkfjgIIKICAgICAgIyDov5nmoLfnuq/mlofmnKzpgJrpgZPvvIhBUEkg5o6o6YCB77yJ5Lmf6IO95Y+v6Z2g5Lyg6L6T5LqM6L+b5Yi25Zu+5qCH44CCCiAgICAgIC0gbmFtZTogUHJlcGFyZSBBcHBJY29uIChkZWNvZGUgYmFzZTY0KQogICAgICAgIHJ1bjogfAogICAgICAgICAgc2V0IC1ldW8gcGlwZWZhaWwKICAgICAgICAgIElDT05fRElSPSJJUEFUZW1wbGF0ZS9Bc3NldHMueGNhc3NldHMvQXBwSWNvbi5hcHBpY29uc2V0IgogICAgICAgICAgaWYgWyAtZiAiJElDT05fRElSL2ljb25fMTAyNC5iNjQiIF07IHRoZW4KICAgICAgICAgICAgcHl0aG9uMyAtYyAiaW1wb3J0IGJhc2U2NDtvcGVuKCckSUNPTl9ESVIvaWNvbl8xMDI0LnBuZycsJ3diJykud3JpdGUoYmFzZTY0LmI2NGRlY29kZShvcGVuKCckSUNPTl9ESVIvaWNvbl8xMDI0LmI2NCcsJ3JiJykucmVhZCgpKSkiCiAgICAgICAgICAgIGVjaG8gIk9LOiBpY29uXzEwMjQucG5nIGRlY29kZWQgZnJvbSBpY29uXzEwMjQuYjY0IgogICAgICAgICAgZWxpZiBbIC1mICIkSUNPTl9ESVIvaWNvbl8xMDI0LnBuZyIgXTsgdGhlbgogICAgICAgICAgICBlY2hvICJPSzogaWNvbl8xMDI0LnBuZyBhbHJlYWR5IHByZXNlbnQiCiAgICAgICAgICBlbHNlCiAgICAgICAgICAgIGVjaG8gIm5vIGljb24gZm91bmQsIGdlbmVyYXRpbmcgcGxhY2Vob2xkZXIgdmlhIG1ha2VfaWNvbi5weSIKICAgICAgICAgICAgcHl0aG9uMyBtYWtlX2ljb24ucHkKICAgICAgICAgIGZpCiAgICAgICAgICBscyAtbCAiJElDT05fRElSIgoKICAgICAgLSBuYW1lOiBSZXNvbHZlIHBhY2thZ2VzIChpZiBhbnkpCiAgICAgICAgcnVuOiB8CiAgICAgICAgICBzZXQgLWV1byBwaXBlZmFpbAogICAgICAgICAgeGNvZGVidWlsZCBcCiAgICAgICAgICAgIC1wcm9qZWN0IElQQVRlbXBsYXRlLnhjb2RlcHJvaiBcCiAgICAgICAgICAgIC1zY2hlbWUgSVBBVGVtcGxhdGUgXAogICAgICAgICAgICAtY29uZmlndXJhdGlvbiAiJHt7IGlucHV0cy5jb25maWd1cmF0aW9uIHx8ICdSZWxlYXNlJyB9fSIgXAogICAgICAgICAgICAtY2xvbmVkU291cmNlUGFja2FnZXNEaXJQYXRoIFNvdXJjZVBhY2thZ2VzIFwKICAgICAgICAgICAgLXJlc29sdmVQYWNrYWdlRGVwZW5kZW5jaWVzIHx8IGVjaG8gIm5vIHBhY2thZ2UgZGVwZW5kZW5jaWVzIgoKICAgICAgLSBuYW1lOiBCdWlsZCBmb3IgaXBob25lb3MgKG5vIHNpZ25pbmcpCiAgICAgICAgcnVuOiB8CiAgICAgICAgICBzZXQgLWV1byBwaXBlZmFpbAogICAgICAgICAgeGNvZGVidWlsZCBcCiAgICAgICAgICAgIC1wcm9qZWN0IElQQVRlbXBsYXRlLnhjb2RlcHJvaiBcCiAgICAgICAgICAgIC1zY2hlbWUgSVBBVGVtcGxhdGUgXAogICAgICAgICAgICAtY29uZmlndXJhdGlvbiAiJHt7IGlucHV0cy5jb25maWd1cmF0aW9uIHx8ICdSZWxlYXNlJyB9fSIgXAogICAgICAgICAgICAtc2RrIGlwaG9uZW9zIFwKICAgICAgICAgICAgLWRlcml2ZWREYXRhUGF0aCBidWlsZCBcCiAgICAgICAgICAgIC1kZXN0aW5hdGlvbiAnZ2VuZXJpYy9wbGF0Zm9ybT1pT1MnIFwKICAgICAgICAgICAgLWFyY2hpdmVQYXRoIGJ1aWxkL0lQQVRlbXBsYXRlLnhjYXJjaGl2ZSBcCiAgICAgICAgICAgIENPREVfU0lHTklOR19BTExPV0VEPU5PIFwKICAgICAgICAgICAgQ09ERV9TSUdOSU5HX1JFUVVJUkVEPU5PIFwKICAgICAgICAgICAgQ09ERV9TSUdOX0lERU5USVRZPSIiIFwKICAgICAgICAgICAgQ09ERV9TSUdOX0VOVElUTEVNRU5UUz0iIiBcCiAgICAgICAgICAgIERFVkVMT1BNRU5UX1RFQU09IiIgXAogICAgICAgICAgICBQUk9WSVNJT05JTkdfUFJPRklMRV9TUEVDSUZJRVI9IiIgXAogICAgICAgICAgICBFTkFCTEVfQklUQ09ERT1OTyBcCiAgICAgICAgICAgIGNsZWFuIGJ1aWxkIDI+JjEgfCB0ZWUgYnVpbGQubG9nCgogICAgICAtIG5hbWU6IFBhY2thZ2UgdW5zaWduZWQgSVBBCiAgICAgICAgcnVuOiB8CiAgICAgICAgICBzZXQgLWV1byBwaXBlZmFpbAogICAgICAgICAgQVBQX0RJUj0iYnVpbGQvQnVpbGQvUHJvZHVjdHMvJHt7IGlucHV0cy5jb25maWd1cmF0aW9uIHx8ICdSZWxlYXNlJyB9fS1pcGhvbmVvcy9JUEFUZW1wbGF0ZS5hcHAiCiAgICAgICAgICB0ZXN0IC1kICIkQVBQX0RJUiIgfHwgeyBlY2hvICJFUlJPUjogJEFQUF9ESVIgbm90IGZvdW5kIjsgZmluZCBidWlsZC9CdWlsZC9Qcm9kdWN0cyAtbWF4ZGVwdGggMiAtdHlwZSBkOyBleGl0IDE7IH0KCiAgICAgICAgICAjIOa4heaOieS7u+S9leetvuWQjeaui+eVme+8jOehruS/neS6p+WHuueahOaYryLmnKrnrb7lkI0iSVBBCiAgICAgICAgICBybSAtcmYgIiRBUFBfRElSL19Db2RlU2lnbmF0dXJlIgogICAgICAgICAgcm0gLWYgICIkQVBQX0RJUi9lbWJlZGRlZC5tb2JpbGVwcm92aXNpb24iCiAgICAgICAgICBybSAtZiAgIiRBUFBfRElSL1NDX0luZm8iLyouc2luZiAyPi9kZXYvbnVsbCB8fCB0cnVlCgogICAgICAgICAgbWtkaXIgLXAgUGF5bG9hZAogICAgICAgICAgcm0gLXJmICJQYXlsb2FkL0lQQVRlbXBsYXRlLmFwcCIKICAgICAgICAgIGNwIC1SICIkQVBQX0RJUiIgUGF5bG9hZC8KCiAgICAgICAgICAjIOWOu+aOiSBtYWNPUyDkvqflnoPlnL7mlofku7YKICAgICAgICAgIGZpbmQgUGF5bG9hZCAtbmFtZSAiLkRTX1N0b3JlIiAtZGVsZXRlIDI+L2Rldi9udWxsIHx8IHRydWUKICAgICAgICAgIGZpbmQgUGF5bG9hZCAtbmFtZSAiX19NQUNPU1giIC10eXBlIGQgLWV4ZWMgcm0gLXJmIHt9ICsgMj4vZGV2L251bGwgfHwgdHJ1ZQoKICAgICAgICAgICMg5L+d6K+B5Y+v5omn6KGM5L2N77yIaW5zdGFsbGF0aW9uX3Byb3h5IOimgeaxgu+8iQogICAgICAgICAgQklOPSJQYXlsb2FkL0lQQVRlbXBsYXRlLmFwcC9JUEFUZW1wbGF0ZSIKICAgICAgICAgIGlmIFsgLWYgIiRCSU4iIF07IHRoZW4gY2htb2QgNzU1ICIkQklOIjsgZmkKCiAgICAgICAgICBybSAtZiBJUEFUZW1wbGF0ZS11bnNpZ25lZC5pcGEKICAgICAgICAgIHppcCAtcXJ5IElQQVRlbXBsYXRlLXVuc2lnbmVkLmlwYSBQYXlsb2FkCiAgICAgICAgICBscyAtbGggSVBBVGVtcGxhdGUtdW5zaWduZWQuaXBhCgogICAgICAtIG5hbWU6IFZlcmlmeSBJUEEgc3RydWN0dXJlCiAgICAgICAgcnVuOiB8CiAgICAgICAgICBzZXQgLWV1byBwaXBlZmFpbAogICAgICAgICAgdW56aXAgLWwgSVBBVGVtcGxhdGUtdW5zaWduZWQuaXBhIHwgaGVhZCAtNDAKICAgICAgICAgIGVjaG8gIi0tLSByZXF1aXJlZCBlbnRyaWVzIC0tLSIKICAgICAgICAgIHVuemlwIC1sIElQQVRlbXBsYXRlLXVuc2lnbmVkLmlwYSB8IGdyZXAgLUUgIlBheWxvYWQvSVBBVGVtcGxhdGUuYXBwL0luZm8ucGxpc3QiIHx8IHsgZWNobyAiTUlTU0lORyBJbmZvLnBsaXN0IjsgZXhpdCAxOyB9CiAgICAgICAgICB1bnppcCAtbCBJUEFUZW1wbGF0ZS11bnNpZ25lZC5pcGEgfCBncmVwIC1FICJQYXlsb2FkL0lQQVRlbXBsYXRlLmFwcC9JUEFUZW1wbGF0ZSQiIHx8IHsgZWNobyAiTUlTU0lORyBleGVjdXRhYmxlIjsgZXhpdCAxOyB9CiAgICAgICAgICB1bnppcCAtbCBJUEFUZW1wbGF0ZS11bnNpZ25lZC5pcGEgfCBncmVwIC1FICJfQ29kZVNpZ25hdHVyZSIgJiYgeyBlY2hvICJVTkVYUEVDVEVEIF9Db2RlU2lnbmF0dXJlIjsgZXhpdCAxOyB9IHx8IGVjaG8gIk9LOiBubyBfQ29kZVNpZ25hdHVyZSAodW5zaWduZWQpIgogICAgICAgICAgZWNobyAiLS0tIE1hY2gtTyBjaGVjayAtLS0iCiAgICAgICAgICBybSAtcmYgdmVyaWZ5ICYmIG1rZGlyIHZlcmlmeSAmJiBjZCB2ZXJpZnkKICAgICAgICAgIHVuemlwIC1xIC4uL0lQQVRlbXBsYXRlLXVuc2lnbmVkLmlwYQogICAgICAgICAgZmlsZSBQYXlsb2FkL0lQQVRlbXBsYXRlLmFwcC9JUEFUZW1wbGF0ZSB8fCB0cnVlCiAgICAgICAgICB4eGQgLWwgNCBQYXlsb2FkL0lQQVRlbXBsYXRlLmFwcC9JUEFUZW1wbGF0ZSB8fCB0cnVlCgogICAgICAtIG5hbWU6IFVwbG9hZCBJUEEgYXJ0aWZhY3QKICAgICAgICB1c2VzOiBhY3Rpb25zL3VwbG9hZC1hcnRpZmFjdEB2NAogICAgICAgIHdpdGg6CiAgICAgICAgICBuYW1lOiBJUEFUZW1wbGF0ZS11bnNpZ25lZC1pcGEKICAgICAgICAgIHBhdGg6IElQQVRlbXBsYXRlLXVuc2lnbmVkLmlwYQogICAgICAgICAgaWYtbm8tZmlsZXMtZm91bmQ6IGVycm9yCiAgICAgICAgICByZXRlbnRpb24tZGF5czogMTQKCiAgICAgICMg5YWc5bqV6YCa6YGT77ya5oqKIElQQSDmjqjliLAgZGlzdCDlraTnq4vliIbmlK/jgIIKICAgICAgIyDnlKjpgJTvvJphcnRpZmFjdCDnmoTkuIvovb3ot7PovazvvIhBenVyZSBibG9i77yJ5Zyo5p+Q5Lqb572R57uc5LiL5LiN5Y+v6L6+77yMCiAgICAgICMg6ICMIGFwaS5naXRodWIuY29tIOeahOWGheWuueaOpeWPo+mAmuW4uOWPr+i+vu+8jOWPr+ebtOaOpeS7jiBkaXN0IOWIhuaUr+WPluWbniBJUEHjgIIKICAgICAgIyDor6XmraXpqqTlpLHotKXkuI3lvbHlk43kuLvmtYHnqIvvvIhjb250aW51ZS1vbi1lcnJvcu+8ieOAggogICAgICAtIG5hbWU6IFB1c2ggSVBBIHRvIGRpc3QgYnJhbmNoIChmYWxsYmFjayBjaGFubmVsKQogICAgICAgIGNvbnRpbnVlLW9uLWVycm9yOiB0cnVlCiAgICAgICAgcnVuOiB8CiAgICAgICAgICBzZXQgLWV1byBwaXBlZmFpbAogICAgICAgICAgZ2l0IGNvbmZpZyB1c2VyLm5hbWUgImdpdGh1Yi1hY3Rpb25zW2JvdF0iCiAgICAgICAgICBnaXQgY29uZmlnIHVzZXIuZW1haWwgIjQxODk4MjgyK2dpdGh1Yi1hY3Rpb25zW2JvdF1AdXNlcnMubm9yZXBseS5naXRodWIuY29tIgogICAgICAgICAgZ2l0IHN3aXRjaCAtLW9ycGhhbiBkaXN0CiAgICAgICAgICAjIOa4heaOieW3peS9nOWMuumHjOmZpCBJUEEg5aSW55qE5LiA5YiH77yI5rOo5oSP5L+d55WZIC5naXTvvInvvIzorqkgZGlzdCDliIbmlK/lj6rlkKvkuqfniakKICAgICAgICAgIGZpbmQgLiAtbWluZGVwdGggMSAtbWF4ZGVwdGggMSAhIC1uYW1lICcuZ2l0JyAhIC1uYW1lICdJUEFUZW1wbGF0ZS11bnNpZ25lZC5pcGEnIC1leGVjIHJtIC1yZiB7fSArCiAgICAgICAgICBnaXQgYWRkIElQQVRlbXBsYXRlLXVuc2lnbmVkLmlwYQogICAgICAgICAgZ2l0IGNvbW1pdCAtbSAidW5zaWduZWQgSVBBIChydW4gJHtHSVRIVUJfUlVOX0lEfSkiCiAgICAgICAgICBnaXQgcHVzaCAtLWZvcmNlIG9yaWdpbiBkaXN0CiAgICAgICAgICBlY2hvICJPSzogSVBBIHB1c2hlZCB0byBkaXN0IGJyYW5jaCIKCiAgICAgICMg5p6E5bu654q25oCB5LiK5oql77ya6Ieq5Yqo5bu65LiA5LiqIGlzc3Vl77yM5pa55L6/6Ieq5Yqo5YyW6L2u6K+i5b6X55+l5oiQ6LSl77yMCiAgICAgICMg5oiQ5Yqf5pe26ZmE5bimIElQQSDlpKflsI/kuI4gU0hBMjU277yI55So5LqO5LiL6L295ZCO5qCh6aqM5a6M5pW05oCn77yJ44CCCiAgICAgIC0gbmFtZTogUmVwb3J0IGJ1aWxkIHN0YXR1cyB2aWEgaXNzdWUKICAgICAgICBpZjogYWx3YXlzKCkKICAgICAgICBlbnY6CiAgICAgICAgICBHSF9UT0tFTjogJHt7IGdpdGh1Yi50b2tlbiB9fQogICAgICAgIHJ1bjogfAogICAgICAgICAgc2V0IC1ldW8gcGlwZWZhaWwKICAgICAgICAgIFJVTl9VUkw9IiR7eyBnaXRodWIuc2VydmVyX3VybCB9fS8ke3sgZ2l0aHViLnJlcG9zaXRvcnkgfX0vYWN0aW9ucy9ydW5zLyR7eyBnaXRodWIucnVuX2lkIH19IgogICAgICAgICAgUkFXX1VSTD0iaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tLyR7eyBnaXRodWIucmVwb3NpdG9yeSB9fS9kaXN0L0lQQVRlbXBsYXRlLXVuc2lnbmVkLmlwYSIKICAgICAgICAgIGlmIFsgIiR7eyBqb2Iuc3RhdHVzIH19IiA9ICJzdWNjZXNzIiBdOyB0aGVuCiAgICAgICAgICAgIElQQV9TSVpFPSQoc3RhdCAtZiV6IElQQVRlbXBsYXRlLXVuc2lnbmVkLmlwYSAyPi9kZXYvbnVsbCB8fCBlY2hvIDApCiAgICAgICAgICAgIElQQV9TSEE9JChzaGFzdW0gLWEgMjU2IElQQVRlbXBsYXRlLXVuc2lnbmVkLmlwYSAyPi9kZXYvbnVsbCB8IGN1dCAtZCcgJyAtZjEpCiAgICAgICAgICAgIGdoIGlzc3VlIGNyZWF0ZSAtLXRpdGxlICLinIUg5p6E5bu65oiQ5YqfIMK3IOacquetvuWQjSBJUEEg5bey5bCx57uqIiAtLWJvZHkgIui/kOihjOiusOW9le+8miR7UlVOX1VSTH0KCiAgICAgICAgICBJUEEg5aSn5bCP77yaJHtJUEFfU0laRX0g5a2X6IqCCiAgICAgICAgICBJUEEgU0hBMjU277yaJHtJUEFfU0hBfQoKICAgICAgICAgIOiOt+WPluaWueW8j++8mgogICAgICAgICAgLSBBcnRpZmFjdO+8mui/kOihjOiusOW9leW6lemDqOS4i+i9vSBJUEFUZW1wbGF0ZS11bnNpZ25lZC1pcGEKICAgICAgICAgIC0gZGlzdCDliIbmlK/vvJoke1JBV19VUkx9IgogICAgICAgICAgZWxzZQogICAgICAgICAgICBMT0dfVEFJTD0i77yI5pegIGJ1aWxkLmxvZ++8iSIKICAgICAgICAgICAgWyAtZiBidWlsZC5sb2cgXSAmJiBMT0dfVEFJTD0kKHRhaWwgLTgwIGJ1aWxkLmxvZykKICAgICAgICAgICAgZ2ggaXNzdWUgY3JlYXRlIC0tdGl0bGUgIuKdjCDmnoTlu7rlpLHotKUgwrcg6K+35p+l55yL5pel5b+XIiAtLWJvZHkgIui/kOihjOiusOW9le+8miR7UlVOX1VSTH0KCiAgICAgICAgICBcYFxgXGAKICAgICAgICAgICR7TE9HX1RBSUx9CiAgICAgICAgICBcYFxgXGAiCiAgICAgICAgICBmaQoKICAgICAgLSBuYW1lOiBVcGxvYWQgYnVpbGQgbG9nIG9uIGZhaWx1cmUKICAgICAgICBpZjogZmFpbHVyZSgpCiAgICAgICAgdXNlczogYWN0aW9ucy91cGxvYWQtYXJ0aWZhY3RAdjQKICAgICAgICB3aXRoOgogICAgICAgICAgbmFtZTogYnVpbGQtbG9ncwogICAgICAgICAgcGF0aDogfAogICAgICAgICAgICBidWlsZC8qKi8qLnR4dAogICAgICAgICAgICBidWlsZC9Mb2dzLyoqLyoueGNyZXN1bHQKICAgICAgICAgIGlmLW5vLWZpbGVzLWZvdW5kOiBpZ25vcmUKICAgICAgICAgIHJldGVudGlvbi1kYXlzOiA3Cg==
+name: build-unsigned-ipa
+
+on:
+  workflow_dispatch:
+    inputs:
+      configuration:
+        description: "构建配置"
+        required: true
+        default: "Release"
+        type: choice
+        options:
+          - Release
+          - Debug
+  push:
+    branches:
+      - main
+    tags:
+      - "v*"
+  pull_request:
+    paths:
+      - "IPATemplate/**"
+      - "project.yml"
+      - ".github/workflows/build-ipa.yml"
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    name: Build unsigned IPA
+    runs-on: macos-14
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Select Xcode
+        run: |
+          set -euo pipefail
+          sudo xcode-select -p
+          xcodebuild -version
+          xcodebuild -showsdks | grep -i iphoneos || true
+
+      - name: Install xcodegen
+        run: brew install xcodegen
+
+      - name: Generate Xcode project
+        run: xcodegen generate
+
+      # 仓库里图标以 base64 文本（icon_1024.b64）存放，构建前解码成 PNG。
+      # 这样纯文本通道（API 推送）也能可靠传输二进制图标。
+      - name: Prepare AppIcon (decode base64)
+        run: |
+          set -euo pipefail
+          ICON_DIR="IPATemplate/Assets.xcassets/AppIcon.appiconset"
+          if [ -f "$ICON_DIR/icon_1024.b64" ]; then
+            python3 -c "import base64;open('$ICON_DIR/icon_1024.png','wb').write(base64.b64decode(open('$ICON_DIR/icon_1024.b64','rb').read()))"
+            echo "OK: icon_1024.png decoded from icon_1024.b64"
+          elif [ -f "$ICON_DIR/icon_1024.png" ]; then
+            echo "OK: icon_1024.png already present"
+          else
+            echo "no icon found, generating placeholder via make_icon.py"
+            python3 make_icon.py
+          fi
+          ls -l "$ICON_DIR"
+
+      - name: Resolve packages (if any)
+        run: |
+          set -euo pipefail
+          xcodebuild \
+            -project IPATemplate.xcodeproj \
+            -scheme IPATemplate \
+            -configuration "${{ inputs.configuration || 'Release' }}" \
+            -clonedSourcePackagesDirPath SourcePackages \
+            -resolvePackageDependencies || echo "no package dependencies"
+
+      - name: Build for iphoneos (no signing)
+        run: |
+          set -euo pipefail
+          xcodebuild \
+            -project IPATemplate.xcodeproj \
+            -scheme IPATemplate \
+            -configuration "${{ inputs.configuration || 'Release' }}" \
+            -sdk iphoneos \
+            -derivedDataPath build \
+            -destination 'generic/platform=iOS' \
+            -archivePath build/IPATemplate.xcarchive \
+            CODE_SIGNING_ALLOWED=NO \
+            CODE_SIGNING_REQUIRED=NO \
+            CODE_SIGN_IDENTITY="" \
+            CODE_SIGN_ENTITLEMENTS="" \
+            DEVELOPMENT_TEAM="" \
+            PROVISIONING_PROFILE_SPECIFIER="" \
+            ENABLE_BITCODE=NO \
+            clean build 2>&1 | tee build.log
+
+      - name: Package unsigned IPA
+        run: |
+          set -euo pipefail
+          APP_DIR="build/Build/Products/${{ inputs.configuration || 'Release' }}-iphoneos/IPATemplate.app"
+          test -d "$APP_DIR" || { echo "ERROR: $APP_DIR not found"; find build/Build/Products -maxdepth 2 -type d; exit 1; }
+
+          # 清掉任何签名残留，确保产出的是"未签名"IPA
+          rm -rf "$APP_DIR/_CodeSignature"
+          rm -f  "$APP_DIR/embedded.mobileprovision"
+          rm -f  "$APP_DIR/SC_Info"/*.sinf 2>/dev/null || true
+
+          mkdir -p Payload
+          rm -rf "Payload/IPATemplate.app"
+          cp -R "$APP_DIR" Payload/
+
+          # 去掉 macOS 侧垃圾文件
+          find Payload -name ".DS_Store" -delete 2>/dev/null || true
+          find Payload -name "__MACOSX" -type d -exec rm -rf {} + 2>/dev/null || true
+
+          # 保证可执行位（installation_proxy 要求）
+          BIN="Payload/IPATemplate.app/IPATemplate"
+          if [ -f "$BIN" ]; then chmod 755 "$BIN"; fi
+
+          rm -f IPATemplate-unsigned.ipa
+          zip -qry IPATemplate-unsigned.ipa Payload
+          ls -lh IPATemplate-unsigned.ipa
+
+      - name: Verify IPA structure
+        run: |
+          set -euo pipefail
+          unzip -l IPATemplate-unsigned.ipa | head -40
+          echo "--- required entries ---"
+          unzip -l IPATemplate-unsigned.ipa | grep -E "Payload/IPATemplate.app/Info.plist" || { echo "MISSING Info.plist"; exit 1; }
+          unzip -l IPATemplate-unsigned.ipa | grep -E "Payload/IPATemplate.app/IPATemplate$" || { echo "MISSING executable"; exit 1; }
+          unzip -l IPATemplate-unsigned.ipa | grep -E "_CodeSignature" && { echo "UNEXPECTED _CodeSignature"; exit 1; } || echo "OK: no _CodeSignature (unsigned)"
+          echo "--- Mach-O check ---"
+          rm -rf verify && mkdir verify && cd verify
+          unzip -q ../IPATemplate-unsigned.ipa
+          file Payload/IPATemplate.app/IPATemplate || true
+          xxd -l 4 Payload/IPATemplate.app/IPATemplate || true
+
+      - name: Upload IPA artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: IPATemplate-unsigned-ipa
+          path: IPATemplate-unsigned.ipa
+          if-no-files-found: error
+          retention-days: 14
+
+      # 兜底通道：把 IPA 推到 dist 孤立分支。
+      # 用途：artifact 的下载跳转（Azure blob）在某些网络下不可达，
+      # 而 api.github.com 的内容接口通常可达，可直接从 dist 分支取回 IPA。
+      # 该步骤失败不影响主流程（continue-on-error）。
+      - name: Push IPA to dist branch (fallback channel)
+        continue-on-error: true
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # 重跑时 dist 可能已存在（本地默认没有，防御一下）
+          git branch -D dist 2>/dev/null || true
+          git switch --orphan dist
+          # 清掉工作区里除 IPA 外的一切（注意保留 .git），让 dist 分支只含产物
+          find . -mindepth 1 -maxdepth 1 ! -name '.git' ! -name 'IPATemplate-unsigned.ipa' -exec rm -rf {} +
+          # 用 add -A 把"删除"也一并入账：无论 --orphan 是否清空索引，
+          # 最终提交的树都等于工作区（只有一个 IPA），不会夹带旧文件
+          git add -A
+          git commit -m "unsigned IPA (run ${GITHUB_RUN_ID})"
+          git push --force origin dist
+          echo "OK: IPA pushed to dist branch"
+
+      # 构建状态上报：自动建一个 issue，方便自动化轮询得知成败，
+      # 成功时附带 IPA 大小与 SHA256（用于下载后校验完整性）。
+      - name: Report build status via issue
+        if: always()
+        # 上报只是通知手段，失败不能把一次成功的构建判成失败
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          RUN_URL="${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          RAW_URL="https://raw.githubusercontent.com/${{ github.repository }}/dist/IPATemplate-unsigned.ipa"
+          if [ "${{ job.status }}" = "success" ]; then
+            IPA_SIZE=$(stat -f%z IPATemplate-unsigned.ipa 2>/dev/null || echo 0)
+            IPA_SHA=$(shasum -a 256 IPATemplate-unsigned.ipa 2>/dev/null | cut -d' ' -f1)
+            gh issue create --title "✅ 构建成功 · 未签名 IPA 已就绪" --body "运行记录：${RUN_URL}
+
+          IPA 大小：${IPA_SIZE} 字节
+          IPA SHA256：${IPA_SHA}
+
+          获取方式：
+          - Artifact：运行记录底部下载 IPATemplate-unsigned-ipa
+          - dist 分支：${RAW_URL}"
+          else
+            LOG_TAIL="（无 build.log）"
+            [ -f build.log ] && LOG_TAIL=$(tail -80 build.log)
+            gh issue create --title "❌ 构建失败 · 请查看日志" --body "运行记录：${RUN_URL}
+
+          \`\`\`
+          ${LOG_TAIL}
+          \`\`\`"
+          fi
+
+      - name: Upload build log on failure
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: build-logs
+          path: |
+            build/**/*.txt
+            build/Logs/**/*.xcresult
+          if-no-files-found: ignore
+          retention-days: 7

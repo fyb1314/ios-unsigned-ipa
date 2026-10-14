@@ -1,1 +1,54 @@
-bmFtZTogSVBBVGVtcGxhdGUKb3B0aW9uczoKICBidW5kbGVJZFByZWZpeDogZGV2LmlwYQogIGRlcGxveW1lbnRUYXJnZXQ6CiAgICBpT1M6ICIxNS4wIgogIGNyZWF0ZUludGVybWVkaWF0ZUdyb3VwczogdHJ1ZQoKc2V0dGluZ3M6CiAgYmFzZToKICAgIFNXSUZUX1ZFUlNJT046ICI1LjAiCiAgICBUQVJHRVRFRF9ERVZJQ0VfRkFNSUxZOiAiMSIKICAgIElQSE9ORU9TX0RFUExPWU1FTlRfVEFSR0VUOiAiMTUuMCIKICAgIENPREVfU0lHTl9TVFlMRTogQXV0b21hdGljCiAgICBFTkFCTEVfQklUQ09ERTogIk5PIgoKdGFyZ2V0czoKICBJUEFUZW1wbGF0ZToKICAgIHR5cGU6IGFwcGxpY2F0aW9uCiAgICBwbGF0Zm9ybTogaU9TCiAgICBkZXBsb3ltZW50VGFyZ2V0OiAiMTUuMCIKICAgIHNvdXJjZXM6CiAgICAgIC0gcGF0aDogSVBBVGVtcGxhdGUKICAgIGluZm86CiAgICAgIHBhdGg6IElQQVRlbXBsYXRlL0luZm8ucGxpc3QKICAgICAgcHJvcGVydGllczoKICAgICAgICBDRkJ1bmRsZURldmVsb3BtZW50UmVnaW9uOiB6aF9DTgogICAgICAgIENGQnVuZGxlRGlzcGxheU5hbWU6IOWBtuWwlOeahFBJQeW3peWFtwogICAgICAgIENGQnVuZGxlRXhlY3V0YWJsZTogJChFWEVDVVRBQkxFX05BTUUpCiAgICAgICAgQ0ZCdW5kbGVJZGVudGlmaWVyOiAkKFBST0RVQ1RfQlVORExFX0lERU5USUZJRVIpCiAgICAgICAgQ0ZCdW5kbGVJbmZvRGljdGlvbmFyeVZlcnNpb246ICI2LjAiCiAgICAgICAgQ0ZCdW5kbGVOYW1lOiAkKFBST0RVQ1RfTkFNRSkKICAgICAgICBDRkJ1bmRsZVBhY2thZ2VUeXBlOiBBUFBMCiAgICAgICAgQ0ZCdW5kbGVTaG9ydFZlcnNpb25TdHJpbmc6ICIxLjAuMCIKICAgICAgICBDRkJ1bmRsZVZlcnNpb246ICIxIgogICAgICAgIExTUmVxdWlyZXNJUGhvbmVPUzogdHJ1ZQogICAgICAgIE1pbmltdW1PU1ZlcnNpb246ICIxNS4wIgogICAgICAgIFVJQXBwbGljYXRpb25TdXBwb3J0c0luZGlyZWN0SW5wdXRFdmVudHM6IHRydWUKICAgICAgICBVSUxhdW5jaFNjcmVlbjoge30KICAgICAgICBVSVJlcXVpcmVkRGV2aWNlQ2FwYWJpbGl0aWVzOgogICAgICAgICAgLSBhcm02NAogICAgICAgIFVJU3VwcG9ydGVkSW50ZXJmYWNlT3JpZW50YXRpb25zOgogICAgICAgICAgLSBVSUludGVyZmFjZU9yaWVudGF0aW9uUG9ydHJhaXQKICAgICAgICBVSVN1cHBvcnRlZEludGVyZmFjZU9yaWVudGF0aW9uc35pcGFkOgogICAgICAgICAgLSBVSUludGVyZmFjZU9yaWVudGF0aW9uUG9ydHJhaXQKICAgICAgICAgIC0gVUlJbnRlcmZhY2VPcmllbnRhdGlvblBvcnRyYWl0VXBzaWRlRG93bgogICAgICAgICAgLSBVSUludGVyZmFjZU9yaWVudGF0aW9uTGFuZHNjYXBlTGVmdAogICAgICAgICAgLSBVSUludGVyZmFjZU9yaWVudGF0aW9uTGFuZHNjYXBlUmlnaHQKICAgIHNldHRpbmdzOgogICAgICBiYXNlOgogICAgICAgIFBST0RVQ1RfQlVORExFX0lERU5USUZJRVI6IGRldi5pcGEudG9vbGJveAogICAgICAgIFBST0RVQ1RfTkFNRTogIiQoVEFSR0VUX05BTUUpIgogICAgICAgIEdFTkVSQVRFX0lORk9QTElTVF9GSUxFOiAiTk8iCiAgICAgICAgQVNTRVRDQVRBTE9HX0NPTVBJTEVSX0FQUElDT05fTkFNRTogQXBwSWNvbgogICAgICAgIENPREVfU0lHTklOR19BTExPV0VEOiAiTk8iCg==
+name: IPATemplate
+options:
+  bundleIdPrefix: dev.ipa
+  deploymentTarget:
+    iOS: "15.0"
+  createIntermediateGroups: true
+
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+    TARGETED_DEVICE_FAMILY: "1"
+    IPHONEOS_DEPLOYMENT_TARGET: "15.0"
+    CODE_SIGN_STYLE: Automatic
+    ENABLE_BITCODE: "NO"
+
+targets:
+  IPATemplate:
+    type: application
+    platform: iOS
+    deploymentTarget: "15.0"
+    sources:
+      - path: IPATemplate
+    info:
+      path: IPATemplate/Info.plist
+      properties:
+        CFBundleDevelopmentRegion: zh_CN
+        CFBundleDisplayName: 偶尔的PIA工具
+        CFBundleExecutable: $(EXECUTABLE_NAME)
+        CFBundleIdentifier: $(PRODUCT_BUNDLE_IDENTIFIER)
+        CFBundleInfoDictionaryVersion: "6.0"
+        CFBundleName: $(PRODUCT_NAME)
+        CFBundlePackageType: APPL
+        CFBundleShortVersionString: "1.0.0"
+        CFBundleVersion: "1"
+        LSRequiresIPhoneOS: true
+        MinimumOSVersion: "15.0"
+        UIApplicationSupportsIndirectInputEvents: true
+        UILaunchScreen: {}
+        UIRequiredDeviceCapabilities:
+          - arm64
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+        UISupportedInterfaceOrientations~ipad:
+          - UIInterfaceOrientationPortrait
+          - UIInterfaceOrientationPortraitUpsideDown
+          - UIInterfaceOrientationLandscapeLeft
+          - UIInterfaceOrientationLandscapeRight
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: dev.ipa.toolbox
+        PRODUCT_NAME: "$(TARGET_NAME)"
+        GENERATE_INFOPLIST_FILE: "NO"
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        CODE_SIGNING_ALLOWED: "NO"

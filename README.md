@@ -1,1 +1,227 @@
-IyDlgbblsJTnmoRQSUHlt6Xlhbcgwrcg5pyq562+5ZCNIElQQSDliLbkvZzlt6XnqIsKCuS4gOS4quWPr+e8luivkeaIkCAqKuacquetvuWQjSBJUEEqKiDnmoQgaU9TIEFwcCDlt6XnqIvjgILkuqfniankuI3lkKvku7vkvZXor4Hkuablkoznrb7lkI3vvIzmi7/liLDlkI7nlLHkvaDoh6rlt7HnlKjniLHmgJ3liqnmiYvvvIjmiJblkIznsbvlt6XlhbfvvInnrb7lkI3jgIHlronoo4XliLAgaVBob25l44CCCgotIOivreiogO+8mlN3aWZ0IDUgKyBTd2lmdFVJCi0g5pyA5L2O57O757uf77yaaU9TIDE1LjAKLSDmnrbmnoTvvJphcm02NO+8iOecn+acuu+8iQotIOWKn+iDve+8muWPquivu+WxleekuuiuvuWkh+WQjeensCAvIOehrOS7tuWei+WPtyAvIOezu+e7nyAvIOWxj+W5leWIhui+qOeOhyAvIOejgeebmCAvIOWGheWtmCAvIOeUteaxoO+8jOaUr+aMgeS4gOmUruWkjeWItuaKpeWRigotIOeJueaAp++8muS4jeiBlOe9keOAgeS4jeivt+axguS7u+S9leadg+mZkOOAgeaXoOesrOS4ieaWueS+nei1lgoKLS0tCgojIyDkuIDjgIFXaW5kb3dzIOeUqOaIt++8iOaXoCBNYWPvvInigJTigJQg5o6o6I2Q6Lev5b6ECgrmlbTkuKrmnoTlu7rot5HlnKggR2l0SHViIOeahCBtYWNPUyDkupHkuLvmnLrkuIrvvIzkvaDmnKzlnLDlj6rpnIDopoHmtY/op4jlmajjgIIKCiMjIyAxLiDms6jlhowgR2l0SHViIOW5tuW7uuS7k+W6kwoKMS4g5omT5byAIDxodHRwczovL2dpdGh1Yi5jb20+77yM5rOo5YaML+eZu+W9leOAggoyLiDngrnlj7PkuIrop5IgKiorKiog4oaSICoqTmV3IHJlcG9zaXRvcnkqKuOAggozLiDlkI3lrZfpmo/mhI/vvIzkvovlpoIgYGlwYS10b29sYm94YOOAggo0LiAqKuWKoeW/hemAiSBQdWJsaWMqKu+8iOWFrOW8gOS7k+W6k+eahCBBY3Rpb25zIOWFjei0uemineW6puaXoOmZkO+8m+engeacieS7k+W6k+avj+aciOWPquaciSAyMDAwIOWIhumSn++8jOS5n+Wkn+eUqO+8ieOAggo1LiDkuI3opoHli77pgIkgIkFkZCBhIFJFQURNRSLvvIjmiJHku6zmnKzlnLDlt7LmnInmlofku7bvvInvvIznm7TmjqUgKipDcmVhdGUgcmVwb3NpdG9yeSoq44CCCgojIyMgMi4g5LiK5Lyg5pys55uu5b2V5omA5pyJ5paH5Lu2Cgrku5PlupPliJvlu7rpobXkvJrmmL7npLrkuIrkvKDlhaXlj6PjgILkuZ/lj6/ku6Xoo4UgW0dpdEh1YiBEZXNrdG9wXShodHRwczovL2Rlc2t0b3AuZ2l0aHViLmNvbS8p77yI5Zu+5b2i5YyW77yM5LiN55So6K6w5ZG95Luk77yJ44CCCgrpnIDopoHkuIrkvKDnmoTmlofku7bmuIXljZXvvJoKCmBgYAppT1NBcHAvCuKUnOKUgOKUgCAuZ2l0aHViL3dvcmtmbG93cy9idWlsZC1pcGEueW1sCuKUnOKUgOKUgCBJUEFUZW1wbGF0ZS8K4pSCICAg4pSc4pSA4pSAIElQQVRlbXBsYXRlQXBwLnN3aWZ0CuKUgiAgIOKUnOKUgOKUgCBDb250ZW50Vmlldy5zd2lmdArilIIgICDilJzilIDilIAgRGV2aWNlSW5mb01vZGVsLnN3aWZ0CuKUgiAgIOKUnOKUgOKUgCBJbmZvUm93LnN3aWZ0CuKUgiAgIOKUlOKUgOKUgCBBc3NldHMueGNhc3NldHMvCuKUgiAgICAgICDilJzilIDilIAgQ29udGVudHMuanNvbgrilIIgICAgICAg4pSU4pSA4pSAIEFwcEljb24uYXBwaWNvbnNldC8K4pSCICAgICAgICAgICDilJzilIDilIAgQ29udGVudHMuanNvbgrilIIgICAgICAgICAgIOKUnOKUgOKUgCBpY29uXzEwMjQuYjY0ICAgICMg5Zu+5qCH77yIYmFzZTY0IOaWh+acrO+8jENJIOmHjOino+eggeaIkCBQTkfvvIkK4pSCICAgICAgICAgICDilJTilIDilIAgaWNvbl8xMDI0LnBuZyAgICAjIOacrOWcsOaehOW7uuS6p+eJqe+8jOS4jeeUqOS4iuS8oO+8iOW3siBnaXRpZ25vcmXvvIkK4pSc4pSA4pSAIHByb2plY3QueW1sCuKUnOKUgOKUgCBidWlsZF9pcGFfbG9jYWwuc2gK4pSc4pSA4pSAIG1ha2VfaWNvbi5weSAgICAgICAgICAgICAgICAgIyBDSSDlm77moIfnvLrlpLHml7bnmoTljaDkvY3lm77moIflhZzlupUK4pSc4pSA4pSAIHVwZGF0ZV9pY29uLnB5ICAgICAgICAgICAgICAgIyDmjaLlm77moIflt6XlhbcK4pSU4pSA4pSAIFJFQURNRS5tZApgYGAKCj4gYC5naXRodWJgIOaYr+makOiXj+aWh+S7tuWkue+8jOS4iuS8oOaXtuWIq+a8j+aOiSDigJTigJQg5ryP5LqG5bCx5rKh5pyJ6Ieq5Yqo5p6E5bu644CCCj4gYGljb25fMTAyNC5wbmdgIOaYr+acrOWcsOaehOW7uuS6p+eJqe+8iOW3suiiqyAuZ2l0aWdub3JlIOaOkumZpO+8ie+8jOS4jeeUqOS4iuS8oO+8jENJIOS8muS7jiBgLmI2NGAg6Kej56CB44CCCgojIyMgMy4g6Kem5Y+R5p6E5bu6CgrkuKTnp43mlrnlvI/ku7vpgInvvJoKCi0gKiroh6rliqgqKu+8muaWh+S7tuaOqOmAgeWIsCBgbWFpbmAg5YiG5pSv5Y2z6Kem5Y+R77yId29ya2Zsb3cg5bey6YWNIGBwdXNoOiBicmFuY2hlczogW21haW5dYO+8iQotICoq5omL5YqoKirvvJrku5PlupPpobXpnaIg4oaSICoqQWN0aW9ucyoqIOKGkiDlt6bkvqfpgIkgKipidWlsZC11bnNpZ25lZC1pcGEqKiDihpIg5Y+z5L6nICoqUnVuIHdvcmtmbG93Kiog4oaSIOS/neaMgem7mOiupCBgUmVsZWFzZWAg4oaSIOWGjeeCuee7v+iJsiAqKlJ1biB3b3JrZmxvdyoqCgrnrYkgM++9njgg5YiG6ZKf77yM5Ye6546w57u/6Imy5a+55Yu+5Y2z5oiQ5Yqf44CC5p6E5bu657uT5p2f5ZCO5Lya6Ieq5Yqo5bu65LiA5LiqIGlzc3VlIOaKpeWRiue7k+aenArvvIjmiJDlip/ml7bpmYQgSVBBIOWkp+Wwj+WSjCBTSEEyNTbvvIzlpLHotKXml7bpmYTml6Xlv5flsL7pg6jvvInjgIIKCiMjIyA0LiDkuIvovb0gSVBBCgotIOeCuei/m+i/measoeaIkOWKn+eahOi/kOihjOiusOW9lQotIOmhtemdouW6lemDqCAqKkFydGlmYWN0cyoqIOWMuuaciSBgSVBBVGVtcGxhdGUtdW5zaWduZWQtaXBhYAotIOS4i+i9veWQjuino+WOi++8jOW+l+WIsCBgSVBBVGVtcGxhdGUtdW5zaWduZWQuaXBhYAoKIyMjIDUuIOetvuWQjeW5tuWuieijhQoKMS4g5omT5byA54ix5oCd5Yqp5omL77yM6L+e5o6lIGlQaG9uZQoyLiDov5sgKirlt6XlhbfnrrEg4oaSIElQQSDnrb7lkI0qKgozLiDpgIkgKiroh6rotK3or4HkuaYqKu+8iOeUqOS9oOiHquW3seeahCBwMTIgKyBtb2JpbGVwcm92aXNpb27vvInmiJYgKirkuKrkurror4HkuaYqKu+8iEFwcGxlIElE77yJCjQuIOa3u+WKoCBgSVBBVGVtcGxhdGUtdW5zaWduZWQuaXBhYO+8jOetvuWQjQo1LiDnrb7lkI3lrozmiJDlkI7lnKjjgIzlt7Lnrb7lkI0gSVBB44CN6YeM54K55a6J6KOF77yM5omL5py65qGM6Z2i5Y2z5Ye6546w44CM5YG25bCU55qEUElB5bel5YW344CNCgotLS0KCiMjIOS4gOihpeOAgeWFqOiHquWKqCBBUEkg6YOo572y77yIZ2l0aHViLmNvbSDkuI3pgJrml7bnmoTpgJrpgZPvvIkKCuacieS6m+e9kee7nOeOr+Wig+S4iyBgZ2l0aHViLmNvbWAg55qE572R6aG1IC8gZ2l0IC8gU1NIIOmDveS4jemAmu+8jOS9hiBgYXBpLmdpdGh1Yi5jb21gIOaYr+mAmueahOOAggrmnKzlt6XnqIvpmYTluKYgYGRlcGxveV90b19naXRodWIucHlg77yaKirkuI3otbAgZ2l0IOWNj+iuruOAgeS4jemcgOimgSBnaCBDTEkqKu+8jOe6ryBSRVNUIEFQSSDlrozmiJAK44CM5bu65LuT5bqTIOKGkiDkuIrkvKDlhajpg6jmlofku7bvvIjlkKvkuozov5vliLbvvInihpIg6Kem5Y+RIEFjdGlvbnMg4oaSIOi9ruivouaehOW7uiDihpIg5Y+W5ZueIElQQSDihpIg5pys5Zyw5qCh6aqM44CN5YWo5rWB56iL44CCCgpgYGBiYXNoCiMgMS4g5YiwIEdpdEh1YiDihpIgU2V0dGluZ3Mg4oaSIERldmVsb3BlciBzZXR0aW5ncyDihpIgUGVyc29uYWwgYWNjZXNzIHRva2VucyDihpIgVG9rZW5zIChjbGFzc2ljKQojICAgIOeUn+aIkCB0b2tlbu+8jOWLvumAiSByZXBvICsgd29ya2Zsb3cg5Lik5Liq5p2D6ZmQ77yM5pyJ5pWI5pyf5bu66K6u6K6+5Li6IDcg5aSpCnNldCBHSVRIVUJfVE9LRU49Z2hwX+S9oOeahHRva2VuCgojIDIuIOS4gOadoeWRveS7pOaQnuWumu+8iOm7mOiupOWIm+W7uuWFrOW8gOS7k+W6kyBpb3MtdW5zaWduZWQtaXBh77yJCnB5dGhvbiBkZXBsb3lfdG9fZ2l0aHViLnB5CgojIOWPr+mAieWPguaVsApweXRob24gZGVwbG95X3RvX2dpdGh1Yi5weSAtLXJlcG8g5oiR55qE5LuT5bqT5ZCNIC0tcHJpdmF0ZSAgICMg5oyH5a6a5LuT5bqT5ZCNIC8g5bu656eB5pyJ5bqTCnB5dGhvbiBkZXBsb3lfdG9fZ2l0aHViLnB5IC0tZHJ5LXJ1biAgICAgICAgICAgICAgICAgICAgICMg5Y+q5pys5Zyw6aKE5ryU77yM5LiN5LiK5LygCmBgYAoK6ISa5pys6Ieq5Yqo5aSE55CG55qE5LqL77yaCgotIOS7k+W6k+WQjeiiq+WNoOeUqCDihpIg6Ieq5Yqo5Yqg5pe26Ze05oiz5ZCO57yA6YeN6K+VCi0g5LqM6L+b5Yi25paH5Lu277yIUE5HIOWbvuagh++8iWJhc2U2NCDkuIrkvKDvvIzpgJDlrZfoioLmoKHpqozkuIDoh7TmgKcKLSDmlrDlu7rku5PlupPlkI4gQWN0aW9ucyDms6jlhowgd29ya2Zsb3cg5pyJ5bu26L+fIOKGkiDoh6rliqjph43or5Xop6blj5EKLSDmnoTlu7rlpLHotKUg4oaSIOiHquWKqOaLieWPluaXpeW/l+WwvumDqO+8jOaWueS+v+WumuS9jQotICoqSVBBIOWPluWbnuWPjOmAmumBkyoq77ya5YWI6K+VIEFjdGlvbnMgYXJ0aWZhY3TvvIjkuIvovb3ot7PovazluLjooqvnvZHnu5zljaHkvY/vvInvvIzlpLHotKXoh6rliqjmlLnku44gYGRpc3RgIOWIhuaUryByYXcg5YaF5a655o6l5Y+j5Y+WCi0g5Y+W5Zue5ZCO5pys5Zyw5qCh6aqMIElQQSDnu5PmnoTvvIhgUGF5bG9hZC9gIOWcqOaguSAvIOaXoOetvuWQjeaui+eVmSAvIGFybTY0IE1hY2gtTyAvIEJ1bmRsZSBJRO+8iQoKPiAqKuWuieWFqOaPkOmGkioq77yaY2xhc3NpYyB0b2tlbiDnmoQgYHJlcG9gIOadg+mZkOiDveaTjeS9nOS9oOaJgOacieS7k+W6k++8jOeUqOWujOivt+eri+WIu+WIsAo+IEdpdEh1YiDihpIgU2V0dGluZ3Mg4oaSIERldmVsb3BlciBzZXR0aW5ncyDph4zlkIrplIDjgIIKPiB3b3JrZmxvdyDmnKvlsL7nmoTjgIxQdXNoIElQQSB0byBkaXN0IGJyYW5jaOOAjeatpemqpOaYr+e7meS4iumdoui/meadoeWFnOW6lemAmumBk+eUqOeahO+8jOS4jeaDs+imgeWPr+S7peWIoOaOieivpeatpemqpO+8jOS4jeW9seWTjeS4u+a1geeoi+OAggoKLS0tCgojIyDkuozjgIHmnIkgTWFjIOeahOeUqOaItwoKYGBgYmFzaApjZCBpT1NBcHAKYnJldyBpbnN0YWxsIHhjb2RlZ2VuCi4vYnVpbGRfaXBhX2xvY2FsLnNoIFJlbGVhc2UKYGBgCgrkuqfniankuLrlkIznm67lvZXkuIvnmoQgYElQQVRlbXBsYXRlLXVuc2lnbmVkLmlwYWDjgIIKCi0tLQoKIyMg5LiJ44CB5pS56Ieq5bex55qE5Lic6KW/CgojIyMg5pS5IEFwcCDlkI3np7AgLyBCdW5kbGUgSUQKCue8lui+kSBgcHJvamVjdC55bWxg77yaCgpgYGB5YW1sCkNGQnVuZGxlRGlzcGxheU5hbWU6IOWBtuWwlOeahFBJQeW3peWFtyAgICAgICMg5qGM6Z2i5pi+56S65ZCNClBST0RVQ1RfQlVORExFX0lERU5USUZJRVI6IGRldi5pcGEudG9vbGJveCAgICMg5YyF5ZCN77yM5pS55oiQ5L2g55qECkNGQnVuZGxlU2hvcnRWZXJzaW9uU3RyaW5nOiAiMS4wLjAiICAgICAjIOeJiOacrOWPtwpDRkJ1bmRsZVZlcnNpb246ICIxIiAgICAgICAgICAgICAgICAgICAgIyDmnoTlu7rlj7cKYGBgCgojIyMg5pS55Zu+5qCHCgrlm77moIflnKjku5PlupPph4zku6UgKipiYXNlNjQg5paH5pysKiogYElQQVRlbXBsYXRlL0Fzc2V0cy54Y2Fzc2V0cy9BcHBJY29uLmFwcGljb25zZXQvaWNvbl8xMDI0LmI2NGAK5a2Y5pS+77yI5LqR56uv5o6o6YCB6YCa6YGT5Y+q5Y+v6Z2g5Lyg5paH5pys77yMQ0kg5p6E5bu65pe26Ieq5Yqo6Kej56CB5ZueIFBOR++8ieOAguaNouWbvuagh+S4gOadoeWRveS7pO+8mgoKYGBgYmFzaApwaXAgaW5zdGFsbCBwaWxsb3cKcHl0aG9uIHVwZGF0ZV9pY29uLnB5IOS9oOeahOWbvueJhy5qcGcgICAgICAgICMg6Ieq5Yqo6KOB5Ymq5q2j5pa55b2i44CB57yp5pS+5YiwIDEwMjTjgIHljrsgQWxwaGEKYGBgCgropoHmsYLvvJoqKjEwMjTDlzEwMjTjgIHmraPmlrnlvaLjgIHkuI3pgI/mmI7jgIHml6DlnIbop5IqKu+8iOezu+e7n+iHquWKqOijgeWchuinku+8ieOAgSoq5LiN5bimIEFscGhhIOmAmumBkyoq44CCCmB1cGRhdGVfaWNvbi5weWAg5Lya6Ieq5Yqo5aSE55CG6L+Z5Lqb44CC5Lmf5Y+v5Lul6ZqP5pe255SoIGBweXRob24gbWFrZV9pY29uLnB5YCDph43mlrDnlJ/miJDljaDkvY3lm77moIfjgIIKCiMjIyDmlLnnlYzpnaIKCnwg5paH5Lu2IHwg5L2c55SoIHwKfC0tLXwtLS18CnwgYENvbnRlbnRWaWV3LnN3aWZ0YCB8IOmhtemdouW4g+WxgOOAgeWvvOiIquagj+aMiemSriB8CnwgYERldmljZUluZm9Nb2RlbC5zd2lmdGAgfCDph4fpm4blk6rkupvkv6Hmga/jgIHmlofmoYjmoLzlvI8gfAp8IGBJbmZvUm93LnN3aWZ0YCB8IOWNleihjOOAjOagh+etviArIOWAvOOAjeagt+W8jyB8CgotLS0KCiMjIOWbm+OAgeaehOW7uuS6p+eJqeivtOaYjgoKd29ya2Zsb3cg6YeM5YGa5LqG6L+Z5Lqb5LqL5L+d6K+B44CM55yf55qE5rKh562+5ZCN44CN77yaCgpgYGBiYXNoCnJtIC1yZiAgUGF5bG9hZC9JUEFUZW1wbGF0ZS5hcHAvX0NvZGVTaWduYXR1cmUKcm0gLWYgICBQYXlsb2FkL0lQQVRlbXBsYXRlLmFwcC9lbWJlZGRlZC5tb2JpbGVwcm92aXNpb24KY2htb2QgNzU1IFBheWxvYWQvSVBBVGVtcGxhdGUuYXBwL0lQQVRlbXBsYXRlCnppcCAtcXJ5IElQQVRlbXBsYXRlLXVuc2lnbmVkLmlwYSBQYXlsb2FkCmBgYAoK5bm25bim5LiA6YGT6Ieq5qOA77yM5Lu75LiA6aG55LiN6YCa6L+H5bCx55u05o6l6K6p5p6E5bu65aSx6LSl77yaCgp8IOajgOafpemhuSB8IOimgeaxgiB8CnwtLS18LS0tfAp8IGBQYXlsb2FkL0lQQVRlbXBsYXRlLmFwcC9JbmZvLnBsaXN0YCB8IOW/hemhu+WtmOWcqCB8CnwgYFBheWxvYWQvSVBBVGVtcGxhdGUuYXBwL0lQQVRlbXBsYXRlYCB8IOWPr+aJp+ihjOaWh+S7tuW/hemhu+WtmOWcqCB8CnwgYF9Db2RlU2lnbmF0dXJlYCB8ICoq5b+F6aG75LiN5a2Y5ZyoKiogfAp8IE1hY2gtTyBtYWdpYyB8IOW/hemhu+aYryBgY2YgZmEgZWQgZmVg77yIYXJtNjQg5bCP56uv77yJIHwKCi0tLQoKIyMg5LqU44CB5bi46KeB6Zeu6aKYCgoqKlHvvJpBY3Rpb25zIOmHjOaKpSBgeGNvZGVnZW46IGNvbW1hbmQgbm90IGZvdW5kYCoqCkHvvJp3b3JrZmxvdyDlt7Loh6rliqggYGJyZXcgaW5zdGFsbCB4Y29kZWdlbmDjgILoi6XlpLHotKXvvIzlnKjku5PlupMgKipTZXR0aW5ncyDihpIgQWN0aW9ucyDihpIgR2VuZXJhbCoqIOehruiupCBBY3Rpb25zIOW3suWQr+eUqOOAggoKKipR77ya5oqlIGBObyBwcm9maWxlcyBmb3IgJ2Rldi5pcGEudG9vbGJveCcgd2VyZSBmb3VuZGAqKgpB77ya6K+05piO562+5ZCN5rKh5YWz5bmy5YeA44CC56Gu6K6kIGBwcm9qZWN0LnltbGAg6YeM5pyJIGBDT0RFX1NJR05JTkdfQUxMT1dFRDogIk5PImDvvIzkuJQgd29ya2Zsb3cg5Lyg5LqGIGBDT0RFX1NJR05JTkdfQUxMT1dFRD1OTyBDT0RFX1NJR05JTkdfUkVRVUlSRUQ9Tk8gQ09ERV9TSUdOX0lERU5USVRZPSIiYOOAggoKKipR77ya5LiL6L2955qEIElQQSDniLHmgJ3nrb7lkI3ml7bmiqXjgIxJUEHljIXmoLzlvI/plJnor6/jgI0qKgpB77yaSVBBIOW/hemhu+aYryBgUGF5bG9hZC9gIOWcqOagueebruW9leeahOagh+WHhiBaSVDjgILmnKzlt6XnqIvkuqflh7rlt7Lkv53or4HvvIzkuI3opoHnlKggV2luZG93cyDotYTmupDnrqHnkIblmagi5Y+R6YCB5Yiw5Y6L57yp5paH5Lu25aS5IuWGjeaJk+WMhe+8jOS8muW4puS4iuWkmuS9meebruW9leWxguOAggoKKipR77ya6KOF5Yiw5omL5py65LiK5oql44CM5peg5rOV6aqM6K+BIEFwcOOAjSoqCkHvvJrmnKrnrb7lkI0gSVBBIOacrOadpeWwseS4jeiDveebtOaOpeijheOAguW/hemhu+WFiOeUqOeIseaAneetvuWQje+8m+S4quS6uuivgeS5puaooeW8j+etvuWHuuadpeeahCBBcHAg5pyJ5pWI5pyfIDcg5aSp77yM6L+H5pyf6YeN562+5Y2z5Y+v44CCCgoqKlHvvJrlhazlvIDku5PlupPkvJrkuI3kvJrms4TpnLLku6PnoIHvvJ8qKgpB77ya5Lya44CC6L+Z5piv5L2g55qEIEFwcCDmupDnoIHvvIzmnKzlsLHor6XlhazlvIDmiJbnp4HmnInoh6rlrprjgILoi6XkuI3mg7PlhazlvIDvvIznp4HmnInku5PlupPkuZ/og73nlKjvvIzlj6rmmK/mnInlhY3otLnliIbpkp/mlbDpmZDliLbjgIIKCi0tLQoKIyMg5YWt44CB55uu5b2V57uT5p6ECgpgYGAKaU9TQXBwLwrilJzilIDilIAgLmdpdGh1Yi8K4pSCICAg4pSU4pSA4pSAIHdvcmtmbG93cy8K4pSCICAgICAgIOKUlOKUgOKUgCBidWlsZC1pcGEueW1sICAgICAgICAjIOiHquWKqOaehOW7uuacquetvuWQjSBJUEEK4pSc4pSA4pSAIElQQVRlbXBsYXRlLwrilIIgICDilJzilIDilIAgSVBBVGVtcGxhdGVBcHAuc3dpZnQgICAgICMgQG1haW4g5YWl5Y+jCuKUgiAgIOKUnOKUgOKUgCBDb250ZW50Vmlldy5zd2lmdCAgICAgICAgIyDkuLvnlYzpnaIK4pSCICAg4pSc4pSA4pSAIERldmljZUluZm9Nb2RlbC5zd2lmdCAgICAjIOiuvuWkh+S/oeaBr+mHh+mbhgrilIIgICDilJzilIDilIAgSW5mb1Jvdy5zd2lmdCAgICAgICAgICAgICMg5YiX6KGo6KGM57uE5Lu2CuKUgiAgIOKUlOKUgOKUgCBBc3NldHMueGNhc3NldHMvICAgICAgICAgIyDlm77moIfotYTmupAK4pSCICAgICAgIOKUlOKUgOKUgCBBcHBJY29uLmFwcGljb25zZXQvCuKUgiAgICAgICAgICAg4pSc4pSA4pSAIENvbnRlbnRzLmpzb24K4pSCICAgICAgICAgICDilJzilIDilIAgaWNvbl8xMDI0LmI2NCAgICAjIOWbvuagh+eahCBiYXNlNjQg5paH5pys54mI77yIQ0kg6Kej56CB55So77yJCuKUgiAgICAgICAgICAg4pSU4pSA4pSAIGljb25fMTAyNC5wbmcgICAgIyDop6PnoIHkuqfnianvvIzmnKzlnLDmnoTlu7rnlKgK4pSc4pSA4pSAIHByb2plY3QueW1sICAgICAgICAgICAgICAgICAgIyBYY29kZUdlbiDlt6XnqIvmj4/ov7AK4pSc4pSA4pSAIGJ1aWxkX2lwYV9sb2NhbC5zaCAgICAgICAgICAgIyBNYWMg5pys5Zyw5p6E5bu6CuKUnOKUgOKUgCBtYWtlX2ljb24ucHkgICAgICAgICAgICAgICAgICMg5Y2g5L2N5Zu+5qCH55Sf5oiQ5ZmoCuKUnOKUgOKUgCB1cGRhdGVfaWNvbi5weSAgICAgICAgICAgICAgICMg5o2i5Zu+5qCH5bel5YW377yI5Lu75oSP5Zu+IOKGkiAxMDI0IOaXoCBBbHBoYe+8iQrilJzilIDilIAgZGVwbG95X3RvX2dpdGh1Yi5weSAgICAgICAgICAjIOe6ryBBUEkg6Ieq5Yqo6YOo572y6ISa5pys77yI5LiN5LiK5Lyg5Yiw5LuT5bqT77yJCuKUlOKUgOKUgCBSRUFETUUubWQKYGBgCg==
+# 偶尔的PIA工具 · 未签名 IPA 制作工程
+
+一个可编译成 **未签名 IPA** 的 iOS App 工程。产物不含任何证书和签名，拿到后由你自己用爱思助手（或同类工具）签名、安装到 iPhone。
+
+- 语言：Swift 5 + SwiftUI
+- 最低系统：iOS 15.0
+- 架构：arm64（真机）
+- 功能：只读展示设备名称 / 硬件型号 / 系统 / 屏幕分辨率 / 磁盘 / 内存 / 电池，支持一键复制报告
+- 特性：不联网、不请求任何权限、无第三方依赖
+
+---
+
+## 一、Windows 用户（无 Mac）—— 推荐路径
+
+整个构建跑在 GitHub 的 macOS 云主机上，你本地只需要浏览器。
+
+### 1. 注册 GitHub 并建仓库
+
+1. 打开 <https://github.com>，注册/登录。
+2. 点右上角 **+** → **New repository**。
+3. 名字随意，例如 `ipa-toolbox`。
+4. **务必选 Public**（公开仓库的 Actions 免费额度无限；私有仓库每月只有 2000 分钟，也够用）。
+5. 不要勾选 "Add a README"（我们本地已有文件），直接 **Create repository**。
+
+### 2. 上传本目录所有文件
+
+仓库创建页会显示上传入口。也可以装 [GitHub Desktop](https://desktop.github.com/)（图形化，不用记命令）。
+
+需要上传的文件清单：
+
+```
+iOSApp/
+├── .github/workflows/build-ipa.yml
+├── IPATemplate/
+│   ├── IPATemplateApp.swift
+│   ├── ContentView.swift
+│   ├── DeviceInfoModel.swift
+│   ├── InfoRow.swift
+│   └── Assets.xcassets/
+│       ├── Contents.json
+│       └── AppIcon.appiconset/
+│           ├── Contents.json
+│           ├── icon_1024.b64    # 图标（base64 文本，CI 里解码成 PNG）
+│           └── icon_1024.png    # 本地构建产物，不用上传（已 gitignore）
+├── project.yml
+├── build_ipa_local.sh
+├── make_icon.py                 # CI 图标缺失时的占位图标兜底
+├── update_icon.py               # 换图标工具
+└── README.md
+```
+
+> `.github` 是隐藏文件夹，上传时别漏掉 —— 漏了就没有自动构建。
+> `icon_1024.png` 是本地构建产物（已被 .gitignore 排除），不用上传，CI 会从 `.b64` 解码。
+
+### 3. 触发构建
+
+两种方式任选：
+
+- **自动**：文件推送到 `main` 分支即触发（workflow 已配 `push: branches: [main]`）
+- **手动**：仓库页面 → **Actions** → 左侧选 **build-unsigned-ipa** → 右侧 **Run workflow** → 保持默认 `Release` → 再点绿色 **Run workflow**
+
+等 3～8 分钟，出现绿色对勾即成功。构建结束后会自动建一个 issue 报告结果
+（成功时附 IPA 大小和 SHA256，失败时附日志尾部）。
+
+### 4. 下载 IPA
+
+- 点进这次成功的运行记录
+- 页面底部 **Artifacts** 区有 `IPATemplate-unsigned-ipa`
+- 下载后解压，得到 `IPATemplate-unsigned.ipa`
+
+### 5. 签名并安装
+
+1. 打开爱思助手，连接 iPhone
+2. 进 **工具箱 → IPA 签名**
+3. 选 **自购证书**（用你自己的 p12 + mobileprovision）或 **个人证书**（Apple ID）
+4. 添加 `IPATemplate-unsigned.ipa`，签名
+5. 签名完成后在「已签名 IPA」里点安装，手机桌面即出现「偶尔的PIA工具」
+
+---
+
+## 一补、全自动 API 部署（github.com 不通时的通道）
+
+有些网络环境下 `github.com` 的网页 / git / SSH 都不通，但 `api.github.com` 是通的。
+本工程附带 `deploy_to_github.py`：**不走 git 协议、不需要 gh CLI**，纯 REST API 完成
+「建仓库 → 上传全部文件（含二进制）→ 触发 Actions → 轮询构建 → 取回 IPA → 本地校验」全流程。
+
+```bash
+# 1. 到 GitHub → Settings → Developer settings → Personal access tokens → Tokens (classic)
+#    生成 token，勾选 repo + workflow 两个权限，有效期建议设为 7 天
+set GITHUB_TOKEN=ghp_你的token
+
+# 2. 一条命令搞定（默认创建公开仓库 ios-unsigned-ipa）
+python deploy_to_github.py
+
+# 可选参数
+python deploy_to_github.py --repo 我的仓库名 --private   # 指定仓库名 / 建私有库
+python deploy_to_github.py --dry-run                     # 只本地预演，不上传
+```
+
+脚本自动处理的事：
+
+- 仓库名被占用 → 自动加时间戳后缀重试
+- 二进制文件（PNG 图标）base64 上传，逐字节校验一致性
+- 新建仓库后 Actions 注册 workflow 有延迟 → 自动重试触发
+- 构建失败 → 自动拉取日志尾部，方便定位
+- **IPA 取回双通道**：先试 Actions artifact（下载跳转常被网络卡住），失败自动改从 `dist` 分支 raw 内容接口取
+- 取回后本地校验 IPA 结构（`Payload/` 在根 / 无签名残留 / arm64 Mach-O / Bundle ID）
+
+> **安全提醒**：classic token 的 `repo` 权限能操作你所有仓库，用完请立刻到
+> GitHub → Settings → Developer settings 里吊销。
+> workflow 末尾的「Push IPA to dist branch」步骤是给上面这条兜底通道用的，不想要可以删掉该步骤，不影响主流程。
+
+---
+
+## 二、有 Mac 的用户
+
+```bash
+cd iOSApp
+brew install xcodegen
+./build_ipa_local.sh Release
+```
+
+产物为同目录下的 `IPATemplate-unsigned.ipa`。
+
+---
+
+## 三、改自己的东西
+
+### 改 App 名称 / Bundle ID
+
+编辑 `project.yml`：
+
+```yaml
+CFBundleDisplayName: 偶尔的PIA工具      # 桌面显示名
+PRODUCT_BUNDLE_IDENTIFIER: dev.ipa.toolbox   # 包名，改成你的
+CFBundleShortVersionString: "1.0.0"     # 版本号
+CFBundleVersion: "1"                    # 构建号
+```
+
+### 改图标
+
+图标在仓库里以 **base64 文本** `IPATemplate/Assets.xcassets/AppIcon.appiconset/icon_1024.b64`
+存放（云端推送通道只可靠传文本，CI 构建时自动解码回 PNG）。换图标一条命令：
+
+```bash
+pip install pillow
+python update_icon.py 你的图片.jpg        # 自动裁剪正方形、缩放到 1024、去 Alpha
+```
+
+要求：**1024×1024、正方形、不透明、无圆角**（系统自动裁圆角）、**不带 Alpha 通道**。
+`update_icon.py` 会自动处理这些。也可以随时用 `python make_icon.py` 重新生成占位图标。
+
+### 改界面
+
+| 文件 | 作用 |
+|---|---|
+| `ContentView.swift` | 页面布局、导航栏按钮 |
+| `DeviceInfoModel.swift` | 采集哪些信息、文案格式 |
+| `InfoRow.swift` | 单行「标签 + 值」样式 |
+
+---
+
+## 四、构建产物说明
+
+workflow 里做了这些事保证「真的没签名」：
+
+```bash
+rm -rf  Payload/IPATemplate.app/_CodeSignature
+rm -f   Payload/IPATemplate.app/embedded.mobileprovision
+chmod 755 Payload/IPATemplate.app/IPATemplate
+zip -qry IPATemplate-unsigned.ipa Payload
+```
+
+并带一道自检，任一项不通过就直接让构建失败：
+
+| 检查项 | 要求 |
+|---|---|
+| `Payload/IPATemplate.app/Info.plist` | 必须存在 |
+| `Payload/IPATemplate.app/IPATemplate` | 可执行文件必须存在 |
+| `_CodeSignature` | **必须不存在** |
+| Mach-O magic | 必须是 `cf fa ed fe`（arm64 小端） |
+
+---
+
+## 五、常见问题
+
+**Q：Actions 里报 `xcodegen: command not found`**
+A：workflow 已自动 `brew install xcodegen`。若失败，在仓库 **Settings → Actions → General** 确认 Actions 已启用。
+
+**Q：报 `No profiles for 'dev.ipa.toolbox' were found`**
+A：说明签名没关干净。确认 `project.yml` 里有 `CODE_SIGNING_ALLOWED: "NO"`，且 workflow 传了 `CODE_SIGNING_ALLOWED=NO CODE_SIGNING_REQUIRED=NO CODE_SIGN_IDENTITY=""`。
+
+**Q：下载的 IPA 爱思签名时报「IPA包格式错误」**
+A：IPA 必须是 `Payload/` 在根目录的标准 ZIP。本工程产出已保证，不要用 Windows 资源管理器"发送到压缩文件夹"再打包，会带上多余目录层。
+
+**Q：装到手机上报「无法验证 App」**
+A：未签名 IPA 本来就不能直接装。必须先用爱思签名；个人证书模式签出来的 App 有效期 7 天，过期重签即可。
+
+**Q：公开仓库会不会泄露代码？**
+A：会。这是你的 App 源码，本就该公开或私有自定。若不想公开，私有仓库也能用，只是有免费分钟数限制。
+
+---
+
+## 六、目录结构
+
+```
+iOSApp/
+├── .github/
+│   └── workflows/
+│       └── build-ipa.yml        # 自动构建未签名 IPA
+├── IPATemplate/
+│   ├── IPATemplateApp.swift     # @main 入口
+│   ├── ContentView.swift        # 主界面
+│   ├── DeviceInfoModel.swift    # 设备信息采集
+│   ├── InfoRow.swift            # 列表行组件
+│   └── Assets.xcassets/         # 图标资源
+│       └── AppIcon.appiconset/
+│           ├── Contents.json
+│           ├── icon_1024.b64    # 图标的 base64 文本版（CI 解码用）
+│           └── icon_1024.png    # 解码产物，本地构建用
+├── project.yml                  # XcodeGen 工程描述
+├── build_ipa_local.sh           # Mac 本地构建
+├── make_icon.py                 # 占位图标生成器
+├── update_icon.py               # 换图标工具（任意图 → 1024 无 Alpha）
+├── deploy_to_github.py          # 纯 API 自动部署脚本（不上传到仓库）
+└── README.md
+```

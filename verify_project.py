@@ -1,1 +1,185 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwoiIiLlt6XnqIvoh6rmo4DvvJrmlofku7bpvZDlhajmgKcgKyBZQU1ML0pTT04g5ZCI5rOV5oCnICsgU3dpZnQg5Z+656GA5qOA5p+l44CCIiIiCmltcG9ydCBqc29uCmltcG9ydCBvcwppbXBvcnQgcmUKaW1wb3J0IHN5cwoKUk9PVCA9IG9zLnBhdGguZGlybmFtZShvcy5wYXRoLmFic3BhdGgoX19maWxlX18pKQoKUkVRVUlSRUQgPSBbCiAgICAiLmdpdGh1Yi93b3JrZmxvd3MvYnVpbGQtaXBhLnltbCIsCiAgICAicHJvamVjdC55bWwiLAogICAgIlJFQURNRS5tZCIsCiAgICAiYnVpbGRfaXBhX2xvY2FsLnNoIiwKICAgICJJUEFUZW1wbGF0ZS9JUEFUZW1wbGF0ZUFwcC5zd2lmdCIsCiAgICAiSVBBVGVtcGxhdGUvQ29udGVudFZpZXcuc3dpZnQiLAogICAgIklQQVRlbXBsYXRlL0RldmljZUluZm9Nb2RlbC5zd2lmdCIsCiAgICAiSVBBVGVtcGxhdGUvSW5mb1Jvdy5zd2lmdCIsCiAgICAiSVBBVGVtcGxhdGUvQXNzZXRzLnhjYXNzZXRzL0NvbnRlbnRzLmpzb24iLAogICAgIklQQVRlbXBsYXRlL0Fzc2V0cy54Y2Fzc2V0cy9BcHBJY29uLmFwcGljb25zZXQvQ29udGVudHMuanNvbiIsCiAgICAiSVBBVGVtcGxhdGUvQXNzZXRzLnhjYXNzZXRzL0FwcEljb24uYXBwaWNvbnNldC9pY29uXzEwMjQucG5nIiwKXQoKZXJyb3JzID0gW10Kd2FybmluZ3MgPSBbXQoKCmRlZiBvayhtc2cpOgogICAgcHJpbnQoZiIgIFtPS10gICB7bXNnfSIpCgoKZGVmIGVycihtc2cpOgogICAgZXJyb3JzLmFwcGVuZChtc2cpCiAgICBwcmludChmIiAgW0ZBSUxdIHttc2d9IikKCgpkZWYgd2Fybihtc2cpOgogICAgd2FybmluZ3MuYXBwZW5kKG1zZykKICAgIHByaW50KGYiICBbV0FSTl0ge21zZ30iKQoKCnByaW50KCI9PSAxLiDmlofku7bpvZDlhajmgKcgPT0iKQpmb3IgcmVsIGluIFJFUVVJUkVEOgogICAgcCA9IG9zLnBhdGguam9pbihST09ULCByZWwpCiAgICBpZiBvcy5wYXRoLmlzZmlsZShwKSBhbmQgb3MucGF0aC5nZXRzaXplKHApID4gMDoKICAgICAgICBvayhmIntyZWx9ICAoe29zLnBhdGguZ2V0c2l6ZShwKX0gQikiKQogICAgZWxzZToKICAgICAgICBlcnIoZiLnvLrlpLHmiJbkuLrnqbo6IHtyZWx9IikKCnByaW50KCJcbj09IDIuIEpTT04g5ZCI5rOV5oCnID09IikKZm9yIHJlbCBpbiBbCiAgICAiSVBBVGVtcGxhdGUvQXNzZXRzLnhjYXNzZXRzL0NvbnRlbnRzLmpzb24iLAogICAgIklQQVRlbXBsYXRlL0Fzc2V0cy54Y2Fzc2V0cy9BcHBJY29uLmFwcGljb25zZXQvQ29udGVudHMuanNvbiIsCl06CiAgICBwID0gb3MucGF0aC5qb2luKFJPT1QsIHJlbCkKICAgIHRyeToKICAgICAgICB3aXRoIG9wZW4ocCwgInJiIikgYXMgZjoKICAgICAgICAgICAganNvbi5sb2FkKGYpCiAgICAgICAgb2soZiJ7cmVsfSDop6PmnpDpgJrov4ciKQogICAgZXhjZXB0IEV4Y2VwdGlvbiBhcyBlOgogICAgICAgIGVycihmIntyZWx9IEpTT04g6ZSZ6K+vOiB7ZX0iKQoKcHJpbnQoIlxuPT0gMy4gWUFNTCDlkIjms5XmgKfvvIjnvKnov5sv57uT5p6E77yJID09IikKcCA9IG9zLnBhdGguam9pbihST09ULCAiLmdpdGh1Yi93b3JrZmxvd3MvYnVpbGQtaXBhLnltbCIpCndpdGggb3BlbihwLCAiciIsIGVuY29kaW5nPSJ1dGYtOCIpIGFzIGY6CiAgICB5bWwgPSBmLnJlYWQoKQoKdHJ5OgogICAgaW1wb3J0IHlhbWwgICMgdHlwZTogaWdub3JlCiAgICB3aXRoIG9wZW4ocCwgInIiLCBlbmNvZGluZz0idXRmLTgiKSBhcyBmOgogICAgICAgIGRvYyA9IHlhbWwuc2FmZV9sb2FkKGYpCiAgICBvaygiUHlZQU1MIOino+aekOmAmui/hyIpCiAgICBqb2JzID0gZG9jLmdldCgiam9icyIsIHt9KQogICAgc3RlcHMgPSBqb2JzLmdldCgiYnVpbGQiLCB7fSkuZ2V0KCJzdGVwcyIsIFtdKQogICAgb2soZiJqb2JzLmJ1aWxkLnN0ZXBzIOaVsOmHjyA9IHtsZW4oc3RlcHMpfSIpCiAgICBmb3IgcyBpbiBzdGVwczoKICAgICAgICBpZiAibmFtZSIgaW4gczoKICAgICAgICAgICAgcHJpbnQoZiIgICAgICAgICAtIHtzWyduYW1lJ119IikKICAgIGlmICJvbiIgbm90IGluIGRvYyBhbmQgVHJ1ZSBub3QgaW4gZG9jOgogICAgICAgIGVycigi57y65bCRIG9uOiDop6blj5HlmagiKQogICAgZWxzZToKICAgICAgICBvaygi5a2Y5ZyoIG9uOiDop6blj5HlmagiKQpleGNlcHQgSW1wb3J0RXJyb3I6CiAgICB3YXJuKCLmnKrlronoo4UgUHlZQU1M77yM5pS555So6KeE5YiZ5qOA5p+lIikKICAgIGlmICJcdCIgaW4geW1sOgogICAgICAgIGVycigiWUFNTCDlkKsgVGFiIOe8qei/m++8iFlBTUwg5LiN5YWB6K6477yJIikKICAgIGVsc2U6CiAgICAgICAgb2soIuaXoCBUYWIg57yp6L+bIikKICAgIGZvciBrZXkgaW4gWyJuYW1lOiIsICJvbjoiLCAiam9iczoiLCAicnVucy1vbjoiLCAic3RlcHM6IiwgIi0gbmFtZToiLCAidXNlczoiXToKICAgICAgICBpZiBrZXkgaW4geW1sOgogICAgICAgICAgICBvayhmIuWQq+WFs+mUruWtl+autSB7a2V5IXJ9IikKICAgICAgICBlbHNlOgogICAgICAgICAgICBlcnIoZiLnvLrlsJHlhbPplK7lrZfmrrUge2tleSFyfSIpCgpwcmludCgiXG49PSA0LiB3b3JrZmxvdyDlhbPplK7lkb3ku6Tmo4Dmn6UgPT0iKQptdXN0X2hhdmUgPSBbCiAgICAieGNvZGVnZW4gZ2VuZXJhdGUiLAogICAgIkNPREVfU0lHTklOR19BTExPV0VEPU5PIiwKICAgICJDT0RFX1NJR05JTkdfUkVRVUlSRUQ9Tk8iLAogICAgIi1zZGsgaXBob25lb3MiLAogICAgIl9Db2RlU2lnbmF0dXJlIiwKICAgICJlbWJlZGRlZC5tb2JpbGVwcm92aXNpb24iLAogICAgInppcCAtcXJ5IElQQVRlbXBsYXRlLXVuc2lnbmVkLmlwYSBQYXlsb2FkIiwKICAgICJhY3Rpb25zL3VwbG9hZC1hcnRpZmFjdEB2NCIsCl0KZm9yIG0gaW4gbXVzdF9oYXZlOgogICAgaWYgbSBpbiB5bWw6CiAgICAgICAgb2soZiLljIXlkKsge20hcn0iKQogICAgZWxzZToKICAgICAgICBlcnIoZiLnvLrlsJEge20hcn0iKQoKcHJpbnQoIlxuPT0gNS4gU3dpZnQg5rqQ56CB5Z+656GA5qOA5p+lID09IikKc3dpZnRfZmlsZXMgPSBbCiAgICAiSVBBVGVtcGxhdGUvSVBBVGVtcGxhdGVBcHAuc3dpZnQiLAogICAgIklQQVRlbXBsYXRlL0NvbnRlbnRWaWV3LnN3aWZ0IiwKICAgICJJUEFUZW1wbGF0ZS9EZXZpY2VJbmZvTW9kZWwuc3dpZnQiLAogICAgIklQQVRlbXBsYXRlL0luZm9Sb3cuc3dpZnQiLApdCmZvciByZWwgaW4gc3dpZnRfZmlsZXM6CiAgICBwID0gb3MucGF0aC5qb2luKFJPT1QsIHJlbCkKICAgIHNyYyA9IG9wZW4ocCwgInIiLCBlbmNvZGluZz0idXRmLTgiKS5yZWFkKCkKICAgIGlmICJAbWFpbiIgaW4gc3JjIGFuZCByZWwuZW5kc3dpdGgoIklQQVRlbXBsYXRlQXBwLnN3aWZ0Iik6CiAgICAgICAgb2soZiJ7cmVsfSDlkKsgQG1haW4g5YWl5Y+jIikKICAgIGlmIHNyYy5jb3VudCgieyIpICE9IHNyYy5jb3VudCgifSIpOgogICAgICAgIGVycihmIntyZWx9IOiKseaLrOWPt+S4jeWMuemFjToge3s9e3NyYy5jb3VudCgneycpfSB9fT17c3JjLmNvdW50KCd9Jyl9IikKICAgIGVsc2U6CiAgICAgICAgb2soZiJ7cmVsfSDoirHmi6zlj7fphY3lr7kgKHtzcmMuY291bnQoJ3snKX0g5a+5KSIpCiAgICBpZiBzcmMuY291bnQoIigiKSAhPSBzcmMuY291bnQoIikiKToKICAgICAgICBlcnIoZiJ7cmVsfSDlnIbmi6zlj7fkuI3ljLnphY06ICg9e3NyYy5jb3VudCgnKCcpfSApPXtzcmMuY291bnQoJyknKX0iKQogICAgZWxzZToKICAgICAgICBvayhmIntyZWx9IOWchuaLrOWPt+mFjeWvuSIpCiAgICBpZiAiaW1wb3J0IFN3aWZ0VUkiIG5vdCBpbiBzcmMgYW5kICJpbXBvcnQgVUlLaXQiIG5vdCBpbiBzcmMgYW5kICJpbXBvcnQgRm91bmRhdGlvbiIgbm90IGluIHNyYzoKICAgICAgICB3YXJuKGYie3JlbH0g5pegIGltcG9ydCDor63lj6UiKQogICAgIyDnpoHmraLkvb/nlKggaU9TIDE2KyBvbmx5IOeahCBOYXZpZ2F0aW9uU3RhY2vvvIjpg6jnvbLnm67moIcgMTUuMO+8iQogICAgaWYgIk5hdmlnYXRpb25TdGFjayIgaW4gc3JjOgogICAgICAgIGVycihmIntyZWx9IOS9v+eUqOS6hiBOYXZpZ2F0aW9uU3RhY2vvvIjpnIDopoEgaU9TIDE277yM6YOo572y55uu5qCH5pivIDE1LjDvvIkiKQogICAgZWxzZToKICAgICAgICBvayhmIntyZWx9IOacquS9v+eUqCBpT1MxNisg5LiT5bGeIEFQSSIpCgpwcmludCgiXG49PSA2LiBwcm9qZWN0LnltbCDmo4Dmn6UgPT0iKQpwID0gb3MucGF0aC5qb2luKFJPT1QsICJwcm9qZWN0LnltbCIpCnltbDIgPSBvcGVuKHAsICJyIiwgZW5jb2Rpbmc9InV0Zi04IikucmVhZCgpCmZvciBrZXkgaW4gWwogICAgIm5hbWU6IElQQVRlbXBsYXRlIiwKICAgICJ0eXBlOiBhcHBsaWNhdGlvbiIsCiAgICAicGxhdGZvcm06IGlPUyIsCiAgICAnZGVwbG95bWVudFRhcmdldDogIjE1LjAiJywKICAgICJQUk9EVUNUX0JVTkRMRV9JREVOVElGSUVSOiBkZXYuaXBhLnRvb2xib3giLAogICAgJ0NPREVfU0lHTklOR19BTExPV0VEOiAiTk8iJywKICAgICJHRU5FUkFURV9JTkZPUExJU1RfRklMRSIsCiAgICAiQVNTRVRDQVRBTE9HX0NPTVBJTEVSX0FQUElDT05fTkFNRTogQXBwSWNvbiIsCl06CiAgICBpZiBrZXkgaW4geW1sMjoKICAgICAgICBvayhmIuWQqyB7a2V5IXJ9IikKICAgIGVsc2U6CiAgICAgICAgZXJyKGYi57y65bCRIHtrZXkhcn0iKQoKcHJpbnQoIlxuPT0gNy4gUE5HIOWbvuagh+ajgOafpSA9PSIpCmltcG9ydCBzdHJ1Y3QKcCA9IG9zLnBhdGguam9pbihST09ULCAiSVBBVGVtcGxhdGUvQXNzZXRzLnhjYXNzZXRzL0FwcEljb24uYXBwaWNvbnNldC9pY29uXzEwMjQucG5nIikKZCA9IG9wZW4ocCwgInJiIikucmVhZCgpCmlmIGRbOjhdICE9IGIiXHg4OVBOR1xyXG5ceDFhXG4iOgogICAgZXJyKCJQTkcg562+5ZCN6ZSZ6K+vIikKZWxzZToKICAgIHcsIGgsIGJkLCBjdCA9IHN0cnVjdC51bnBhY2soIj5JSUJCIiwgZFsxNjoyNl0pCiAgICBpZiAodywgaCkgPT0gKDEwMjQsIDEwMjQpOgogICAgICAgIG9rKGYi5bC65a+4IDEwMjR4MTAyNCIpCiAgICBlbHNlOgogICAgICAgIGVycihmIuWwuuWvuOW6lOS4uiAxMDI0eDEwMjTvvIzlrp7pmYUge3d9eHtofSIpCiAgICBpZiBjdCA9PSAyOgogICAgICAgIG9rKCJjb2xvcnR5cGU9MiAo55yf5b2p6Imy77yM5pegIEFscGhh77yM56ym5ZCIIEFwcCBTdG9yZSDopoHmsYIpIikKICAgIGVsaWYgY3QgPT0gNjoKICAgICAgICB3YXJuKCJjb2xvcnR5cGU9NiDluKYgQWxwaGHvvIzpg6jliIbmnoTlu7rkvJrorablkYoiKQogICAgZWxzZToKICAgICAgICB3YXJuKGYiY29sb3J0eXBlPXtjdH0iKQoKcHJpbnQoIlxuIiArICI9IiAqIDU2KQppZiBlcnJvcnM6CiAgICBwcmludChmIue7k+aenDoge2xlbihlcnJvcnMpfSDkuKrplJnor68sIHtsZW4od2FybmluZ3MpfSDkuKrorablkYoiKQogICAgZm9yIGUgaW4gZXJyb3JzOgogICAgICAgIHByaW50KCIgIEZBSUw6IiwgZSkKICAgIHN5cy5leGl0KDEpCnByaW50KGYi57uT5p6cOiDlhajpg6jpgJrov4fvvIh7bGVuKHdhcm5pbmdzKX0g5Liq6K2m5ZGK77yJIikKZm9yIHcgaW4gd2FybmluZ3M6CiAgICBwcmludCgiICBXQVJOOiIsIHcpCg==
+#!/usr/bin/env python3
+"""工程自检：文件齐全性 + YAML/JSON 合法性 + Swift 基础检查。"""
+import json
+import os
+import re
+import sys
+
+ROOT = os.path.dirname(os.path.abspath(__file__))
+
+REQUIRED = [
+    ".github/workflows/build-ipa.yml",
+    "project.yml",
+    "README.md",
+    "build_ipa_local.sh",
+    "IPATemplate/IPATemplateApp.swift",
+    "IPATemplate/ContentView.swift",
+    "IPATemplate/DeviceInfoModel.swift",
+    "IPATemplate/InfoRow.swift",
+    "IPATemplate/Assets.xcassets/Contents.json",
+    "IPATemplate/Assets.xcassets/AppIcon.appiconset/Contents.json",
+    "IPATemplate/Assets.xcassets/AppIcon.appiconset/icon_1024.png",
+]
+
+errors = []
+warnings = []
+
+
+def ok(msg):
+    print(f"  [OK]   {msg}")
+
+
+def err(msg):
+    errors.append(msg)
+    print(f"  [FAIL] {msg}")
+
+
+def warn(msg):
+    warnings.append(msg)
+    print(f"  [WARN] {msg}")
+
+
+print("== 1. 文件齐全性 ==")
+for rel in REQUIRED:
+    p = os.path.join(ROOT, rel)
+    if os.path.isfile(p) and os.path.getsize(p) > 0:
+        ok(f"{rel}  ({os.path.getsize(p)} B)")
+    else:
+        err(f"缺失或为空: {rel}")
+
+print("\n== 2. JSON 合法性 ==")
+for rel in [
+    "IPATemplate/Assets.xcassets/Contents.json",
+    "IPATemplate/Assets.xcassets/AppIcon.appiconset/Contents.json",
+]:
+    p = os.path.join(ROOT, rel)
+    try:
+        with open(p, "rb") as f:
+            json.load(f)
+        ok(f"{rel} 解析通过")
+    except Exception as e:
+        err(f"{rel} JSON 错误: {e}")
+
+print("\n== 3. YAML 合法性（缩进/结构） ==")
+p = os.path.join(ROOT, ".github/workflows/build-ipa.yml")
+with open(p, "r", encoding="utf-8") as f:
+    yml = f.read()
+
+try:
+    import yaml  # type: ignore
+    with open(p, "r", encoding="utf-8") as f:
+        doc = yaml.safe_load(f)
+    ok("PyYAML 解析通过")
+    jobs = doc.get("jobs", {})
+    steps = jobs.get("build", {}).get("steps", [])
+    ok(f"jobs.build.steps 数量 = {len(steps)}")
+    for s in steps:
+        if "name" in s:
+            print(f"         - {s['name']}")
+    if "on" not in doc and True not in doc:
+        err("缺少 on: 触发器")
+    else:
+        ok("存在 on: 触发器")
+except ImportError:
+    warn("未安装 PyYAML，改用规则检查")
+    if "\t" in yml:
+        err("YAML 含 Tab 缩进（YAML 不允许）")
+    else:
+        ok("无 Tab 缩进")
+    for key in ["name:", "on:", "jobs:", "runs-on:", "steps:", "- name:", "uses:"]:
+        if key in yml:
+            ok(f"含关键字段 {key!r}")
+        else:
+            err(f"缺少关键字段 {key!r}")
+
+print("\n== 4. workflow 关键命令检查 ==")
+must_have = [
+    "xcodegen generate",
+    "CODE_SIGNING_ALLOWED=NO",
+    "CODE_SIGNING_REQUIRED=NO",
+    "-sdk iphoneos",
+    "_CodeSignature",
+    "embedded.mobileprovision",
+    "zip -qry IPATemplate-unsigned.ipa Payload",
+    "actions/upload-artifact@v4",
+]
+for m in must_have:
+    if m in yml:
+        ok(f"包含 {m!r}")
+    else:
+        err(f"缺少 {m!r}")
+
+print("\n== 5. Swift 源码基础检查 ==")
+swift_files = [
+    "IPATemplate/IPATemplateApp.swift",
+    "IPATemplate/ContentView.swift",
+    "IPATemplate/DeviceInfoModel.swift",
+    "IPATemplate/InfoRow.swift",
+]
+for rel in swift_files:
+    p = os.path.join(ROOT, rel)
+    src = open(p, "r", encoding="utf-8").read()
+    if "@main" in src and rel.endswith("IPATemplateApp.swift"):
+        ok(f"{rel} 含 @main 入口")
+    if src.count("{") != src.count("}"):
+        err(f"{rel} 花括号不匹配: {{={src.count('{')} }}={src.count('}')}")
+    else:
+        ok(f"{rel} 花括号配对 ({src.count('{')} 对)")
+    if src.count("(") != src.count(")"):
+        err(f"{rel} 圆括号不匹配: (={src.count('(')} )={src.count(')')}")
+    else:
+        ok(f"{rel} 圆括号配对")
+    if "import SwiftUI" not in src and "import UIKit" not in src and "import Foundation" not in src:
+        warn(f"{rel} 无 import 语句")
+    # 禁止使用 iOS 16+ only 的 NavigationStack（部署目标 15.0）
+    if "NavigationStack" in src:
+        err(f"{rel} 使用了 NavigationStack（需要 iOS 16，部署目标是 15.0）")
+    else:
+        ok(f"{rel} 未使用 iOS16+ 专属 API")
+
+print("\n== 6. project.yml 检查 ==")
+p = os.path.join(ROOT, "project.yml")
+yml2 = open(p, "r", encoding="utf-8").read()
+for key in [
+    "name: IPATemplate",
+    "type: application",
+    "platform: iOS",
+    'deploymentTarget: "15.0"',
+    "PRODUCT_BUNDLE_IDENTIFIER: dev.ipa.toolbox",
+    'CODE_SIGNING_ALLOWED: "NO"',
+    "GENERATE_INFOPLIST_FILE",
+    "ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon",
+]:
+    if key in yml2:
+        ok(f"含 {key!r}")
+    else:
+        err(f"缺少 {key!r}")
+
+print("\n== 7. PNG 图标检查 ==")
+import struct
+p = os.path.join(ROOT, "IPATemplate/Assets.xcassets/AppIcon.appiconset/icon_1024.png")
+d = open(p, "rb").read()
+if d[:8] != b"\x89PNG\r\n\x1a\n":
+    err("PNG 签名错误")
+else:
+    w, h, bd, ct = struct.unpack(">IIBB", d[16:26])
+    if (w, h) == (1024, 1024):
+        ok(f"尺寸 1024x1024")
+    else:
+        err(f"尺寸应为 1024x1024，实际 {w}x{h}")
+    if ct == 2:
+        ok("colortype=2 (真彩色，无 Alpha，符合 App Store 要求)")
+    elif ct == 6:
+        warn("colortype=6 带 Alpha，部分构建会警告")
+    else:
+        warn(f"colortype={ct}")
+
+print("\n" + "=" * 56)
+if errors:
+    print(f"结果: {len(errors)} 个错误, {len(warnings)} 个警告")
+    for e in errors:
+        print("  FAIL:", e)
+    sys.exit(1)
+print(f"结果: 全部通过（{len(warnings)} 个警告）")
+for w in warnings:
+    print("  WARN:", w)

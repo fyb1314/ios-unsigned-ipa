@@ -1,1 +1,65 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwojIC0qLSBjb2Rpbmc6IHV0Zi04IC0qLQoiIiIKdXBkYXRlX2ljb24ucHkg4oCUIOeUqOS7u+aEj+WbvueJh+abtOaWsCBBcHAg5Zu+5qCHCgrnlKjms5U6IHB5dGhvbiB1cGRhdGVfaWNvbi5weSDlm77niYfot6/lvoQgWy0tc2l6ZSAxMDI0XQoK5YGa55qE5LqL77yaCiAgMS4g5Lit5b+D6KOB5Ymq5oiQ5q2j5pa55b2iCiAgMi4g57yp5pS+5Yiw5oyH5a6a5bC65a+477yI6buY6K6kIDEwMjTvvIkKICAzLiDljrvmjokgQWxwaGEg6YCa6YGT77yIQXBwIFN0b3JlIOimgeaxguWbvuagh+S4jemAj+aYju+8iQogIDQuIOWGmeWHuiBpY29uXzEwMjQucG5n77yI5pys5ZywL+aehOW7uueUqO+8ieWSjCBpY29uXzEwMjQuYjY077yI5LuT5bqT6YeM5a2Y55qEIGJhc2U2NCDmlofmnKzniYjvvIkKCuS+nei1ljogcGlwIGluc3RhbGwgcGlsbG93CiIiIgppbXBvcnQgYXJncGFyc2UKaW1wb3J0IGJhc2U2NAppbXBvcnQgb3MKaW1wb3J0IHN5cwoKUk9PVCA9IG9zLnBhdGguZGlybmFtZShvcy5wYXRoLmFic3BhdGgoX19maWxlX18pKQpJQ09OX0RJUiA9IG9zLnBhdGguam9pbihST09ULCAiSVBBVGVtcGxhdGUiLCAiQXNzZXRzLnhjYXNzZXRzIiwgIkFwcEljb24uYXBwaWNvbnNldCIpCgoKZGVmIG1haW4oKToKICAgIGFwID0gYXJncGFyc2UuQXJndW1lbnRQYXJzZXIoZGVzY3JpcHRpb249IuabtOaWsCBBcHAg5Zu+5qCHIikKICAgIGFwLmFkZF9hcmd1bWVudCgiaW1hZ2UiLCBoZWxwPSLmupDlm77niYfot6/lvoTvvIhqcGcvcG5nIOetie+8iSIpCiAgICBhcC5hZGRfYXJndW1lbnQoIi0tc2l6ZSIsIHR5cGU9aW50LCBkZWZhdWx0PTEwMjQsIGhlbHA9Iui+k+WHuui+uemVv++8jOm7mOiupCAxMDI0IikKICAgIGFyZ3MgPSBhcC5wYXJzZV9hcmdzKCkKCiAgICB0cnk6CiAgICAgICAgZnJvbSBQSUwgaW1wb3J0IEltYWdlCiAgICBleGNlcHQgSW1wb3J0RXJyb3I6CiAgICAgICAgc3lzLmV4aXQoIue8uuWwkSBQaWxsb3fvvIzor7flhYjmiafooYw6IHBpcCBpbnN0YWxsIHBpbGxvdyIpCgogICAgaWYgbm90IG9zLnBhdGguaXNmaWxlKGFyZ3MuaW1hZ2UpOgogICAgICAgIHN5cy5leGl0KCLmib7kuI3liLDlm77niYc6ICIgKyBhcmdzLmltYWdlKQoKICAgIHNyYyA9IEltYWdlLm9wZW4oYXJncy5pbWFnZSkKICAgIHByaW50KCLmupDlm746ICVkeCVkICVzIiAlIChzcmMud2lkdGgsIHNyYy5oZWlnaHQsIHNyYy5tb2RlKSkKCiAgICB3LCBoID0gc3JjLnNpemUKICAgIHNpZGUgPSBtaW4odywgaCkKICAgIGxlZnQsIHRvcCA9ICh3IC0gc2lkZSkgLy8gMiwgKGggLSBzaWRlKSAvLyAyCiAgICBpbWcgPSBzcmMuY3JvcCgobGVmdCwgdG9wLCBsZWZ0ICsgc2lkZSwgc2lkZSkpCiAgICBpbWcgPSBpbWcucmVzaXplKChhcmdzLnNpemUsIGFyZ3Muc2l6ZSksIEltYWdlLkxBTkNaT1MpLmNvbnZlcnQoIlJHQiIpCgogICAgb3MubWFrZWRpcnMoSUNPTl9ESVIsIGV4aXN0X29rPVRydWUpCiAgICBwbmcgPSBvcy5wYXRoLmpvaW4oSUNPTl9ESVIsICJpY29uXzEwMjQucG5nIikKICAgIGltZy5zYXZlKHBuZywgIlBORyIsIG9wdGltaXplPVRydWUpCgogICAgZGF0YSA9IG9wZW4ocG5nLCAicmIiKS5yZWFkKCkKICAgIGI2NCA9IGJhc2U2NC5iNjRlbmNvZGUoZGF0YSkuZGVjb2RlKCJhc2NpaSIpCiAgICBsaW5lcyA9IFtiNjRbaTppICsgNzZdIGZvciBpIGluIHJhbmdlKDAsIGxlbihiNjQpLCA3NildCiAgICB3aXRoIG9wZW4ob3MucGF0aC5qb2luKElDT05fRElSLCAiaWNvbl8xMDI0LmI2NCIpLCAidyIsIGVuY29kaW5nPSJhc2NpaSIpIGFzIGY6CiAgICAgICAgZi53cml0ZSgiXG4iLmpvaW4obGluZXMpICsgIlxuIikKCiAgICBwcmludCgi5bey5YaZ5Ye6OiAlcyAoJWQgYnl0ZXMpIiAlIChwbmcsIGxlbihkYXRhKSkpCiAgICBwcmludCgi5bey5YaZ5Ye6OiAlcyAoJWQgYnl0ZXMpIiAlIChvcy5wYXRoLmpvaW4oSUNPTl9ESVIsICJpY29uXzEwMjQuYjY0IiksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9zLnBhdGguZ2V0c2l6ZShvcy5wYXRoLmpvaW4oSUNPTl9ESVIsICJpY29uXzEwMjQuYjY0IikpKSkKICAgIHByaW50KCLlm77moIfmm7TmlrDlrozmiJDjgILmj5DkuqTlkI4gQ0kg5Lya6Ieq5Yqo55So5paw5Zu+5qCH5p6E5bu644CCIikKCgppZiBfX25hbWVfXyA9PSAiX19tYWluX18iOgogICAgbWFpbigpCg==
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+update_icon.py — 用任意图片更新 App 图标
+
+用法: python update_icon.py 图片路径 [--size 1024]
+
+做的事：
+  1. 中心裁剪成正方形
+  2. 缩放到指定尺寸（默认 1024）
+  3. 去掉 Alpha 通道（App Store 要求图标不透明）
+  4. 写出 icon_1024.png（本地/构建用）和 icon_1024.b64（仓库里存的 base64 文本版）
+
+依赖: pip install pillow
+"""
+import argparse
+import base64
+import os
+import sys
+
+ROOT = os.path.dirname(os.path.abspath(__file__))
+ICON_DIR = os.path.join(ROOT, "IPATemplate", "Assets.xcassets", "AppIcon.appiconset")
+
+
+def main():
+    ap = argparse.ArgumentParser(description="更新 App 图标")
+    ap.add_argument("image", help="源图片路径（jpg/png 等）")
+    ap.add_argument("--size", type=int, default=1024, help="输出边长，默认 1024")
+    args = ap.parse_args()
+
+    try:
+        from PIL import Image
+    except ImportError:
+        sys.exit("缺少 Pillow，请先执行: pip install pillow")
+
+    if not os.path.isfile(args.image):
+        sys.exit("找不到图片: " + args.image)
+
+    src = Image.open(args.image)
+    print("源图: %dx%d %s" % (src.width, src.height, src.mode))
+
+    w, h = src.size
+    side = min(w, h)
+    left, top = (w - side) // 2, (h - side) // 2
+    img = src.crop((left, top, left + side, side))
+    img = img.resize((args.size, args.size), Image.LANCZOS).convert("RGB")
+
+    os.makedirs(ICON_DIR, exist_ok=True)
+    png = os.path.join(ICON_DIR, "icon_1024.png")
+    img.save(png, "PNG", optimize=True)
+
+    data = open(png, "rb").read()
+    b64 = base64.b64encode(data).decode("ascii")
+    lines = [b64[i:i + 76] for i in range(0, len(b64), 76)]
+    with open(os.path.join(ICON_DIR, "icon_1024.b64"), "w", encoding="ascii") as f:
+        f.write("\n".join(lines) + "\n")
+
+    print("已写出: %s (%d bytes)" % (png, len(data)))
+    print("已写出: %s (%d bytes)" % (os.path.join(ICON_DIR, "icon_1024.b64"),
+                                    os.path.getsize(os.path.join(ICON_DIR, "icon_1024.b64"))))
+    print("图标更新完成。提交后 CI 会自动用新图标构建。")
+
+
+if __name__ == "__main__":
+    main()

@@ -1,1 +1,81 @@
-aW1wb3J0IFN3aWZ0VUkKCnN0cnVjdCBDb250ZW50VmlldzogVmlldyB7CiAgICBAU3RhdGVPYmplY3QgcHJpdmF0ZSB2YXIgbW9kZWwgPSBEZXZpY2VJbmZvTW9kZWwoKQogICAgQFN0YXRlIHByaXZhdGUgdmFyIHNob3dDb3BpZWRIaW50ID0gZmFsc2UKCiAgICB2YXIgYm9keTogc29tZSBWaWV3IHsKICAgICAgICBOYXZpZ2F0aW9uVmlldyB7CiAgICAgICAgICAgIExpc3QgewogICAgICAgICAgICAgICAgRm9yRWFjaChtb2RlbC5zZWN0aW9ucykgeyBzZWN0aW9uIGluCiAgICAgICAgICAgICAgICAgICAgU2VjdGlvbiB7CiAgICAgICAgICAgICAgICAgICAgICAgIEZvckVhY2goc2VjdGlvbi5pdGVtcykgeyBpdGVtIGluCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBJbmZvUm93KGxhYmVsOiBpdGVtLmxhYmVsLCB2YWx1ZTogaXRlbS52YWx1ZSkKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0gaGVhZGVyOiB7CiAgICAgICAgICAgICAgICAgICAgICAgIFRleHQoc2VjdGlvbi50aXRsZSkKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgU2VjdGlvbiB7CiAgICAgICAgICAgICAgICAgICAgVlN0YWNrKGFsaWdubWVudDogLmxlYWRpbmcsIHNwYWNpbmc6IDEwKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIExhYmVsKCLmnKzlt6Xlhbflj6ror7vlj5borr7lpIflhazlvIDkv6Hmga/vvIzkuI3ogZTnvZHjgIHkuI3kuIrkvKDku7vkvZXmlbDmja7jgIIiLCBzeXN0ZW1JbWFnZTogImxvY2suc2hpZWxkIikKICAgICAgICAgICAgICAgICAgICAgICAgTGFiZWwoIuS/ruaUuSBCdW5kbGUgSUTjgIHniYjmnKzlj7for7fnvJbovpHlt6XnqIvlkI7ph43mlrDmnoTlu7rjgIIiLCBzeXN0ZW1JbWFnZTogImhhbW1lciIpCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIC5mb250KC5mb290bm90ZSkKICAgICAgICAgICAgICAgICAgICAuZm9yZWdyb3VuZENvbG9yKC5zZWNvbmRhcnkpCiAgICAgICAgICAgICAgICAgICAgLnBhZGRpbmcoLnZlcnRpY2FsLCA0KQogICAgICAgICAgICAgICAgfSBoZWFkZXI6IHsKICAgICAgICAgICAgICAgICAgICBUZXh0KCLlhbPkuo4iKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgICAgIC5saXN0U3R5bGUoLmluc2V0R3JvdXBlZCkKICAgICAgICAgICAgLm5hdmlnYXRpb25UaXRsZSgi5YG25bCU55qEUElB5bel5YW3IikKICAgICAgICAgICAgLnRvb2xiYXIgewogICAgICAgICAgICAgICAgVG9vbGJhckl0ZW0ocGxhY2VtZW50OiAubmF2aWdhdGlvbkJhclRyYWlsaW5nKSB7CiAgICAgICAgICAgICAgICAgICAgQnV0dG9uIHsKICAgICAgICAgICAgICAgICAgICAgICAgbW9kZWwucmVsb2FkKCkKICAgICAgICAgICAgICAgICAgICB9IGxhYmVsOiB7CiAgICAgICAgICAgICAgICAgICAgICAgIEltYWdlKHN5c3RlbU5hbWU6ICJhcnJvdy5jbG9ja3dpc2UiKQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAuYWNjZXNzaWJpbGl0eUxhYmVsKCLliLfmlrAiKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgVG9vbGJhckl0ZW0ocGxhY2VtZW50OiAubmF2aWdhdGlvbkJhckxlYWRpbmcpIHsKICAgICAgICAgICAgICAgICAgICBCdXR0b24gewogICAgICAgICAgICAgICAgICAgICAgICBjb3B5UmVwb3J0KCkKICAgICAgICAgICAgICAgICAgICB9IGxhYmVsOiB7CiAgICAgICAgICAgICAgICAgICAgICAgIEltYWdlKHN5c3RlbU5hbWU6ICJkb2Mub24uZG9jIikKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgLmFjY2Vzc2liaWxpdHlMYWJlbCgi5aSN5Yi25oql5ZGKIikKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgICAgICAub3ZlcmxheShhbGlnbm1lbnQ6IC5ib3R0b20pIHsKICAgICAgICAgICAgICAgIGlmIHNob3dDb3BpZWRIaW50IHsKICAgICAgICAgICAgICAgICAgICBUZXh0KCLmiqXlkYrlt7LlpI3liLbliLDliarotLTmnb8iKQogICAgICAgICAgICAgICAgICAgICAgICAuZm9udCguZm9vdG5vdGUpCiAgICAgICAgICAgICAgICAgICAgICAgIC5wYWRkaW5nKC5ob3Jpem9udGFsLCAxNCkKICAgICAgICAgICAgICAgICAgICAgICAgLnBhZGRpbmcoLnZlcnRpY2FsLCA4KQogICAgICAgICAgICAgICAgICAgICAgICAuYmFja2dyb3VuZCgudWx0cmFUaGluTWF0ZXJpYWwsIGluOiBDYXBzdWxlKCkpCiAgICAgICAgICAgICAgICAgICAgICAgIC5wYWRkaW5nKC5ib3R0b20sIDEyKQogICAgICAgICAgICAgICAgICAgICAgICAudHJhbnNpdGlvbigubW92ZShlZGdlOiAuYm90dG9tKS5jb21iaW5lZCh3aXRoOiAub3BhY2l0eSkpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICAgICAgLmFuaW1hdGlvbiguZWFzZUluT3V0KGR1cmF0aW9uOiAwLjIpLCB2YWx1ZTogc2hvd0NvcGllZEhpbnQpCiAgICAgICAgfQogICAgICAgIC5uYXZpZ2F0aW9uVmlld1N0eWxlKC5zdGFjaykKICAgIH0KCiAgICBwcml2YXRlIGZ1bmMgY29weVJlcG9ydCgpIHsKICAgICAgICBVSVBhc3RlYm9hcmQuZ2VuZXJhbC5zdHJpbmcgPSBtb2RlbC5wbGFpblRleHRSZXBvcnQoKQogICAgICAgIHNob3dDb3BpZWRIaW50ID0gdHJ1ZQogICAgICAgIERpc3BhdGNoUXVldWUubWFpbi5hc3luY0FmdGVyKGRlYWRsaW5lOiAubm93KCkgKyAxLjYpIHsKICAgICAgICAgICAgc2hvd0NvcGllZEhpbnQgPSBmYWxzZQogICAgICAgIH0KICAgIH0KfQoKc3RydWN0IENvbnRlbnRWaWV3X1ByZXZpZXdzOiBQcmV2aWV3UHJvdmlkZXIgewogICAgc3RhdGljIHZhciBwcmV2aWV3czogc29tZSBWaWV3IHsKICAgICAgICBDb250ZW50VmlldygpCiAgICB9Cn0K
+import SwiftUI
+
+struct ContentView: View {
+    @StateObject private var model = DeviceInfoModel()
+    @State private var showCopiedHint = false
+
+    var body: some View {
+        NavigationView {
+            List {
+                ForEach(model.sections) { section in
+                    Section {
+                        ForEach(section.items) { item in
+                            InfoRow(label: item.label, value: item.value)
+                        }
+                    } header: {
+                        Text(section.title)
+                    }
+                }
+
+                Section {
+                    VStack(alignment: .leading, spacing: 10) {
+                        Label("本工具只读取设备公开信息，不联网、不上传任何数据。", systemImage: "lock.shield")
+                        Label("修改 Bundle ID、版本号请编辑工程后重新构建。", systemImage: "hammer")
+                    }
+                    .font(.footnote)
+                    .foregroundColor(.secondary)
+                    .padding(.vertical, 4)
+                } header: {
+                    Text("关于")
+                }
+            }
+            .listStyle(.insetGrouped)
+            .navigationTitle("偶尔的PIA工具")
+            .toolbar {
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    Button {
+                        model.reload()
+                    } label: {
+                        Image(systemName: "arrow.clockwise")
+                    }
+                    .accessibilityLabel("刷新")
+                }
+                ToolbarItem(placement: .navigationBarLeading) {
+                    Button {
+                        copyReport()
+                    } label: {
+                        Image(systemName: "doc.on.doc")
+                    }
+                    .accessibilityLabel("复制报告")
+                }
+            }
+            .overlay(alignment: .bottom) {
+                if showCopiedHint {
+                    Text("报告已复制到剪贴板")
+                        .font(.footnote)
+                        .padding(.horizontal, 14)
+                        .padding(.vertical, 8)
+                        .background(.ultraThinMaterial, in: Capsule())
+                        .padding(.bottom, 12)
+                        .transition(.move(edge: .bottom).combined(with: .opacity))
+                }
+            }
+            .animation(.easeInOut(duration: 0.2), value: showCopiedHint)
+        }
+        .navigationViewStyle(.stack)
+    }
+
+    private func copyReport() {
+        UIPasteboard.general.string = model.plainTextReport()
+        showCopiedHint = true
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1.6) {
+            showCopiedHint = false
+        }
+    }
+}
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
+}

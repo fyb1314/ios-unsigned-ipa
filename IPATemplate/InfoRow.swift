@@ -1,1 +1,19 @@
-aW1wb3J0IFN3aWZ0VUkKCnN0cnVjdCBJbmZvUm93OiBWaWV3IHsKICAgIGxldCBsYWJlbDogU3RyaW5nCiAgICBsZXQgdmFsdWU6IFN0cmluZwoKICAgIHZhciBib2R5OiBzb21lIFZpZXcgewogICAgICAgIEhTdGFjayhhbGlnbm1lbnQ6IC50b3AsIHNwYWNpbmc6IDEyKSB7CiAgICAgICAgICAgIFRleHQobGFiZWwpCiAgICAgICAgICAgICAgICAuZm9yZWdyb3VuZENvbG9yKC5zZWNvbmRhcnkpCiAgICAgICAgICAgICAgICAuZnJhbWUobWluV2lkdGg6IDg4LCBhbGlnbm1lbnQ6IC5sZWFkaW5nKQogICAgICAgICAgICBTcGFjZXIobWluTGVuZ3RoOiA4KQogICAgICAgICAgICBUZXh0KHZhbHVlKQogICAgICAgICAgICAgICAgLm11bHRpbGluZVRleHRBbGlnbm1lbnQoLnRyYWlsaW5nKQogICAgICAgICAgICAgICAgLnRleHRTZWxlY3Rpb24oLmVuYWJsZWQpCiAgICAgICAgfQogICAgICAgIC5wYWRkaW5nKC52ZXJ0aWNhbCwgMykKICAgIH0KfQo=
+import SwiftUI
+
+struct InfoRow: View {
+    let label: String
+    let value: String
+
+    var body: some View {
+        HStack(alignment: .top, spacing: 12) {
+            Text(label)
+                .foregroundColor(.secondary)
+                .frame(minWidth: 88, alignment: .leading)
+            Spacer(minLength: 8)
+            Text(value)
+                .multilineTextAlignment(.trailing)
+                .textSelection(.enabled)
+        }
+        .padding(.vertical, 3)
+    }
+}
