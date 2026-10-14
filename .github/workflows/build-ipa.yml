@@ -111,6 +111,34 @@ jobs:
             ENABLE_BITCODE=NO \
             clean build 2>&1 | tee build.log
 
+      # 云更新靠 CFBundleVersion（build 号）判断新旧，服务端会拒绝 build 号
+      # 没变大的发布。project.yml 里把它写死成了 "1"，不处理的话每次 CI 打出来
+      # 都是 1，第一次发布之后就再也发不出新版了。
+      # 这里在打包前用 run_number 覆盖：它在本仓库本工作流内单调递增，
+      # 正好满足「每跑一次 CI 就大一号」。
+      # 注意：本 job 全程 CODE_SIGNING_ALLOWED=NO，改动 Info.plist 不会破坏签名；
+      # 真正的签名在服务端用 zsign 做。
+      - name: Stamp build number
+        run: |
+          set -euo pipefail
+          APP_DIR="build/Build/Products/${{ inputs.configuration || 'Release' }}-iphoneos/IPATemplate.app"
+          test -d "$APP_DIR" || { echo "ERROR: $APP_DIR not found"; exit 1; }
+
+          BUILD_NUM="${{ github.run_number }}"
+
+          # 打了 v1.2.3 这种 tag 时，顺手把展示版本号也对上
+          SHORT_VER="1.0.0"
+          if [[ "${GITHUB_REF:-}" == refs/tags/v* ]]; then
+            SHORT_VER="${GITHUB_REF#refs/tags/v}"
+          fi
+
+          /usr/libexec/PlistBuddy -c "Set :CFBundleVersion ${BUILD_NUM}" "$APP_DIR/Info.plist"
+          /usr/libexec/PlistBuddy -c "Set :CFBundleShortVersionString ${SHORT_VER}" "$APP_DIR/Info.plist"
+
+          echo "CFBundleVersion          = $(/usr/libexec/PlistBuddy -c 'Print :CFBundleVersion' "$APP_DIR/Info.plist")"
+          echo "CFBundleShortVersionString = $(/usr/libexec/PlistBuddy -c 'Print :CFBundleShortVersionString' "$APP_DIR/Info.plist")"
+          echo "BUILD_NUM=${BUILD_NUM}" >> "$GITHUB_ENV"
+
       - name: Package unsigned IPA
         run: |
           set -euo pipefail
@@ -197,10 +225,21 @@ jobs:
           if [ "${{ job.status }}" = "success" ]; then
             IPA_SIZE=$(stat -f%z IPATemplate-unsigned.ipa 2>/dev/null || echo 0)
             IPA_SHA=$(shasum -a 256 IPATemplate-unsigned.ipa 2>/dev/null | cut -d' ' -f1)
+            IPA_BUILD=$(unzip -p IPATemplate-unsigned.ipa Payload/IPATemplate.app/Info.plist \
+              | plutil -extract CFBundleVersion raw -o - - 2>/dev/null || echo "?")
+            IPA_VER=$(unzip -p IPATemplate-unsigned.ipa Payload/IPATemplate.app/Info.plist \
+              | plutil -extract CFBundleShortVersionString raw -o - - 2>/dev/null || echo "?")
             gh issue create --title "✅ 构建成功 · 未签名 IPA 已就绪" --body "运行记录：${RUN_URL}
 
           IPA 大小：${IPA_SIZE} 字节
           IPA SHA256：${IPA_SHA}
+          版本：${IPA_VER}（build ${IPA_BUILD}）
+
+          发布到线上（让客户端收到更新提示）：
+          \`\`\`
+          python publish_update.py IPATemplate-unsigned.ipa --notes \"更新说明\"
+          \`\`\`
+          build 号必须比线上已发布的大，否则服务端会拒绝。
 
           获取方式：
           - Artifact：运行记录底部下载 IPATemplate-unsigned-ipa

@@ -14,8 +14,15 @@ REQUIRED = [
     "build_ipa_local.sh",
     "IPATemplate/IPATemplateApp.swift",
     "IPATemplate/ContentView.swift",
-    "IPATemplate/DeviceInfoModel.swift",
-    "IPATemplate/InfoRow.swift",
+    # 签名工具改造后新增的模块（原来是设备信息页的 DeviceInfoModel / InfoRow，已移除）
+    "IPATemplate/SignView.swift",
+    "IPATemplate/InspectView.swift",
+    "IPATemplate/SettingsView.swift",
+    "IPATemplate/Inspector.swift",
+    "IPATemplate/ZipReader.swift",
+    "IPATemplate/Backend.swift",
+    "IPATemplate/Theme.swift",
+    "IPATemplate/Components.swift",
     "IPATemplate/Assets.xcassets/Contents.json",
     "IPATemplate/Assets.xcassets/AppIcon.appiconset/Contents.json",
     "IPATemplate/Assets.xcassets/AppIcon.appiconset/icon_1024.png",
@@ -110,12 +117,11 @@ for m in must_have:
         err(f"缺少 {m!r}")
 
 print("\n== 5. Swift 源码基础检查 ==")
-swift_files = [
-    "IPATemplate/IPATemplateApp.swift",
-    "IPATemplate/ContentView.swift",
-    "IPATemplate/DeviceInfoModel.swift",
-    "IPATemplate/InfoRow.swift",
-]
+# 动态扫描，别写死文件名 —— 之前写死导致删掉 DeviceInfoModel/InfoRow 后这里直接崩溃
+_src_dir = os.path.join(ROOT, "IPATemplate")
+swift_files = sorted(
+    "IPATemplate/" + f for f in os.listdir(_src_dir) if f.endswith(".swift")
+)
 for rel in swift_files:
     p = os.path.join(ROOT, rel)
     src = open(p, "r", encoding="utf-8").read()

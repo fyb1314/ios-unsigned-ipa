@@ -1,75 +1,54 @@
 import SwiftUI
 
+// MARK: - 根视图：签名 / 检查 / 设置
+
 struct ContentView: View {
-    @StateObject private var model = DeviceInfoModel()
-    @State private var showCopiedHint = false
+    @State private var tab: Tab = .sign
+    @StateObject private var updateCenter = UpdateCenter()
 
-    var body: some View {
-        NavigationView {
-            List {
-                ForEach(model.sections) { section in
-                    Section {
-                        ForEach(section.items) { item in
-                            InfoRow(label: item.label, value: item.value)
-                        }
-                    } header: {
-                        Text(section.title)
-                    }
-                }
+    enum Tab: String, Hashable {
+        case sign = "签名"
+        case inspect = "检查"
+        case settings = "设置"
 
-                Section {
-                    VStack(alignment: .leading, spacing: 10) {
-                        Label("本工具只读取设备公开信息，不联网、不上传任何数据。", systemImage: "lock.shield")
-                        Label("修改 Bundle ID、版本号请编辑工程后重新构建。", systemImage: "hammer")
-                    }
-                    .font(.footnote)
-                    .foregroundColor(.secondary)
-                    .padding(.vertical, 4)
-                } header: {
-                    Text("关于")
-                }
+        var icon: String {
+            switch self {
+            case .sign: return "signature"
+            case .inspect: return "doc.text.magnifyingglass"
+            case .settings: return "gearshape"
             }
-            .listStyle(.insetGrouped)
-            .navigationTitle("偶尔的PIA工具")
-            .toolbar {
-                ToolbarItem(placement: .navigationBarTrailing) {
-                    Button {
-                        model.reload()
-                    } label: {
-                        Image(systemName: "arrow.clockwise")
-                    }
-                    .accessibilityLabel("刷新")
-                }
-                ToolbarItem(placement: .navigationBarLeading) {
-                    Button {
-                        copyReport()
-                    } label: {
-                        Image(systemName: "doc.on.doc")
-                    }
-                    .accessibilityLabel("复制报告")
-                }
-            }
-            .overlay(alignment: .bottom) {
-                if showCopiedHint {
-                    Text("报告已复制到剪贴板")
-                        .font(.footnote)
-                        .padding(.horizontal, 14)
-                        .padding(.vertical, 8)
-                        .background(.ultraThinMaterial, in: Capsule())
-                        .padding(.bottom, 12)
-                        .transition(.move(edge: .bottom).combined(with: .opacity))
-                }
-            }
-            .animation(.easeInOut(duration: 0.2), value: showCopiedHint)
         }
-        .navigationViewStyle(.stack)
     }
 
-    private func copyReport() {
-        UIPasteboard.general.string = model.plainTextReport()
-        showCopiedHint = true
-        DispatchQueue.main.asyncAfter(deadline: .now() + 1.6) {
-            showCopiedHint = false
+    var body: some View {
+        TabView(selection: $tab) {
+            NavigationView { SignView() }
+                .navigationViewStyle(.stack)
+                .tabItem {
+                    Label(Tab.sign.rawValue, systemImage: Tab.sign.icon)
+                }
+                .tag(Tab.sign)
+
+            NavigationView { InspectView() }
+                .navigationViewStyle(.stack)
+                .tabItem {
+                    Label(Tab.inspect.rawValue, systemImage: Tab.inspect.icon)
+                }
+                .tag(Tab.inspect)
+
+            NavigationView { SettingsView() }
+                .navigationViewStyle(.stack)
+                .tabItem {
+                    Label(Tab.settings.rawValue, systemImage: Tab.settings.icon)
+                }
+                .tag(Tab.settings)
+        }
+        .accentColor(Palette.brandBottom)
+        .environmentObject(updateCenter)
+        // 启动静默查一次（内部有 6 小时节流 + 跳过版本记忆，不会反复打扰）
+        .task { await updateCenter.checkOnLaunch() }
+        .sheet(isPresented: $updateCenter.showSheet) {
+            UpdateSheet(center: updateCenter)
         }
     }
 }
@@ -77,5 +56,7 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            .environmentObject(AppSettings())
+            .environmentObject(UpdateCenter())
     }
 }
