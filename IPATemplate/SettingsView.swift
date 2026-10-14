@@ -47,13 +47,11 @@ struct SettingsView: View {
 
     private var stepsCard: some View {
         VStack(alignment: .leading, spacing: 10) {
-            CardTitle(icon: "list.number", title: "首次使用三步",
-                      subtitle: "顺序不能颠倒，否则 iOS 会拒绝连接")
-            StepRow(index: "1", title: "安装根证书",
-                    detail: "点下面的按钮，用 Safari 打开并安装描述文件；然后到「设置 → 通用 → 关于本机 → 证书信任设置」里把开关打开。")
-            StepRow(index: "2", title: "登记本机 UDID",
+            CardTitle(icon: "list.number", title: "首次使用两步",
+                      subtitle: "服务器已启用公开可信证书，无需安装根证书")
+            StepRow(index: "1", title: "登记本机 UDID",
                     detail: "安装 UDID 描述文件，设备会自动把真实 UDID 报给服务器。App 自身读不到 UDID，必须走这一步。")
-            StepRow(index: "3", title: "登录 Apple ID 开始签名",
+            StepRow(index: "2", title: "登录 Apple ID 开始签名",
                     detail: "建议用一个不绑卡、无余额的专用免费 Apple ID。")
         }
         .padding(Metrics.paddingCard)
@@ -98,14 +96,12 @@ struct SettingsView: View {
 
     private var deviceCard: some View {
         VStack(alignment: .leading, spacing: 10) {
-            CardTitle(icon: "iphone", title: "本机与证书",
-                      subtitle: "UDID 与根证书都在这安装")
+            CardTitle(icon: "iphone", title: "本机",
+                      subtitle: "登记 UDID 后服务端才能给你发描述文件")
 
-            SecondaryButton("安装根证书（Safari）", icon: "lock.shield") {
-                open(URL(string: "https://3.148.102.133/ca.mobileconfig"))
-            }
+            // 地址跟随「服务地址」设置，不要写死——服务器换了域名时这里不用改。
             SecondaryButton("登记本机 UDID（Safari）", icon: "number") {
-                open(URL(string: "https://3.148.102.133/idsign/udid.mobileconfig"))
+                open(URL(string: settings.baseURL + "/udid.mobileconfig"))
             }
 
             if let us = state?.udids, !us.isEmpty {

@@ -3,8 +3,16 @@ import SwiftUI
 
 // MARK: - 配置
 
+enum Defaults {
+    /// 走 sslip.io 免费解析的域名，由 Let's Encrypt 签发公开可信证书。
+    /// 不要改回裸 IP：iOS 的 Profile Service（UDID 描述文件）走的是 MDM 级
+    /// 信任校验，自签证书即使装了根证书也必须手动开「完全信任」，否则报
+    /// 「MDM服务器证书无效」。用公开证书域名则完全不需要这一步。
+    static let base = "https://3-148-102-133.sslip.io/idsign"
+}
+
 final class AppSettings: ObservableObject {
-    @AppStorage("srv.base") var base: String = "https://3.148.102.133/idsign"
+    @AppStorage("srv.base") var base: String = Defaults.base
     @AppStorage("srv.idtoken") var idToken: String = "pia-id-jnk25m3qhggws3iv"
     @AppStorage("srv.otatoken") var otaToken: String = "pia-ota-ahwwurtqt7ubfw2u"
     @AppStorage("sign.appleid") var appleId: String = ""

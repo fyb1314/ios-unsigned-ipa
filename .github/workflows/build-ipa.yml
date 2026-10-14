@@ -114,8 +114,14 @@ jobs:
       # 云更新靠 CFBundleVersion（build 号）判断新旧，服务端会拒绝 build 号
       # 没变大的发布。project.yml 里把它写死成了 "1"，不处理的话每次 CI 打出来
       # 都是 1，第一次发布之后就再也发不出新版了。
-      # 这里在打包前用 run_number 覆盖：它在本仓库本工作流内单调递增，
-      # 正好满足「每跑一次 CI 就大一号」。
+      #
+      # 曾经用 ${{ github.run_number }} 覆盖，但它并不可靠：工作流文件被删后
+      # 重建、或仓库重建时，这个计数会直接归 1。实测就发生过一次 —— 线上已装
+      # 的是 build 7，CI 却打出 build 1，客户端比较后判定是降级，从此再也收
+      # 不到更新，而且外表毫无异常。
+      #
+      # 改成用 dist 分支上的 build.txt 当持久计数器：每跑一次就取回上次的值 +1，
+      # 推回去时一并写回。dist 分支是本项目自己的产物分支，不会被重建。
       # 注意：本 job 全程 CODE_SIGNING_ALLOWED=NO，改动 Info.plist 不会破坏签名；
       # 真正的签名在服务端用 zsign 做。
       - name: Stamp build number
@@ -124,7 +130,14 @@ jobs:
           APP_DIR="build/Build/Products/${{ inputs.configuration || 'Release' }}-iphoneos/IPATemplate.app"
           test -d "$APP_DIR" || { echo "ERROR: $APP_DIR not found"; exit 1; }
 
-          BUILD_NUM="${{ github.run_number }}"
+          # 取回 dist 分支上的计数器（--depth=1 就够，我们只读一个文件）
+          git fetch --depth=1 origin +refs/heads/dist:refs/remotes/origin/dist \
+            || echo "dist 分支还不存在，本轮从 0 起算"
+          LAST=$(git show refs/remotes/origin/dist:build.txt 2>/dev/null | tr -d '[:space:]' || echo 0)
+          # 不是纯数字（文件不存在 / 被写坏）就当 0
+          case "$LAST" in ''|*[!0-9]*) LAST=0 ;; esac
+          BUILD_NUM=$(( LAST + 1 ))
+          echo "dist 上的旧 build 号 = ${LAST}，本轮 build 号 = ${BUILD_NUM}"
 
           # 打了 v1.2.3 这种 tag 时，顺手把展示版本号也对上
           SHORT_VER="1.0.0"
@@ -216,10 +229,16 @@ jobs:
           find . -mindepth 1 -maxdepth 1 ! -name '.git' -exec rm -rf {} +
           mv /tmp/ipa-to-publish.ipa IPATemplate-unsigned.ipa
 
+          # 写回计数器：下一轮 CI 会读它并 +1。
+          # 必须和 IPA 同一次提交，否则下一轮读到的可能是旧值，build 号就会原地踏步
+          # 甚至回退，云更新会静默失效。
+          echo "${BUILD_NUM}" > build.txt
+          echo "本轮写入 build.txt = $(cat build.txt)"
+
           # 用 add -A 把"删除"也一并入账：无论 --orphan 是否清空索引，
-          # 最终提交的树都等于工作区（只有一个 IPA），不会夹带旧文件
+          # 最终提交的树都等于工作区（只有 IPA + build.txt），不会夹带旧文件
           git add -A
-          git commit -m "unsigned IPA (run ${GITHUB_RUN_ID})"
+          git commit -m "unsigned IPA build ${BUILD_NUM} (run ${GITHUB_RUN_ID})"
           git push --force origin dist
 
           # 推完必须自证：比对远端内容与本地产物，不一致就 fail。
@@ -236,7 +255,28 @@ jobs:
             echo "::error::dist 分支内容与本次产物不一致，落地通道不可信"
             exit 1
           fi
-          echo "OK: dist 分支已更新，内容校验一致"
+
+          # 计数器自证：远端读回来的必须等于本轮写入的值，否则下一轮会从旧值起算
+          RT_BUILD=$(git show HEAD:build.txt | tr -d '[:space:]')
+          echo "dist build.txt = ${RT_BUILD}（应为 ${BUILD_NUM}）"
+          if [ "${RT_BUILD}" != "${BUILD_NUM}" ]; then
+            echo "::error::dist 分支 build.txt=${RT_BUILD}，与本次 ${BUILD_NUM} 不一致"
+            exit 1
+          fi
+
+          # 再把包内的 CFBundleVersion 和计数器对齐校验。
+          # PlistBuddy 写失败时不会让这一步 fail，光看 job 是绿的，
+          # 只有把两个数摆在一起比，才能发现「计数器涨了包没涨」。
+          IPA_BUILD=$(unzip -p IPATemplate-unsigned.ipa \
+            Payload/IPATemplate.app/Info.plist \
+            | plutil -extract CFBundleVersion raw -o - - 2>/dev/null || echo "?")
+          echo "IPA 内 CFBundleVersion = ${IPA_BUILD}（应为 ${BUILD_NUM}）"
+          if [ "${IPA_BUILD}" != "${BUILD_NUM}" ]; then
+            echo "::error::IPA 内 CFBundleVersion=${IPA_BUILD}，与计数器 ${BUILD_NUM} 不一致"
+            exit 1
+          fi
+
+          echo "OK: dist 分支已更新，产物 / 计数器 / 包内版本号三者一致"
 
       # 构建状态上报：自动建一个 issue，方便自动化轮询得知成败，
       # 成功时附带 IPA 大小与 SHA256（用于下载后校验完整性）。
