@@ -147,11 +147,22 @@ final class ZipReader {
         let capacity = max(Int(expectedSize), 64 * 1024)
         var out = Data(count: capacity)
 
-        var stream = compression_stream(
-            dst_ptr: nil, dst_size: 0,
-            src_ptr: nil, src_size: 0,
-            state: nil
-        )
+        // compression_stream 的 dst_ptr / src_ptr 在 Swift 里是
+        // UnsafeMutablePointer<UInt8> / UnsafePointer<UInt8>（非可选），传 nil 编不过。
+        // 用两个栈上的字节取地址当占位：compression_stream_init 只分配内部 state，
+        // 不会读写这两个指针；下面紧接着就会把真正的输入输出缓冲赋进去。
+        // 用栈变量而不是 allocate，也就不存在忘了释放的泄漏问题。
+        var dstProbe: UInt8 = 0
+        var srcProbe: UInt8 = 0
+        var stream = withUnsafeMutablePointer(to: &dstProbe) { dst in
+            withUnsafePointer(to: &srcProbe) { src in
+                compression_stream(
+                    dst_ptr: dst, dst_size: 0,
+                    src_ptr: src, src_size: 0,
+                    state: nil
+                )
+            }
+        }
         let initStatus = compression_stream_init(
             &stream, COMPRESSION_STREAM_DECODE, COMPRESSION_ZLIB
         )

@@ -88,6 +88,18 @@ struct SecondaryButton: View {
     var isDisabled: Bool = false
     let action: () -> Void
 
+    // 必须显式写 init：不写的话 Swift 只给 memberwise init(title:icon:...)，
+    // 调用处写 SecondaryButton("文字", icon: "xmark") 会编译不过
+    // （error: missing argument label 'title:' in call）。
+    // 这个坑本地静态检查抓不到，是 CI 编出来的。
+    init(_ title: String, icon: String, isDisabled: Bool = false,
+         action: @escaping () -> Void) {
+        self.title = title
+        self.icon = icon
+        self.isDisabled = isDisabled
+        self.action = action
+    }
+
     var body: some View {
         Button(action: action) {
             HStack(spacing: 6) {
