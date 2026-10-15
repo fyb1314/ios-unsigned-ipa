@@ -169,6 +169,8 @@ struct InspectView: View {
         fileName = url.lastPathComponent
         error = nil
         result = nil
+        // DocumentPicker 已经把文件落成沙盒副本了（见 ImportCache.persist），
+        // 这里拿到的就是稳定副本，不用担心临时 URL 被清掉。
         if ["p12", "pfx"].contains(url.pathExtension.lowercased()) {
             pendingURL = url
             p12Password = ""
