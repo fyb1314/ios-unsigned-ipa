@@ -321,7 +321,56 @@ struct DocumentPicker: UIViewControllerRepresentable {
 
         func documentPicker(_ controller: UIDocumentPickerViewController, didPickDocumentsAt urls: [URL]) {
             guard let url = urls.first else { return }
-            onPick(url)
+            // 立刻落成沙盒副本。picker 给的是临时 URL，控制器销毁后就可能失效，
+            // 后面真去读会报「文件不存在」。副本才是能长期持有的东西。
+            do {
+                onPick(try ImportCache.persist(url))
+            } catch {
+                // 读失败就直接把原始 URL 交上去，让上层显示真实的读取错误，
+                // 别静默吞掉变成一个更让人困惑的「文件不存在」。
+                onPick(url)
+            }
         }
+
+        func documentPickerWasCancelled(_ controller: UIDocumentPickerViewController) {}
+    }
+}
+
+// MARK: - 沙盒文件缓存
+//
+// 为什么需要它：asCopy: true 的文档选择器返回的是**临时副本**的 URL。
+// 那个副本由系统在 picker 会话期间持有，picker 视图控制器销毁后就可能被清掉，
+// 于是稍后再去 Data(contentsOf:) 就会报
+//   「未能打开文件 "sign.p12"，因为它不存在」—— 选的时候明明是好的。
+// 小文件尤其容易踩：几 KB 的 p12 往往几秒后就没了。
+//
+// 办法是拿到 URL 的当下就把内容读出来，落到 App 自己的 Documents/Imported 下，
+// 之后一律用沙盒里这份副本的 URL。副本只留一份同名文件，反复选会覆盖。
+enum ImportCache {
+    static let dir: URL = {
+        let d = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)[0]
+            .appendingPathComponent("Imported", isDirectory: true)
+        try? FileManager.default.createDirectory(at: d, withIntermediateDirectories: true)
+        return d
+    }()
+
+    /// 把 picker 给的临时 URL 落成沙盒副本，返回副本 URL。
+    /// 读失败时原样返回，让上层报出真实的读取错误。
+    static func persist(_ url: URL) throws -> URL {
+        let data = try Data(contentsOf: url)
+        let dest = dir.appendingPathComponent(url.lastPathComponent)
+        // 同一个文件被反复选时旧副本要覆盖，否则会读到上一次的陈旧内容
+        if FileManager.default.fileExists(atPath: dest.path) {
+            try FileManager.default.removeItem(at: dest)
+        }
+        try data.write(to: dest, options: .atomic)
+        return dest
+    }
+
+    /// 启动时清掉上次留下的副本，避免 Documents 无限膨胀。
+    static func purgeAll() {
+        guard let items = try? FileManager.default.contentsOfDirectory(
+            at: dir, includingPropertiesForKeys: nil) else { return }
+        for i in items { try? FileManager.default.removeItem(at: i) }
     }
 }
