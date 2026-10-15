@@ -40,7 +40,9 @@ struct SignView: View {
     @State private var show2FA = false
 
     // 证书签
-    @State private var p12Password = ""
+    // 默认 1：本工具导出的 p12 密码统一是 1（服务端 run_zsign 也有同样的兜底）。
+    // 留空的语义是「让服务端用默认值」，不用用户手填一位数字。
+    @State private var p12Password = "1"
 
     // 运行状态
     @State private var busy = false
