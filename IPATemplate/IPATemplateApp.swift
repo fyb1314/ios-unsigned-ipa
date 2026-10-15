@@ -10,6 +10,8 @@ struct IPATemplateApp: App {
         UINavigationBar.appearance().largeTitleTextAttributes = [
             .foregroundColor: UIColor.label
         ]
+        // 清掉上次运行残留的导入副本，避免 Documents 越攒越大
+        ImportCache.purgeAll()
     }
 
     var body: some Scene {
