@@ -116,7 +116,9 @@ final class Backend {
     /// 抖动到几秒并不罕见 —— 实测同一个 healthz 请求
     /// 出现过 28 秒的极端延迟。重试两次基本都能救回来。
     private func retryDelay(_ attempt: Int) -> UInt64 {
-        (attempt == 0 ? 0.8 : 2.2) * 1_000_000_000
+        // 用整数运算，避免 0.8 被推成 Double 再去 return UInt64 那条路。
+        let seconds = (attempt == 0) ? 800_000_000 : 2_200_000_000
+        return UInt64(seconds)
     }
 
     func request(_ path: String,
