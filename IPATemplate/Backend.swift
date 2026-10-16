@@ -96,27 +96,59 @@ final class Backend {
 
     // MARK: 底层
 
+    /// 判定这个错误值不值得重试。
+    ///
+    /// 只重试「请求根本没发出去 / 没收到响应」的错：
+    ///   -1001 超时、-1004 无法连接、-1005/-1200 掉线、-1201/-1202 证书类
+    ///   -1009 离线、NSURLErrorNetworkConnectionLost
+    /// 不重试「服务器明确回了一个 HTTP 状态码」的错 —— 403 令牌不对、
+    /// 429 冷却中，重发只会把封禁拖得更久、把冷却时间越堆越长。
+    private func isTransient(_ error: Error) -> Bool {
+        if error is BackendError { return false }   // 服务端已明确答复，不重试
+        let e = error as NSError
+        if e.domain != NSURLErrorDomain { return false }
+        return [-1001, -1003, -1004, -1005, -1009, -1200, -1201, -1202,
+                -1007, -1011].contains(e.code)
+    }
+
+    /// 请求失败后的等待间隔，逐次拉长（0.8s / 2.2s）。
+    /// 服务器在美国，从国内手机访问是 300ms 量级的跨国链路，
+    /// 抖动到几秒并不罕见 —— 实测同一个 healthz 请求
+    /// 出现过 28 秒的极端延迟。重试两次基本都能救回来。
+    private func retryDelay(_ attempt: Int) -> UInt64 {
+        (attempt == 0 ? 0.8 : 2.2) * 1_000_000_000
+    }
+
     func request(_ path: String,
                  method: String = "GET",
                  body: Data? = nil,
-                 headers: [String: String] = [:]) async throws -> Data {
+                 headers: [String: String] = [:],
+                 attempts: Int = 3) async throws -> Data {
         guard let url = URL(string: AppSettings().baseURL + path) else { throw BackendError.badURL }
-        var req = URLRequest(url: url)
-        req.httpMethod = method
-        req.httpBody = body
-        for (k, v) in headers { req.setValue(v, forHTTPHeaderField: k) }
-        do {
-            let (data, resp) = try await session.data(for: req)
-            if let http = resp as? HTTPURLResponse, !(200..<300).contains(http.statusCode) {
-                throw BackendError.http(http.statusCode, String(data: data, encoding: .utf8) ?? "")
+        var lastError: Error?
+
+        for attempt in 0..<max(1, attempts) {
+            var req = URLRequest(url: url)
+            req.httpMethod = method
+            req.httpBody = body
+            for (k, v) in headers { req.setValue(v, forHTTPHeaderField: k) }
+            do {
+                let (data, resp) = try await session.data(for: req)
+                if let http = resp as? HTTPURLResponse, !(200..<300).contains(http.statusCode) {
+                    // HTTP 状态码是服务器的明确答复，不重试
+                    throw BackendError.http(http.statusCode,
+                                            String(data: data, encoding: .utf8) ?? "")
+                }
+                return data
+            } catch let e as BackendError {
+                throw e
+            } catch {
+                lastError = error
+                if attempt == max(0, max(1, attempts) - 1) || !isTransient(error) { break }
+                try? await Task.sleep(nanoseconds: retryDelay(attempt))
             }
-            return data
-        } catch let e as BackendError {
-            throw e
-        } catch {
-            let code = (error as NSError).code
-            throw BackendError.http(code, error.localizedDescription)
         }
+        throw lastError ?? BackendError.server("请求失败")
     }
 
     private func json(_ path: String,
